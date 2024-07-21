@@ -4,19 +4,19 @@
 //System_GUI_Scale_Cursors=1
 
 //Global Menu
-System_GUI_Scale_GlobalMenu=1.4
+System_GUI_Scale_GlobalMenu=1.2
 
 //Radar Menu
-System_GUI_Scale_Menus=1.4
+System_GUI_Scale_Menus=1.2
 
 //Route Vector
-System_GUI_Scale_Screen=1.4
+System_GUI_Scale_Screen=1
 
 //Radar Targets
-System_GUI_Scale_Tracks=1.5
+System_GUI_Scale_Tracks=1
 
 //Normale Fenster
-System_GUI_Scale_Windows=1.4
+System_GUI_Scale_Windows=1.2
 
 //END SCALING
 
@@ -128,7 +128,7 @@ Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=0,0,0
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=135,128,118
+Color_Unconcerned=110,98,98
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
@@ -360,10 +360,10 @@ WXR_Longitude_Min=13
 
 WXR_ImageSize=512
 
-RDF_Mode=2
-RDF_Floor=4000
-RDF_Accuracy=0
-RDF_MinRadius=20
+RDF_Mode=-1
+RDF_Floor=0
+RDF_Accuracy=2
+RDF_MinRadius=0
 RDF_AntennaPos=0
 
 //Window_CPDLC_Current=1,600,1
