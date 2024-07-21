@@ -1,0 +1,28 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LDSB Parkings\1:freetext
+Free Text:LDSB Parkings\2:freetext
+Free Text:LDSB Parkings\3:freetext
+Geo:LDSB Groundlayout Region:
+Regions:LDSB Airport:polygon
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:43.274708:16.653394:43.300606:16.718693
+PLUGIN:Ground Radar plugin:AirportElevation:289
+PLUGIN:Ground Radar plugin:AirportRadius:5
+PLUGIN:Ground Radar plugin:GroundMode:LDZD
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,94 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\Euroscope_ADRIA_AUG\Euroscope\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LD VRP\A1:freetext
+Free Text:LD VRP\A2:freetext
+Free Text:LD VRP\A3:freetext
+Free Text:LD VRP\B1:freetext
+Free Text:LD VRP\B2:freetext
+Free Text:LD VRP\B3:freetext
+Free Text:LD VRP\C1:freetext
+Free Text:LD VRP\C2:freetext
+Free Text:LD VRP\C3:freetext
+Free Text:LD VRP\D1:freetext
+Free Text:LD VRP\D2:freetext
+Free Text:LD VRP\D3:freetext
+Free Text:LD VRP\E1:freetext
+Free Text:LD VRP\E2:freetext
+Free Text:LD VRP\E3:freetext
+Free Text:LD VRP\E4:freetext
+Free Text:LD VRP\E5:freetext
+Free Text:LD VRP\E6:freetext
+Free Text:LD VRP\F1:freetext
+Free Text:LD VRP\F2:freetext
+Free Text:LD VRP\G1:freetext
+Free Text:LD VRP\G2:freetext
+Free Text:LD VRP\H1:freetext
+Free Text:LD VRP\H2:freetext
+Free Text:LD VRP\H3:freetext
+Free Text:LD VRP\H4:freetext
+Free Text:LD VRP\J1:freetext
+Free Text:LD VRP\K1:freetext
+Free Text:LD VRP\K2:freetext
+Free Text:LD VRP\K3:freetext
+Free Text:LD VRP\K4:freetext
+Free Text:LD VRP\L1:freetext
+Free Text:LD VRP\L2:freetext
+Free Text:LD VRP\L3:freetext
+Free Text:LD VRP\L4:freetext
+Free Text:LD VRP\M1:freetext
+Free Text:LD VRP\MAZEV:freetext
+Free Text:LD VRP\N1:freetext
+Free Text:LD VRP\N2:freetext
+Free Text:LD VRP\N3:freetext
+Free Text:LD VRP\N4:freetext
+Free Text:LD VRP\N5:freetext
+Free Text:LD VRP\N6:freetext
+Free Text:LD VRP\O1:freetext
+Free Text:LD VRP\O2:freetext
+Free Text:LD VRP\O3:freetext
+Free Text:LD VRP\P1:freetext
+Free Text:LD VRP\P2:freetext
+Free Text:LD VRP\P3:freetext
+Free Text:LD VRP\P4:freetext
+Free Text:LD VRP\R1:freetext
+Free Text:LD VRP\RORKA:freetext
+Free Text:LD VRP\S1:freetext
+Free Text:LD VRP\S2:freetext
+Free Text:LD VRP\S3:freetext
+Free Text:LD VRP\S4:freetext
+Free Text:LD VRP\S5:freetext
+Free Text:LD VRP\S7:freetext
+Free Text:LD VRP\S8:freetext
+Free Text:LD VRP\T1:freetext
+Free Text:LD VRP\U1:freetext
+Free Text:LD VRP\USELU:freetext
+Free Text:LD VRP\V1:freetext
+Free Text:LD VRP\V2:freetext
+Free Text:LD VRP\V3:freetext
+Free Text:LD VRP\W1:freetext
+Free Text:LD VRP\W2:freetext
+Free Text:LD VRP\W3:freetext
+Free Text:LD VRP\W4:freetext
+Free Text:LD VRP\W5:freetext
+Free Text:LD VRP\Z1:freetext
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:5000
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:45.720920:16.018218:45.761109:16.116654
+PLUGIN:Ground Radar plugin:AirportElevation:360
+PLUGIN:Ground Radar plugin:AirportRadius:8
+PLUGIN:Ground Radar plugin:GroundMode:LDZA
+PLUGIN:TopSky plugin:NoDraw:1

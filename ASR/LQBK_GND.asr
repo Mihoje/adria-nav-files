@@ -1,0 +1,40 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LQBK Parkingposition\1:freetext
+Free Text:LQBK Parkingposition\2:freetext
+Free Text:LQBK Parkingposition\3:freetext
+Free Text:LQBK Parkingposition\4:freetext
+Free Text:LQBK Runway\17 TORA 2500m:freetext
+Free Text:LQBK Runway\35/A TORA 1900m:freetext
+Free Text:LQBK Runway\35/B TORA 2500m:freetext
+Free Text:LQBK Taxiway\A:freetext
+Free Text:LQBK Taxiway\B:freetext
+Geo:LQBK Groundlayout Airport:
+Geo:LQBK Groundlayout Parking:
+Geo:LQBK Groundlayout Taxiway Centerline:
+Runways:LQBK 17-35:extended centerline 1
+Runways:LQBK 17-35:extended centerline 1 left ticks
+Runways:LQBK 17-35:extended centerline 1 right ticks
+Runways:LQBK 17-35:extended centerline 2
+Runways:LQBK 17-35:extended centerline 2 left ticks
+Runways:LQBK 17-35:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:44.925850:17.260871:44.956649:17.342495
+PLUGIN:Ground Radar plugin:AirportElevation:401
+PLUGIN:Ground Radar plugin:AirportRadius:5
+PLUGIN:Ground Radar plugin:GroundMode:LQBK
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,41 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+SECTORTITLE:LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+Free Text:LQSA Parkingposition\1:freetext
+Free Text:LQSA Parkingposition\2:freetext
+Free Text:LQSA Parkingposition\3:freetext
+Free Text:LQSA Parkingposition\4:freetext
+Free Text:LQSA Parkingposition\5:freetext
+Free Text:LQSA Parkingposition\6A:freetext
+Free Text:LQSA Parkingposition\6B:freetext
+Free Text:LQSA Parkingposition\6C:freetext
+Free Text:LQSA Parkingposition\7:freetext
+Free Text:LQSA Parkingposition\7A:freetext
+Free Text:LQSA Parkingposition\7B:freetext
+Free Text:LQSA Parkingposition\7C:freetext
+Free Text:LQSA Parkingposition\8:freetext
+Free Text:LQSA Taxiway\A:freetext
+Free Text:LQSA Taxiway\B:freetext
+Free Text:LQSA Taxiway\C:freetext
+Geo:LQSA Groundlayout Region:
+Regions:LQSA Airport:polygon
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:43.815811:18.306358:43.837157:18.360388
+PLUGIN:Ground Radar plugin:AirportElevation:1708
+PLUGIN:Ground Radar plugin:AirportRadius:10
+PLUGIN:Ground Radar plugin:GroundMode:LQSA
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,65 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LWSK Stands\1:freetext
+Free Text:LWSK Stands\10:freetext
+Free Text:LWSK Stands\11:freetext
+Free Text:LWSK Stands\12:freetext
+Free Text:LWSK Stands\13:freetext
+Free Text:LWSK Stands\14:freetext
+Free Text:LWSK Stands\15:freetext
+Free Text:LWSK Stands\16:freetext
+Free Text:LWSK Stands\2:freetext
+Free Text:LWSK Stands\201:freetext
+Free Text:LWSK Stands\202:freetext
+Free Text:LWSK Stands\203:freetext
+Free Text:LWSK Stands\204:freetext
+Free Text:LWSK Stands\205:freetext
+Free Text:LWSK Stands\206:freetext
+Free Text:LWSK Stands\3:freetext
+Free Text:LWSK Stands\4:freetext
+Free Text:LWSK Stands\5:freetext
+Free Text:LWSK Stands\6:freetext
+Free Text:LWSK Stands\7:freetext
+Free Text:LWSK Stands\8:freetext
+Free Text:LWSK Stands\9:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A3:freetext
+Free Text:LWSK Taxiways\A4:freetext
+Free Text:LWSK Taxiways\A5:freetext
+Free Text:LWSK Taxiways\B:freetext
+Free Text:LWSK Taxiways\C:freetext
+Free Text:LWSK Taxiways\D:freetext
+Free Text:LWSK Taxiways\F:freetext
+Free Text:LWSK Taxiways\G:freetext
+Free Text:LWSK Taxiways\H:freetext
+Free Text:LWSK Taxiways\I:freetext
+Free Text:LWSK Taxiways\J:freetext
+Free Text:LWSK Taxiways\J:freetext
+Geo:LWSK Groundlayout Region:
+Regions:LWSK Airport:polygon
+Runways:LWSK 16-34:centerline
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:41.943482:21.586016:41.973506:21.665587
+PLUGIN:Ground Radar plugin:AirportElevation:781
+PLUGIN:Ground Radar plugin:AirportRadius:5
+PLUGIN:Ground Radar plugin:GroundMode:LWSK
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,100 @@
+{
+    "openAutomatically": false,
+    "timelines": {
+		"BKPR": {
+            "targetFixes": ["IPR17", "PR708"],
+			"destinationAirports": [ "BKPR" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LYPG": {
+            "targetFixes": ["POD", "PG301"],
+			"destinationAirports": [ "LYPG" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LWSK": {
+            "targetFixes": ["SKJ"],
+			"destinationAirports": [ "LWSK" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LJLJ": {
+            "targetFixes": ["BASTA"],
+			"destinationAirports": [ "LJLJ" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LDZD": {
+            "targetFixes": ["ZD401", "LUKAV", "ZD503", "RODGO"],
+			"destinationAirports": [ "LDZD" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LDSP": {
+            "targetFixes": ["SP401", "LASUL"],
+			"destinationAirports": [ "LDSP" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LDRI": {
+            "targetFixes": ["BRZ", "RI502" ],
+			"destinationAirports": [ "LDRI" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LDPL": {
+            "targetFixes": [ "PL401", "GEKSI" ],
+			"destinationAirports": [ "LDPL" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LDDU": {
+            "targetFixes": [ "PILAP", "ERASO", "OLEGU" ],
+			"destinationAirports": [ "LDDU" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LDZA": {
+            "targetFixes": [ "EKSON", "RERNA" ],
+			"destinationAirports": [ "LDZA" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LYBE": {
+            "targetFixes": [ "DEVDA", "VISOK" ],
+			"destinationAirports": [ "LYBE" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LATI": {
+            "targetFixes": [ "VOLBI", "TINKI" ],
+			"destinationAirports": [ "LATI" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		},
+		"LQSA": {
+            "targetFixes": [ "RIVUS"],
+			"destinationAirports": [ "LQSA" ],
+            "tagLayout": "simpleLayout",
+			"defaultTimeSpan": 54		
+		}
+    },
+"tagLayouts": {
+        "VATAdria": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+            { "source": "aircraftType", "width": 5 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true, "defaultValue": "NIL" },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true },
+            { "source": "static", "width": 1 },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" }
+        ],
+        "simpleLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+			{ "source": "estimatedLandingTime", "width": 5 }
+        ]
+    }
+}

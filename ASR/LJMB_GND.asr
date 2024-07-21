@@ -1,0 +1,39 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LJMB Parking\1:freetext
+Free Text:LJMB Parking\2:freetext
+Free Text:LJMB Parking\3:freetext
+Free Text:LJMB Parking\4:freetext
+Free Text:LJMB Parking\5:freetext
+Free Text:LJMB Parking\H1:freetext
+Free Text:LJMB Taxiway\A:freetext
+Free Text:LJMB Taxiway\B:freetext
+Geo:LJMB Groundlayout Region:
+Regions:LJMB Airport:polygon
+Runways:LJMB 14-32:extended centerline 1
+Runways:LJMB 14-32:extended centerline 1 left ticks
+Runways:LJMB 14-32:extended centerline 1 right ticks
+Runways:LJMB 14-32:extended centerline 2
+Runways:LJMB 14-32:extended centerline 2 left ticks
+Runways:LJMB 14-32:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:46.464785:15.655995:46.490682:15.721294
+PLUGIN:Ground Radar plugin:AirportElevation:560
+PLUGIN:Ground Radar plugin:AirportRadius:10
+PLUGIN:Ground Radar plugin:GroundMode:LJMB
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,2312 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+ARTCC boundary:BKPR CTA:
+ARTCC boundary:LATI_APP:
+ARTCC boundary:LDDU_APP:
+ARTCC boundary:LDOS_APP:
+ARTCC boundary:LDPL_APP:
+ARTCC boundary:LDSP_APP:
+ARTCC boundary:LDZA_APP:
+ARTCC boundary:LDZD_APP:
+ARTCC boundary:LJLJ_APP:
+ARTCC boundary:LJMB_APP:
+ARTCC boundary:LJPZ_APP:
+ARTCC boundary:LQBK_APP:
+ARTCC boundary:LQMO_APP:
+ARTCC boundary:LQSA_APP:
+ARTCC boundary:LQTZ_APP:
+ARTCC boundary:LWSK_APP:
+ARTCC boundary:LYBE_APP:
+ARTCC boundary:LYBT_APP:
+ARTCC boundary:LYNI_APP:
+ARTCC boundary:LYPG_APP:
+ARTCC boundary:LYTV-TMA:
+ARTCC boundary:LYTV_APP:
+ARTCC boundary:LYVR_APP:
+ARTCC high boundary:KFOR Sector:
+ARTCC high boundary:LAAA:
+ARTCC high boundary:LDZO:
+ARTCC high boundary:LJLA:
+ARTCC high boundary:LQSB:
+ARTCC high boundary:LQSB-FIS:
+ARTCC high boundary:LWSS:
+ARTCC high boundary:LYBA:
+ARTCC high boundary:LYBA-FIS:
+ARTCC low boundary:BKPR_TWR:
+ARTCC low boundary:LATI_TWR:
+ARTCC low boundary:LDDU_TWR:
+ARTCC low boundary:LDLO_TWR:
+ARTCC low boundary:LDOS_TWR:
+ARTCC low boundary:LDPL_TWR:
+ARTCC low boundary:LDRI_TWR:
+ARTCC low boundary:LDSB_TWR:
+ARTCC low boundary:LDSP_TWR:
+ARTCC low boundary:LDZA_TWR:
+ARTCC low boundary:LDZD_TWR:
+ARTCC low boundary:LDZL_TWR:
+ARTCC low boundary:LJCE_TWR:
+ARTCC low boundary:LJPZ_TWR:
+ARTCC low boundary:LQMO_TWR:
+ARTCC low boundary:LQSA_TWR:
+ARTCC low boundary:LQTZ_TWR:
+ARTCC low boundary:LWOH_TWR:
+ARTCC low boundary:LWSK_TWR:
+ARTCC low boundary:LYBE_TWR:
+ARTCC low boundary:LYPG_TWR:
+ARTCC low boundary:LYTV_TWR:
+ARTCC low boundary:LYVR_TWR:
+ARTCC low boundary:Tower CTR LJLJ LJLJ CTR:
+ARTCC low boundary:Tower CTR LJMB LJMB CTR:
+DisplayRotation:0.00000:
+Fixes:ABISO:name
+Fixes:ABISO:symbol
+Fixes:ADULA:name
+Fixes:ADULA:symbol
+Fixes:ALANU:name
+Fixes:ALANU:symbol
+Fixes:ALIVO:name
+Fixes:ALIVO:symbol
+Fixes:AMUGO:name
+Fixes:AMUGO:symbol
+Fixes:ARGOM:name
+Fixes:ARGOM:symbol
+Fixes:ARLON:name
+Fixes:ARLON:symbol
+Fixes:ARMIX:name
+Fixes:ARMIX:symbol
+Fixes:BANUG:name
+Fixes:BANUG:symbol
+Fixes:BAREB:name
+Fixes:BAREB:symbol
+Fixes:BARPI:name
+Fixes:BARPI:symbol
+Fixes:BEVIS:name
+Fixes:BEVIS:symbol
+Fixes:BIGLO:name
+Fixes:BIGLO:symbol
+Fixes:BOSNA:name
+Fixes:BOSNA:symbol
+Fixes:DEREG:name
+Fixes:DEREG:symbol
+Fixes:DIRES:name
+Fixes:DIRES:symbol
+Fixes:DITAN:name
+Fixes:DITAN:symbol
+Fixes:DONIV:name
+Fixes:DONIV:symbol
+Fixes:DOPUT:name
+Fixes:DOPUT:symbol
+Fixes:EBITA:name
+Fixes:EBITA:symbol
+Fixes:EBITI:name
+Fixes:EBITI:symbol
+Fixes:ELBAK:name
+Fixes:ELBAK:symbol
+Fixes:ELGEB:name
+Fixes:ELGEB:symbol
+Fixes:ENUPU:name
+Fixes:ENUPU:symbol
+Fixes:EPODO:name
+Fixes:EPODO:symbol
+Fixes:GEMKA:name
+Fixes:GEMKA:symbol
+Fixes:GILUK:name
+Fixes:GILUK:symbol
+Fixes:GIRDA:name
+Fixes:GIRDA:symbol
+Fixes:GOSTI:name
+Fixes:GOSTI:symbol
+Fixes:INLOT:name
+Fixes:INLOT:symbol
+Fixes:IPKIS:name
+Fixes:IPKIS:symbol
+Fixes:IRLIX:name
+Fixes:IRLIX:symbol
+Fixes:KEMIX:name
+Fixes:KEMIX:symbol
+Fixes:KENEM:name
+Fixes:KENEM:symbol
+Fixes:KOGAT:name
+Fixes:KOGAT:symbol
+Fixes:KOMAR:name
+Fixes:KOMAR:symbol
+Fixes:KOSIV:name
+Fixes:KOSIV:symbol
+Fixes:KOSOR:name
+Fixes:KOSOR:symbol
+Fixes:KOTOR:name
+Fixes:KOTOR:symbol
+Fixes:KOTUS:name
+Fixes:KOTUS:symbol
+Fixes:KULEN:name
+Fixes:KULEN:symbol
+Fixes:KUTAK:name
+Fixes:KUTAK:symbol
+Fixes:LABIN:name
+Fixes:LABIN:symbol
+Fixes:LAKIK:name
+Fixes:LAKIK:symbol
+Fixes:LAPNA:name
+Fixes:LAPNA:symbol
+Fixes:LASDU:name
+Fixes:LASDU:symbol
+Fixes:LASTI:name
+Fixes:LASTI:symbol
+Fixes:LEBGA:name
+Fixes:LEBGA:symbol
+Fixes:LOKRU:name
+Fixes:LOKRU:symbol
+Fixes:LONTA:name
+Fixes:LONTA:symbol
+Fixes:MADOS:name
+Fixes:MADOS:symbol
+Fixes:MAMOL:name
+Fixes:MAMOL:symbol
+Fixes:MAVIT:name
+Fixes:MAVIT:symbol
+Fixes:MINTU:name
+Fixes:MINTU:symbol
+Fixes:MITNO:name
+Fixes:MITNO:symbol
+Fixes:MOKUN:name
+Fixes:MOKUN:symbol
+Fixes:MOSAV:name
+Fixes:MOSAV:symbol
+Fixes:NAKIT:name
+Fixes:NAKIT:symbol
+Fixes:NASSY:name
+Fixes:NASSY:symbol
+Fixes:NEPOS:name
+Fixes:NEPOS:symbol
+Fixes:NERRA:name
+Fixes:NERRA:symbol
+Fixes:NETKO:name
+Fixes:NETKO:symbol
+Fixes:NEVAK:name
+Fixes:NEVAK:symbol
+Fixes:NIKOL:name
+Fixes:NIKOL:symbol
+Fixes:NISVA:name
+Fixes:NISVA:symbol
+Fixes:NIVES:name
+Fixes:NIVES:symbol
+Fixes:OBLAK:name
+Fixes:OBLAK:symbol
+Fixes:OBUTI:name
+Fixes:OBUTI:symbol
+Fixes:ODRAS:name
+Fixes:ODRAS:symbol
+Fixes:OKANA:name
+Fixes:OKANA:symbol
+Fixes:OKLAX:name
+Fixes:OKLAX:symbol
+Fixes:OLIVU:name
+Fixes:OLIVU:symbol
+Fixes:OLOTA:name
+Fixes:OLOTA:symbol
+Fixes:ORAKA:name
+Fixes:ORAKA:symbol
+Fixes:OSVIX:name
+Fixes:OSVIX:symbol
+Fixes:PELOV:name
+Fixes:PELOV:symbol
+Fixes:PEROT:name
+Fixes:PEROT:symbol
+Fixes:PETAK:name
+Fixes:PETAK:symbol
+Fixes:PETOV:name
+Fixes:PETOV:symbol
+Fixes:PINUK:name
+Fixes:PINUK:symbol
+Fixes:PODET:name
+Fixes:PODET:symbol
+Fixes:RAMAP:name
+Fixes:RAMAP:symbol
+Fixes:RASIN:name
+Fixes:RASIN:symbol
+Fixes:RAVAK:name
+Fixes:RAVAK:symbol
+Fixes:RAXAD:name
+Fixes:RAXAD:symbol
+Fixes:REMPI:name
+Fixes:REMPI:symbol
+Fixes:RIGMU:name
+Fixes:RIGMU:symbol
+Fixes:RILIM:name
+Fixes:RILIM:symbol
+Fixes:RINAV:name
+Fixes:RINAV:symbol
+Fixes:RODON:name
+Fixes:RODON:symbol
+Fixes:ROTAR:name
+Fixes:ROTAR:symbol
+Fixes:RUDIK:name
+Fixes:RUDIK:symbol
+Fixes:SARAX:name
+Fixes:SARAX:symbol
+Fixes:SIPAL:name
+Fixes:SIPAL:symbol
+Fixes:SIRMI:name
+Fixes:SIRMI:symbol
+Fixes:SOMUN:name
+Fixes:SOMUN:symbol
+Fixes:SOSEK:name
+Fixes:SOSEK:symbol
+Fixes:TADAM:name
+Fixes:TADAM:symbol
+Fixes:TEBLI:name
+Fixes:TEBLI:symbol
+Fixes:TETOV:name
+Fixes:TETOV:symbol
+Fixes:TIBRI:name
+Fixes:TIBRI:symbol
+Fixes:TIKVA:name
+Fixes:TIKVA:symbol
+Fixes:TISAK:name
+Fixes:TISAK:symbol
+Fixes:TODNI:name
+Fixes:TODNI:symbol
+Fixes:TORPO:name
+Fixes:TORPO:symbol
+Fixes:TORTO:name
+Fixes:TORTO:symbol
+Fixes:TUVAR:name
+Fixes:TUVAR:symbol
+Fixes:TUXOV:name
+Fixes:TUXOV:symbol
+Fixes:ULPIN:name
+Fixes:ULPIN:symbol
+Fixes:UNIPA:name
+Fixes:UNIPA:symbol
+Fixes:UPERO:name
+Fixes:UPERO:symbol
+Fixes:VAGEN:name
+Fixes:VAGEN:symbol
+Fixes:VAPUP:name
+Fixes:VAPUP:symbol
+Fixes:VAROX:name
+Fixes:VAROX:symbol
+Fixes:VEBAR:name
+Fixes:VEBAR:symbol
+Fixes:VELIT:name
+Fixes:VELIT:symbol
+Fixes:VELUG:name
+Fixes:VELUG:symbol
+Fixes:VIBOP:name
+Fixes:VIBOP:symbol
+Fixes:VRANA:name
+Fixes:VRANA:symbol
+Fixes:XAXAN:name
+Fixes:XAXAN:symbol
+Free Text:LATI Stands\1:freetext
+Free Text:LATI Stands\10:freetext
+Free Text:LATI Stands\11:freetext
+Free Text:LATI Stands\12:freetext
+Free Text:LATI Stands\13:freetext
+Free Text:LATI Stands\14:freetext
+Free Text:LATI Stands\15:freetext
+Free Text:LATI Stands\16:freetext
+Free Text:LATI Stands\17:freetext
+Free Text:LATI Stands\2:freetext
+Free Text:LATI Stands\3:freetext
+Free Text:LATI Stands\4:freetext
+Free Text:LATI Stands\5:freetext
+Free Text:LATI Stands\6:freetext
+Free Text:LATI Stands\7:freetext
+Free Text:LATI Stands\8:freetext
+Free Text:LATI Stands\9:freetext
+Free Text:LATI Taxiways\C:freetext
+Free Text:LATI Taxiways\D:freetext
+Free Text:LATI Taxiways\E:freetext
+Free Text:LATI Taxiways\W:freetext
+Free Text:LATI Taxiways\W:freetext
+Free Text:LDDU Parkingposition\1:freetext
+Free Text:LDDU Parkingposition\10:freetext
+Free Text:LDDU Parkingposition\11:freetext
+Free Text:LDDU Parkingposition\13:freetext
+Free Text:LDDU Parkingposition\13:freetext
+Free Text:LDDU Parkingposition\14:freetext
+Free Text:LDDU Parkingposition\14:freetext
+Free Text:LDDU Parkingposition\15:freetext
+Free Text:LDDU Parkingposition\18:freetext
+Free Text:LDDU Parkingposition\18:freetext
+Free Text:LDDU Parkingposition\19:freetext
+Free Text:LDDU Parkingposition\2:freetext
+Free Text:LDDU Parkingposition\20:freetext
+Free Text:LDDU Parkingposition\21:freetext
+Free Text:LDDU Parkingposition\21:freetext
+Free Text:LDDU Parkingposition\22:freetext
+Free Text:LDDU Parkingposition\22:freetext
+Free Text:LDDU Parkingposition\23:freetext
+Free Text:LDDU Parkingposition\23:freetext
+Free Text:LDDU Parkingposition\24:freetext
+Free Text:LDDU Parkingposition\25:freetext
+Free Text:LDDU Parkingposition\26:freetext
+Free Text:LDDU Parkingposition\27:freetext
+Free Text:LDDU Parkingposition\3:freetext
+Free Text:LDDU Parkingposition\4:freetext
+Free Text:LDDU Parkingposition\5:freetext
+Free Text:LDDU Parkingposition\6:freetext
+Free Text:LDDU Parkingposition\7:freetext
+Free Text:LDDU Parkingposition\8:freetext
+Free Text:LDDU Parkingposition\9:freetext
+Free Text:LDDU Taxiway\A:freetext
+Free Text:LDDU Taxiway\B:freetext
+Free Text:LDDU Taxiway\C:freetext
+Free Text:LDDU Taxiway\D:freetext
+Free Text:LDDU Taxiway\E:freetext
+Free Text:LDDU Taxiway\I:freetext
+Free Text:LDDU Taxiway\W:freetext
+Free Text:LDLO Parkingposition\1:freetext
+Free Text:LDLO Parkingposition\2:freetext
+Free Text:LDLO Parkingposition\3:freetext
+Free Text:LDLO Parkingposition\4:freetext
+Free Text:LDOS Parkingposition\1:freetext
+Free Text:LDOS Parkingposition\2:freetext
+Free Text:LDOS Parkingposition\3:freetext
+Free Text:LDOS Parkingposition\4:freetext
+Free Text:LDPL Parkingposition\1:freetext
+Free Text:LDPL Parkingposition\10:freetext
+Free Text:LDPL Parkingposition\2:freetext
+Free Text:LDPL Parkingposition\3:freetext
+Free Text:LDPL Parkingposition\4:freetext
+Free Text:LDPL Parkingposition\5:freetext
+Free Text:LDPL Parkingposition\6:freetext
+Free Text:LDPL Parkingposition\8:freetext
+Free Text:LDPL Parkingposition\9:freetext
+Free Text:LDPL Taxiway\A:freetext
+Free Text:LDPL Taxiway\B:freetext
+Free Text:LDPL Taxiway\C:freetext
+Free Text:LDPL Taxiway\D:freetext
+Free Text:LDPL Taxiway\E:freetext
+Free Text:LDPL Taxiway\F:freetext
+Free Text:LDPL Taxiway\G:freetext
+Free Text:LDPL Taxiway\H:freetext
+Free Text:LDPL Taxiway\J:freetext
+Free Text:LDPM Parkingposition\1:freetext
+Free Text:LDPM Parkingposition\2:freetext
+Free Text:LDPM Parkingposition\3:freetext
+Free Text:LDPV Parkingposition\1:freetext
+Free Text:LDPV Parkingposition\2:freetext
+Free Text:LDRG Parkingposition\1:freetext
+Free Text:LDRI Parkingposition\1:freetext
+Free Text:LDRI Parkingposition\2:freetext
+Free Text:LDRI Parkingposition\3:freetext
+Free Text:LDRI Parkingposition\4:freetext
+Free Text:LDRI Parkingposition\5:freetext
+Free Text:LDRO Parkingposition\1:freetext
+Free Text:LDRO Parkingposition\2:freetext
+Free Text:LDRO Parkingposition\3:freetext
+Free Text:LDSB Parkingposition\1:freetext
+Free Text:LDSB Parkingposition\2:freetext
+Free Text:LDSB Parkingposition\3:freetext
+Free Text:LDSP Parkingposition\1:freetext
+Free Text:LDSP Parkingposition\10:freetext
+Free Text:LDSP Parkingposition\11:freetext
+Free Text:LDSP Parkingposition\12:freetext
+Free Text:LDSP Parkingposition\14:freetext
+Free Text:LDSP Parkingposition\15:freetext
+Free Text:LDSP Parkingposition\16:freetext
+Free Text:LDSP Parkingposition\2:freetext
+Free Text:LDSP Parkingposition\3:freetext
+Free Text:LDSP Parkingposition\4:freetext
+Free Text:LDSP Parkingposition\5:freetext
+Free Text:LDSP Parkingposition\6:freetext
+Free Text:LDSP Parkingposition\7:freetext
+Free Text:LDSP Parkingposition\8:freetext
+Free Text:LDSP Parkingposition\9:freetext
+Free Text:LDSP Taxiway\A:freetext
+Free Text:LDSP Taxiway\B:freetext
+Free Text:LDSP Taxiway\TL1:freetext
+Free Text:LDSP Taxiway\TL2:freetext
+Free Text:LDSP Taxiway\TL3:freetext
+Free Text:LDSS Parkingposition\1:freetext
+Free Text:LDSS Parkingposition\2:freetext
+Free Text:LDVC Parkingposition\1:freetext
+Free Text:LDVC Parkingposition\2:freetext
+Free Text:LDZA Parkingposition\1:freetext
+Free Text:LDZA Parkingposition\11:freetext
+Free Text:LDZA Parkingposition\11:freetext
+Free Text:LDZA Parkingposition\12:freetext
+Free Text:LDZA Parkingposition\12:freetext
+Free Text:LDZA Parkingposition\13:freetext
+Free Text:LDZA Parkingposition\13:freetext
+Free Text:LDZA Parkingposition\14:freetext
+Free Text:LDZA Parkingposition\15:freetext
+Free Text:LDZA Parkingposition\2:freetext
+Free Text:LDZA Parkingposition\20:freetext
+Free Text:LDZA Parkingposition\21:freetext
+Free Text:LDZA Parkingposition\21:freetext
+Free Text:LDZA Parkingposition\22:freetext
+Free Text:LDZA Parkingposition\22:freetext
+Free Text:LDZA Parkingposition\23:freetext
+Free Text:LDZA Parkingposition\23:freetext
+Free Text:LDZA Parkingposition\24:freetext
+Free Text:LDZA Parkingposition\24:freetext
+Free Text:LDZA Parkingposition\25:freetext
+Free Text:LDZA Parkingposition\3:freetext
+Free Text:LDZA Parkingposition\4:freetext
+Free Text:LDZA Parkingposition\5:freetext
+Free Text:LDZA Parkingposition\6:freetext
+Free Text:LDZA Parkingposition\7:freetext
+Free Text:LDZA Parkingposition\8:freetext
+Free Text:LDZA Parkingposition\9:freetext
+Free Text:LDZA Taxiway\A:freetext
+Free Text:LDZA Taxiway\B:freetext
+Free Text:LDZA Taxiway\C:freetext
+Free Text:LDZA Taxiway\D:freetext
+Free Text:LDZA Taxiway\E:freetext
+Free Text:LDZA Taxiway\F:freetext
+Free Text:LDZD Parkingposition\1:freetext
+Free Text:LDZD Parkingposition\2:freetext
+Free Text:LDZD Parkingposition\3:freetext
+Free Text:LDZD Parkingposition\4:freetext
+Free Text:LDZD Taxiway\A:freetext
+Free Text:LDZD Taxiway\B:freetext
+Free Text:LDZD Taxiway\C:freetext
+Free Text:LDZD Taxiway\D:freetext
+Free Text:LDZD Taxiway\E:freetext
+Free Text:LDZD Taxiway\F:freetext
+Free Text:LDZD Taxiway\G:freetext
+Free Text:LDZD Taxiway\H:freetext
+Free Text:LDZD Taxiway\K:freetext
+Free Text:LDZD Taxiway\L:freetext
+Free Text:LDZD Taxiway\M:freetext
+Free Text:LDZL Parkingposition\1:freetext
+Free Text:LDZL Parkingposition\2:freetext
+Free Text:LDZL Parkingposition\3:freetext
+Free Text:LDZL Parkingposition\4:freetext
+Free Text:LDZL Parkingposition\5:freetext
+Free Text:LJLA Aprons\ADR Apron:freetext
+Free Text:LJLA Aprons\GAT:freetext
+Free Text:LJLA Aprons\Heli Apron:freetext
+Free Text:LJLA Helipads\H:freetext
+Free Text:LJLA Parking \1:freetext
+Free Text:LJLA Parking \11:freetext
+Free Text:LJLA Parking \13:freetext
+Free Text:LJLA Parking \15:freetext
+Free Text:LJLA Parking \3:freetext
+Free Text:LJLA Parking \31:freetext
+Free Text:LJLA Parking \32:freetext
+Free Text:LJLA Parking \33:freetext
+Free Text:LJLA Parking \34:freetext
+Free Text:LJLA Parking \35:freetext
+Free Text:LJLA Parking \36:freetext
+Free Text:LJLA Parking \37:freetext
+Free Text:LJLA Parking \38:freetext
+Free Text:LJLA Parking \39:freetext
+Free Text:LJLA Parking \40:freetext
+Free Text:LJLA Parking \5:freetext
+Free Text:LJLA Parking \7:freetext
+Free Text:LJLA Parking \9:freetext
+Free Text:LJLA Taxiways\A:freetext
+Free Text:LJLA Taxiways\A:freetext
+Free Text:LJLA Taxiways\B:freetext
+Free Text:LJLA Taxiways\C:freetext
+Free Text:LJLA Taxiways\F:freetext
+Free Text:LJLA Taxiways\G:freetext
+Free Text:LJLA Taxiways\K:freetext
+Free Text:LJLA Taxiways\M:freetext
+Free Text:LJLA Taxiways\N:freetext
+Free Text:LJLA Taxiways\P:freetext
+Free Text:LJLA Taxiways\Q:freetext
+Free Text:LJLA Taxiways\T:freetext
+Free Text:LJPZ Parking\A1:freetext
+Free Text:LJPZ Parking\B1:freetext
+Free Text:LJPZ Parking\G1:freetext
+Free Text:LJPZ Parking\G2:freetext
+Free Text:LJPZ Parking\G3:freetext
+Free Text:LJPZ Parking\G4:freetext
+Free Text:LJPZ Parking\G5:freetext
+Free Text:LJPZ Parking\G6:freetext
+Free Text:LJPZ Parking\G7:freetext
+Free Text:LJPZ Parking\G8:freetext
+Free Text:LJPZ Parking\P1:freetext
+Free Text:LJPZ Taxiways\A:freetext
+Free Text:LJPZ Taxiways\A:freetext
+Free Text:LJPZ Taxiways\B:freetext
+Free Text:LQBK Parkingposition\1:freetext
+Free Text:LQBK Parkingposition\2:freetext
+Free Text:LQBK Parkingposition\3:freetext
+Free Text:LQBK Parkingposition\4:freetext
+Free Text:LQBK Runway\17 TORA 2500m:freetext
+Free Text:LQBK Runway\35/A TORA 1900m:freetext
+Free Text:LQBK Runway\35/B TORA 2500m:freetext
+Free Text:LQBK Taxiway\A:freetext
+Free Text:LQBK Taxiway\B:freetext
+Free Text:LQMO Parkingposition\1:freetext
+Free Text:LQMO Parkingposition\2:freetext
+Free Text:LQMO Parkingposition\21:freetext
+Free Text:LQMO Parkingposition\22:freetext
+Free Text:LQMO Parkingposition\23:freetext
+Free Text:LQMO Parkingposition\24:freetext
+Free Text:LQMO Runway\16/A TORA 2400m:freetext
+Free Text:LQMO Runway\34/F TORA 2400m:freetext
+Free Text:LQMO Taxiway\A:freetext
+Free Text:LQMO Taxiway\B:freetext
+Free Text:LQMO Taxiway\C:freetext
+Free Text:LQMO Taxiway\D:freetext
+Free Text:LQMO Taxiway\E:freetext
+Free Text:LQMO Taxiway\F:freetext
+Free Text:LQSA Parkingposition\1:freetext
+Free Text:LQSA Parkingposition\2:freetext
+Free Text:LQSA Parkingposition\3:freetext
+Free Text:LQSA Parkingposition\4:freetext
+Free Text:LQSA Parkingposition\5:freetext
+Free Text:LQSA Parkingposition\6A:freetext
+Free Text:LQSA Parkingposition\6B:freetext
+Free Text:LQSA Parkingposition\6C:freetext
+Free Text:LQSA Parkingposition\7:freetext
+Free Text:LQSA Parkingposition\7A:freetext
+Free Text:LQSA Parkingposition\7B:freetext
+Free Text:LQSA Parkingposition\7C:freetext
+Free Text:LQSA Parkingposition\8:freetext
+Free Text:LQSA Runway\12 TORA 2600m:freetext
+Free Text:LQSA Runway\30/A TORA 2600m:freetext
+Free Text:LQSA Runway\TORA-B/30 1700m:freetext
+Free Text:LQSA Runway\TORA-C/30 1300m:freetext
+Free Text:LQSA Taxiway\A:freetext
+Free Text:LQSA Taxiway\B:freetext
+Free Text:LQSA Taxiway\C:freetext
+Free Text:LQTZ Parkingposition\1:freetext
+Free Text:LQTZ Parkingposition\2:freetext
+Free Text:LQTZ Parkingposition\3:freetext
+Free Text:LQTZ Taxiway\A:freetext
+Free Text:LQTZ Taxiway\B:freetext
+Free Text:LQTZ Taxiway\C:freetext
+Free Text:LQTZ Taxiway\D:freetext
+Free Text:LQTZ Taxiway\E:freetext
+Free Text:LQTZ Taxiway\F:freetext
+Free Text:LW Various\GA_Apron:freetext
+Free Text:LW Various\Miliary_Apron:freetext
+Free Text:LW Various\Passenger_Apron:freetext
+Free Text:LW Various\Remote_Apron:freetext
+Free Text:LWOH Taxiways\A:freetext
+Free Text:LWOH Taxiways\B:freetext
+Free Text:LWOH Taxiways\C:freetext
+Free Text:LWOH Taxiways\D:freetext
+Free Text:LWSK Stands\1:freetext
+Free Text:LWSK Stands\10:freetext
+Free Text:LWSK Stands\11:freetext
+Free Text:LWSK Stands\12:freetext
+Free Text:LWSK Stands\13:freetext
+Free Text:LWSK Stands\14:freetext
+Free Text:LWSK Stands\15:freetext
+Free Text:LWSK Stands\16:freetext
+Free Text:LWSK Stands\2:freetext
+Free Text:LWSK Stands\201:freetext
+Free Text:LWSK Stands\202:freetext
+Free Text:LWSK Stands\203:freetext
+Free Text:LWSK Stands\204:freetext
+Free Text:LWSK Stands\205:freetext
+Free Text:LWSK Stands\206:freetext
+Free Text:LWSK Stands\3:freetext
+Free Text:LWSK Stands\4:freetext
+Free Text:LWSK Stands\5:freetext
+Free Text:LWSK Stands\6:freetext
+Free Text:LWSK Stands\7:freetext
+Free Text:LWSK Stands\8:freetext
+Free Text:LWSK Stands\9:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A:freetext
+Free Text:LWSK Taxiways\A3:freetext
+Free Text:LWSK Taxiways\A4:freetext
+Free Text:LWSK Taxiways\A5:freetext
+Free Text:LWSK Taxiways\B:freetext
+Free Text:LWSK Taxiways\C:freetext
+Free Text:LWSK Taxiways\D:freetext
+Free Text:LWSK Taxiways\F:freetext
+Free Text:LWSK Taxiways\G:freetext
+Free Text:LWSK Taxiways\H:freetext
+Free Text:LWSK Taxiways\I:freetext
+Free Text:LWSK Taxiways\J:freetext
+Free Text:LWSK Taxiways\J:freetext
+Free Text:LWSS Restricted Areas\GND-11000ft:freetext
+Free Text:LWSS Restricted Areas\GND-20300ft:freetext
+Free Text:LWSS Restricted Areas\GND-4500ft:freetext
+Free Text:LYBE Parkings\A1:freetext
+Free Text:LYBE Parkings\A10:freetext
+Free Text:LYBE Parkings\A2:freetext
+Free Text:LYBE Parkings\A3:freetext
+Free Text:LYBE Parkings\A4:freetext
+Free Text:LYBE Parkings\A5:freetext
+Free Text:LYBE Parkings\A6:freetext
+Free Text:LYBE Parkings\A7:freetext
+Free Text:LYBE Parkings\A8:freetext
+Free Text:LYBE Parkings\A9:freetext
+Free Text:LYBE Parkings\B1:freetext
+Free Text:LYBE Parkings\B2:freetext
+Free Text:LYBE Parkings\B3:freetext
+Free Text:LYBE Parkings\B4:freetext
+Free Text:LYBE Parkings\B5:freetext
+Free Text:LYBE Parkings\B6:freetext
+Free Text:LYBE Parkings\B7:freetext
+Free Text:LYBE Parkings\C2:freetext
+Free Text:LYBE Parkings\C4:freetext
+Free Text:LYBE Parkings\C5:freetext
+Free Text:LYBE Parkings\C6:freetext
+Free Text:LYBE Parkings\Cargo:freetext
+Free Text:LYBE Parkings\Maintenance:freetext
+Free Text:LYBE Taxiways\A:freetext
+Free Text:LYBE Taxiways\A:freetext
+Free Text:LYBE Taxiways\A:freetext
+Free Text:LYBE Taxiways\B:freetext
+Free Text:LYBE Taxiways\C:freetext
+Free Text:LYBE Taxiways\D:freetext
+Free Text:LYBE Taxiways\E:freetext
+Free Text:LYBE Taxiways\F:freetext
+Free Text:LYBE Taxiways\G:freetext
+Free Text:LYBE Taxiways\G:freetext
+Free Text:LYBE Taxiways\H:freetext
+Free Text:LYBE Taxiways\J:freetext
+Free Text:LYBE Taxiways\K:freetext
+Free Text:LYBE Taxiways\L:freetext
+Free Text:LYBE Taxiways\L:freetext
+Free Text:LYNI Parkings\1:freetext
+Free Text:LYNI Parkings\2:freetext
+Free Text:LYNI Parkings\3:freetext
+Free Text:LYNI Parkings\4:freetext
+Free Text:LYNI Parkings\5:freetext
+Free Text:LYNI Parkings\6:freetext
+Free Text:LYNI Parkings\7:freetext
+Free Text:LYNI Parkings\8:freetext
+Free Text:LYNI Parkings\H:freetext
+Free Text:LYNI Parkings\M1:freetext
+Free Text:LYNI Parkings\M10:freetext
+Free Text:LYNI Parkings\M11:freetext
+Free Text:LYNI Parkings\M12:freetext
+Free Text:LYNI Parkings\M13:freetext
+Free Text:LYNI Parkings\M14:freetext
+Free Text:LYNI Parkings\M15:freetext
+Free Text:LYNI Parkings\M16:freetext
+Free Text:LYNI Parkings\M17:freetext
+Free Text:LYNI Parkings\M18:freetext
+Free Text:LYNI Parkings\M19:freetext
+Free Text:LYNI Parkings\M2:freetext
+Free Text:LYNI Parkings\M3:freetext
+Free Text:LYNI Parkings\M4:freetext
+Free Text:LYNI Parkings\M5:freetext
+Free Text:LYNI Parkings\M6:freetext
+Free Text:LYNI Parkings\M7:freetext
+Free Text:LYNI Parkings\M8:freetext
+Free Text:LYNI Parkings\M9:freetext
+Free Text:LYNI Taxiways\D:freetext
+Free Text:LYPG Parkings\1:freetext
+Free Text:LYPG Parkings\2:freetext
+Free Text:LYPG Parkings\3:freetext
+Free Text:LYPG Parkings\4:freetext
+Free Text:LYPG Parkings\5:freetext
+Free Text:LYPG Parkings\6:freetext
+Free Text:LYPG Parkings\7:freetext
+Free Text:LYPG Parkings\8:freetext
+Free Text:LYPG Parkings\9:freetext
+Free Text:LYPG Parkings\T1:freetext
+Free Text:LYTV Parkings\1:freetext
+Free Text:LYTV Parkings\2:freetext
+Free Text:LYTV Parkings\3:freetext
+Free Text:LYTV Parkings\4:freetext
+Free Text:LYTV Parkings\5:freetext
+Free Text:LYTV Parkings\5A:freetext
+Free Text:LYTV Parkings\6:freetext
+Free Text:LYTV Parkings\7:freetext
+Free Text:LYTV Taxiways\A:freetext
+Free Text:LYTV Taxiways\B:freetext
+Geo:BKPR Groundlayout:
+Geo:LA Landmark Coast:
+Geo:LA Landmark Lakes:
+Geo:LATI Groundlayout:
+Geo:LATI Groundlayout Boundary:
+Geo:LD Danger area D20 Dugi Otok-Zapad - GND/A279:
+Geo:LD Danger area D21 Rijeka (Omisalj) - GND/A033:
+Geo:LD Danger area D30 Sandrovac - GND/FL190:
+Geo:LD Danger area D31 Garesnica - GND/FL190:
+Geo:LD Landmark Coast:
+Geo:LD Prohibited area P39 Zagreb (Zitnjak) - GND/A025:
+Geo:LD Restricted area R17 Zirje - GND/A361:
+Geo:LD Restricted area R18 Slunj - GND/A657:
+Geo:LD Restricted area R19 Gasinci - GND/A328:
+Geo:LD Restricted area R22 Dugi Otok - GND/A164:
+Geo:LD Restricted area R23 Benkovac - GND/A099:
+Geo:LD Restricted area R24 Crvena Zemlja (Knin) - GND/A164:
+Geo:LD Restricted area R25 Brijuni - GND/A014:
+Geo:LD Restricted area R26 Kamenjak - GND/A164:
+Geo:LD Restricted area R33 Slavonija 1 - GND/FL180:
+Geo:LD Restricted area R34 Slavonija 2 - GND/FL180:
+Geo:LD Restricted area R35 Slavonija 3 - GND/FL180:
+Geo:LD Restricted area R36 Slavonija 4 - GND/FL180:
+Geo:LD Restricted area R40 Marlera - GND/FL100:
+Geo:LD Restricted area R41 Velebit - GND/FL220:
+Geo:LD Restricted area R42 Lika Sjever - GND/FL220:
+Geo:LD Restricted area R43 Lika Jug - GND/FL220:
+Geo:LD Restricted area R44 Udbina - GND/FL120:
+Geo:LD Restricted area R45 Lekenik - GND/FL330:
+Geo:LDDU Groundlayout Airport:
+Geo:LDDU Groundlayout Parking:
+Geo:LDDU Groundlayout Taxiway Centerline:
+Geo:LDLO Groundlayout Airport:
+Geo:LDLO Groundlayout Parking:
+Geo:LDLO Groundlayout Taxiway Centerline:
+Geo:LDOS Groundlayout Airport:
+Geo:LDOS Groundlayout Parking:
+Geo:LDOS Groundlayout Taxiway Centerline:
+Geo:LDPL Groundlayout Airport:
+Geo:LDPL Groundlayout Parking:
+Geo:LDPL Groundlayout Taxiway Centerline:
+Geo:LDPM Groundlayout Parking:
+Geo:LDPV Groundlayout Airport:
+Geo:LDPV Groundlayout Parking:
+Geo:LDPV Groundlayout Taxiway Centerline:
+Geo:LDRG Groundlayout Airport:
+Geo:LDRG Groundlayout Parking:
+Geo:LDRG Groundlayout Taxiway Centerline:
+Geo:LDRI Groundlayout Airport:
+Geo:LDRI Groundlayout Parking:
+Geo:LDRI Groundlayout Taxiway Centerline:
+Geo:LDRO Groundlayout Airport:
+Geo:LDRO Groundlayout Parking:
+Geo:LDRO Groundlayout Taxiway Centerline:
+Geo:LDSB Groundlayout Airport:
+Geo:LDSB Groundlayout Parking:
+Geo:LDSB Groundlayout Taxiway Centerline:
+Geo:LDSP Groundlayout Airport:
+Geo:LDSP Groundlayout Parking:
+Geo:LDSP Groundlayout Taxiway Centerline:
+Geo:LDSS Groundlayout Airport:
+Geo:LDSS Groundlayout Parking:
+Geo:LDSS Groundlayout Taxiway Centerline:
+Geo:LDVC Groundlayout Airport:
+Geo:LDVC Groundlayout Parking:
+Geo:LDVC Groundlayout Taxiway Centerline:
+Geo:LDZA Groundlayout Airport:
+Geo:LDZA Groundlayout Parking:
+Geo:LDZA Groundlayout Taxiway Centerline:
+Geo:LDZD Groundlayout Airport:
+Geo:LDZD Groundlayout Parking:
+Geo:LDZD Groundlayout Taxiway Centerline:
+Geo:LDZL Groundlayout Airport:
+Geo:LDZL Groundlayout Parking:
+Geo:LDZL Groundlayout Taxiway Centerline:
+Geo:LI Landmark Coast:
+Geo:LJLJ Groundlayout Parking Positions.:
+Geo:LJMB Groundlayout:
+Geo:LQ Danger area D1 Bileca - GND/A045:
+Geo:LQ Danger area D10 Pasa Bunar - GND/A040:
+Geo:LQ Danger area D11 Cizma - GND/A045:
+Geo:LQ Danger area D12 Velika Ribnica - GND/A045:
+Geo:LQ Danger area D13 Kalinovik - GND/A095:
+Geo:LQ Danger area D14 Babino Brdo - GND/A035:
+Geo:LQ Danger area D15 Barbara - GND/A065:
+Geo:LQ Danger area D16 Bukovac-Lazarevica - GND/A040:
+Geo:LQ Danger area D17 Debeljaca - GND/A040:
+Geo:LQ Danger area D18 Doboj - GND/A025:
+Geo:LQ Danger area D19 Glamoc - GND/A095:
+Geo:LQ Danger area D2 Bravenik Grab - GND/A050:
+Geo:LQ Danger area D20 Gornje Bare - GND/A065:
+Geo:LQ Danger area D21 Ivan Sedlo - GND/A060:
+Geo:LQ Danger area D22 Laniste - GND/A050:
+Geo:LQ Danger area D23 Lapov Dol - GND/A070:
+Geo:LQ Danger area D25 Novi Travnik - GND/A050:
+Geo:LQ Danger area D26 Opal - GND/A060:
+Geo:LQ Danger area D27 Pelikan - GND/A065:
+Geo:LQ Danger area D28 Margetici - GND/A095:
+Geo:LQ Danger area D29 Bijeljina - GND/A035:
+Geo:LQ Danger area D30 Guberaca - GND/A048:
+Geo:LQ Danger area D31 Bijela - GND/A035:
+Geo:LQ Danger area D33 Kalinovik DP1 - GND/A070:
+Geo:LQ Danger area D34 Manjaca DPA3 - GND/A050:
+Geo:LQ Danger area D35 Manjaca DPA4 - GND/A050:
+Geo:LQ Danger area D36 Ovcarevo - GND/A056:
+Geo:LQ Danger area D37 Macipolje - GND/A058:
+Geo:LQ Danger area D38 Miralem Jugo-Mostar - GND/A038:
+Geo:LQ Danger area D39 Vrtace-Grebak - GND/A065:
+Geo:LQ Danger area D4 Moscanica-Krivici - GND/A048:
+Geo:LQ Danger area D5 Dubrave - GND/A040:
+Geo:LQ Danger area D6 Pazaric - GND/A050:
+Geo:LQ Danger area D8 Pasino Brdo - GND/A048:
+Geo:LQ Danger area D9 Gorica - GND/A055:
+Geo:LQ Landmark Lakes:
+Geo:LQ Restricted area R2 ROA Manjaca - GND/A095:
+Geo:LQ Restricted area R21/R22 - GND/A035/A055:
+Geo:LQ Restricted area R23 - A065/FL310:
+Geo:LQ Restricted area R24 (M03 K1) - A030/A090:
+Geo:LQ Restricted area R25 (M03 K2) - A015/A070:
+Geo:LQ Restricted area R32 (M08) - GND/015AGL:
+Geo:LQ Restricted area R33 (M09) - GND/010AGL:
+Geo:LQ Restricted area R34 (M10) - SFC/010AGL:
+Geo:LQ Restricted area R35 (M11) - SFC/040AGL:
+Geo:LQ Restricted area R36 (M12) - SFC/015AGL:
+Geo:LQ Restricted area R37 (M13) - SFC/015AGL:
+Geo:LQBK Groundlayout Airport:
+Geo:LQBK Groundlayout Parking:
+Geo:LQBK Groundlayout Taxiway Centerline:
+Geo:LQMO Groundlayout Airport:
+Geo:LQMO Groundlayout Parking:
+Geo:LQMO Groundlayout Taxiway Centerline:
+Geo:LQSA Groundlayout Airport:
+Geo:LQSA Groundlayout Parking:
+Geo:LQSA Groundlayout Taxiway Centerline:
+Geo:LQTZ Groundlayout Airport:
+Geo:LQTZ Groundlayout Parking:
+Geo:LQTZ Groundlayout Taxiway Centerline:
+Geo:LW Restricted area R01:
+Geo:LW Restricted area R02:
+Geo:LW Restricted area R03:
+Geo:LWOH Groundlayout:
+Geo:LWSK Groundlayout:
+Geo:LWSS Landmark Lakes:
+Geo:LY Danger area D10 Taras - GND/NOTAM:
+Geo:LY Danger area D11 Aradac - GND/NOTAM:
+Geo:LY Danger area D12 Titel - GND/NOTAM:
+Geo:LY Danger area D13 Centa - GND/NOTAM:
+Geo:LY Danger area D14 Oresac - GND/NOTAM:
+Geo:LY Danger area D15 Ruma - GND/NOTAM:
+Geo:LY Danger area D18 Tulari - GND/NOTAM:
+Geo:LY Danger area D19 Tometino Polje - GND/NOTAM:
+Geo:LY Danger area D20 Pasuljanske Livade - GND/NOTAM:
+Geo:LY Danger area D21 Rtanj - GND/NOTAM:
+Geo:LY Danger area D22 Ploca - GND/NOTAM:
+Geo:LY Danger area D23 Pester - GND/NOTAM:
+Geo:LY Danger area D24 Golac - GND/NOTAM:
+Geo:LY Danger area D25 Petlovo Vojiste - GND/NOTAM:
+Geo:LY Danger area D26 Bosnjace - GND/NOTAM:
+Geo:LY Danger area D31 Crnusa - GND/NOTAM:
+Geo:LY Danger area D32 Slisane - GND/NOTAM:
+Geo:LY Danger area D5 Nikinci - GND/FL140:
+Geo:LY Danger area D6 Meda - GND/NOTAM:
+Geo:LY Danger area D70 Vlasina - GND/NOTAM:
+Geo:LY Danger area D72 Belo Polje - GND/NOTAM:
+Geo:LY Danger area D73 Goles - GND/NOTAM:
+Geo:LY Danger area D74 Tankosic - GND/NOTAM:
+Geo:LY Danger area D75 Orahovac - GND/NOTAM:
+Geo:LY Danger area D77 Sipkolaz - GND/NOTAM:
+Geo:LY Landmark Coast:
+Geo:LY Landmark Lakes:
+Geo:LY Restricted area R8 Beograd - GND/A100:
+Geo:LYBE Groundlayout:
+Geo:LYBT Groundlayout:
+Geo:LYKV Groundlayout:
+Geo:LYNI Groundlayout:
+Geo:LYPG Groundlayout:
+Geo:LYTV Groundlayout:
+Geo:LYUZ Groundlayout:
+NDBs:A:frequency
+NDBs:A:name
+NDBs:A:symbol
+NDBs:AD:frequency
+NDBs:AD:name
+NDBs:AD:symbol
+NDBs:ANC:frequency
+NDBs:ANC:name
+NDBs:ANC:symbol
+NDBs:AO:frequency
+NDBs:AO:name
+NDBs:AO:symbol
+NDBs:AQP:frequency
+NDBs:AQP:name
+NDBs:AQP:symbol
+NDBs:ARD:frequency
+NDBs:ARD:name
+NDBs:ARD:symbol
+NDBs:AS:frequency
+NDBs:AS:name
+NDBs:AS:symbol
+NDBs:AVI:frequency
+NDBs:AVI:name
+NDBs:AVI:symbol
+NDBs:BA:frequency
+NDBs:BA:name
+NDBs:BA:symbol
+NDBs:BC:frequency
+NDBs:BC:name
+NDBs:BC:symbol
+NDBs:BKS:frequency
+NDBs:BKS:name
+NDBs:BKS:symbol
+NDBs:BLC:frequency
+NDBs:BLC:name
+NDBs:BLC:symbol
+NDBs:BLK:frequency
+NDBs:BLK:name
+NDBs:BLK:symbol
+NDBs:BO:frequency
+NDBs:BO:name
+NDBs:BO:symbol
+NDBs:BOZ:frequency
+NDBs:BOZ:name
+NDBs:BOZ:symbol
+NDBs:BPL:frequency
+NDBs:BPL:name
+NDBs:BPL:symbol
+NDBs:BR:frequency
+NDBs:BR:name
+NDBs:BR:symbol
+NDBs:BRD:frequency
+NDBs:BRD:name
+NDBs:BRD:symbol
+NDBs:BRZ:frequency
+NDBs:BRZ:name
+NDBs:BRZ:symbol
+NDBs:BT:frequency
+NDBs:BT:name
+NDBs:BT:symbol
+NDBs:BUG:frequency
+NDBs:BUG:name
+NDBs:BUG:symbol
+NDBs:C:frequency
+NDBs:C:name
+NDBs:C:symbol
+NDBs:CE:frequency
+NDBs:CE:name
+NDBs:CE:symbol
+NDBs:CEV:frequency
+NDBs:CEV:name
+NDBs:CEV:symbol
+NDBs:CHI:frequency
+NDBs:CHI:name
+NDBs:CHI:symbol
+NDBs:CIA:frequency
+NDBs:CIA:name
+NDBs:CIA:symbol
+NDBs:CMP:frequency
+NDBs:CMP:name
+NDBs:CMP:symbol
+NDBs:CP:frequency
+NDBs:CP:name
+NDBs:CP:symbol
+NDBs:CRE:frequency
+NDBs:CRE:name
+NDBs:CRE:symbol
+NDBs:CV:frequency
+NDBs:CV:name
+NDBs:CV:symbol
+NDBs:DAN:frequency
+NDBs:DAN:name
+NDBs:DAN:symbol
+NDBs:DC:frequency
+NDBs:DC:name
+NDBs:DC:symbol
+NDBs:DNC:frequency
+NDBs:DNC:name
+NDBs:DNC:symbol
+NDBs:DVN:frequency
+NDBs:DVN:name
+NDBs:DVN:symbol
+NDBs:EK:frequency
+NDBs:EK:name
+NDBs:EK:symbol
+NDBs:F:frequency
+NDBs:F:name
+NDBs:F:symbol
+NDBs:FAL:frequency
+NDBs:FAL:name
+NDBs:FAL:symbol
+NDBs:FE:frequency
+NDBs:FE:name
+NDBs:FE:symbol
+NDBs:FIS:frequency
+NDBs:FIS:name
+NDBs:FIS:symbol
+NDBs:FN:frequency
+NDBs:FN:name
+NDBs:FN:symbol
+NDBs:FOG:frequency
+NDBs:FOG:name
+NDBs:FOG:symbol
+NDBs:FRS:frequency
+NDBs:FRS:name
+NDBs:FRS:symbol
+NDBs:FW:frequency
+NDBs:FW:name
+NDBs:FW:symbol
+NDBs:GAC:frequency
+NDBs:GAC:name
+NDBs:GAC:symbol
+NDBs:GBG:frequency
+NDBs:GBG:name
+NDBs:GBG:symbol
+NDBs:GDA:frequency
+NDBs:GDA:name
+NDBs:GDA:symbol
+NDBs:GJA:frequency
+NDBs:GJA:name
+NDBs:GJA:symbol
+NDBs:GO:frequency
+NDBs:GO:name
+NDBs:GO:symbol
+NDBs:GR:frequency
+NDBs:GR:name
+NDBs:GR:symbol
+NDBs:GRA:frequency
+NDBs:GRA:name
+NDBs:GRA:symbol
+NDBs:GRT:frequency
+NDBs:GRT:name
+NDBs:GRT:symbol
+NDBs:GRZ:frequency
+NDBs:GRZ:name
+NDBs:GRZ:symbol
+NDBs:GS:frequency
+NDBs:GS:name
+NDBs:GS:symbol
+NDBs:HUM:frequency
+NDBs:HUM:name
+NDBs:HUM:symbol
+NDBs:IA:frequency
+NDBs:IA:name
+NDBs:IA:symbol
+NDBs:IL:frequency
+NDBs:IL:name
+NDBs:IL:symbol
+NDBs:IOA:frequency
+NDBs:IOA:name
+NDBs:IOA:symbol
+NDBs:ITA:frequency
+NDBs:ITA:name
+NDBs:ITA:symbol
+NDBs:IZD:frequency
+NDBs:IZD:name
+NDBs:IZD:symbol
+NDBs:JA:frequency
+NDBs:JA:name
+NDBs:JA:symbol
+NDBs:JBR:frequency
+NDBs:JBR:name
+NDBs:JBR:symbol
+NDBs:JST:frequency
+NDBs:JST:name
+NDBs:JST:symbol
+NDBs:KAV:frequency
+NDBs:KAV:name
+NDBs:KAV:symbol
+NDBs:KAZ:frequency
+NDBs:KAZ:name
+NDBs:KAZ:symbol
+NDBs:KEK:frequency
+NDBs:KEK:name
+NDBs:KEK:symbol
+NDBs:KFT:frequency
+NDBs:KFT:name
+NDBs:KFT:symbol
+NDBs:KG:frequency
+NDBs:KG:name
+NDBs:KG:symbol
+NDBs:KI:frequency
+NDBs:KI:name
+NDBs:KI:symbol
+NDBs:KLP:frequency
+NDBs:KLP:name
+NDBs:KLP:symbol
+NDBs:KN:frequency
+NDBs:KN:name
+NDBs:KN:symbol
+NDBs:KO:frequency
+NDBs:KO:name
+NDBs:KO:symbol
+NDBs:KOS:frequency
+NDBs:KOS:name
+NDBs:KOS:symbol
+NDBs:KSO:frequency
+NDBs:KSO:name
+NDBs:KSO:symbol
+NDBs:KZN:frequency
+NDBs:KZN:name
+NDBs:KZN:symbol
+NDBs:L:frequency
+NDBs:L:name
+NDBs:L:symbol
+NDBs:LA:frequency
+NDBs:LA:name
+NDBs:LA:symbol
+NDBs:LAT:frequency
+NDBs:LAT:name
+NDBs:LAT:symbol
+NDBs:LOS:frequency
+NDBs:LOS:name
+NDBs:LOS:symbol
+NDBs:LSA:frequency
+NDBs:LSA:name
+NDBs:LSA:symbol
+NDBs:LU:frequency
+NDBs:LU:name
+NDBs:LU:symbol
+NDBs:M:frequency
+NDBs:M:name
+NDBs:M:symbol
+NDBs:MA:frequency
+NDBs:MA:name
+NDBs:MA:symbol
+NDBs:MG:frequency
+NDBs:MG:name
+NDBs:MG:symbol
+NDBs:MI:frequency
+NDBs:MI:name
+NDBs:MI:symbol
+NDBs:ML:frequency
+NDBs:ML:name
+NDBs:ML:symbol
+NDBs:MNR:frequency
+NDBs:MNR:name
+NDBs:MNR:symbol
+NDBs:MOJ:frequency
+NDBs:MOJ:name
+NDBs:MOJ:symbol
+NDBs:MR:frequency
+NDBs:MR:name
+NDBs:MR:symbol
+NDBs:N:frequency
+NDBs:N:name
+NDBs:N:symbol
+NDBs:NA:frequency
+NDBs:NA:name
+NDBs:NA:symbol
+NDBs:NIK:frequency
+NDBs:NIK:name
+NDBs:NIK:symbol
+NDBs:NS:frequency
+NDBs:NS:name
+NDBs:NS:symbol
+NDBs:NT:frequency
+NDBs:NT:name
+NDBs:NT:symbol
+NDBs:O:frequency
+NDBs:O:name
+NDBs:O:symbol
+NDBs:OA:frequency
+NDBs:OA:name
+NDBs:OA:symbol
+NDBs:OBR:frequency
+NDBs:OBR:name
+NDBs:OBR:symbol
+NDBs:ORA:frequency
+NDBs:ORA:name
+NDBs:ORA:symbol
+NDBs:OSJ:frequency
+NDBs:OSJ:name
+NDBs:OSJ:symbol
+NDBs:OST:frequency
+NDBs:OST:name
+NDBs:OST:symbol
+NDBs:P:frequency
+NDBs:P:name
+NDBs:P:symbol
+NDBs:PA:frequency
+NDBs:PA:name
+NDBs:PA:symbol
+NDBs:PC:frequency
+NDBs:PC:name
+NDBs:PC:symbol
+NDBs:PEP:frequency
+NDBs:PEP:name
+NDBs:PEP:symbol
+NDBs:PES:frequency
+NDBs:PES:name
+NDBs:PES:symbol
+NDBs:PIS:frequency
+NDBs:PIS:name
+NDBs:PIS:symbol
+NDBs:PLA:frequency
+NDBs:PLA:name
+NDBs:PLA:symbol
+NDBs:POD:frequency
+NDBs:POD:name
+NDBs:POD:symbol
+NDBs:POM:frequency
+NDBs:POM:name
+NDBs:POM:symbol
+NDBs:POZ:frequency
+NDBs:POZ:name
+NDBs:POZ:symbol
+NDBs:PP:frequency
+NDBs:PP:name
+NDBs:PP:symbol
+NDBs:PRA:frequency
+NDBs:PRA:name
+NDBs:PRA:symbol
+NDBs:PRI:frequency
+NDBs:PRI:name
+NDBs:PRI:symbol
+NDBs:PRU:frequency
+NDBs:PRU:name
+NDBs:PRU:symbol
+NDBs:PT:frequency
+NDBs:PT:name
+NDBs:PT:symbol
+NDBs:PTB:frequency
+NDBs:PTB:name
+NDBs:PTB:symbol
+NDBs:PTC:frequency
+NDBs:PTC:name
+NDBs:PTC:symbol
+NDBs:PV:frequency
+NDBs:PV:name
+NDBs:PV:symbol
+NDBs:PZ:frequency
+NDBs:PZ:name
+NDBs:PZ:symbol
+NDBs:R:frequency
+NDBs:R:name
+NDBs:R:symbol
+NDBs:RBT:frequency
+NDBs:RBT:name
+NDBs:RBT:symbol
+NDBs:RI:frequency
+NDBs:RI:name
+NDBs:RI:symbol
+NDBs:RIM:frequency
+NDBs:RIM:name
+NDBs:RIM:symbol
+NDBs:RIV:frequency
+NDBs:RIV:name
+NDBs:RIV:symbol
+NDBs:RO:frequency
+NDBs:RO:name
+NDBs:RO:symbol
+NDBs:RON:frequency
+NDBs:RON:name
+NDBs:RON:symbol
+NDBs:SAL:frequency
+NDBs:SAL:name
+NDBs:SAL:symbol
+NDBs:SAR:frequency
+NDBs:SAR:name
+NDBs:SAR:symbol
+NDBs:SEG:frequency
+NDBs:SEG:name
+NDBs:SEG:symbol
+NDBs:SF:frequency
+NDBs:SF:name
+NDBs:SF:symbol
+NDBs:SK:frequency
+NDBs:SK:name
+NDBs:SK:symbol
+NDBs:SKC:frequency
+NDBs:SKC:name
+NDBs:SKC:symbol
+NDBs:SM:frequency
+NDBs:SM:name
+NDBs:SM:symbol
+NDBs:SME:frequency
+NDBs:SME:name
+NDBs:SME:symbol
+NDBs:SOR:frequency
+NDBs:SOR:name
+NDBs:SOR:symbol
+NDBs:SR:frequency
+NDBs:SR:name
+NDBs:SR:symbol
+NDBs:STF:frequency
+NDBs:STF:name
+NDBs:STF:symbol
+NDBs:SVR:frequency
+NDBs:SVR:name
+NDBs:SVR:symbol
+NDBs:T:frequency
+NDBs:T:name
+NDBs:T:symbol
+NDBs:TA:frequency
+NDBs:TA:name
+NDBs:TA:symbol
+NDBs:TAZ:frequency
+NDBs:TAZ:name
+NDBs:TAZ:symbol
+NDBs:TEA:frequency
+NDBs:TEA:name
+NDBs:TEA:symbol
+NDBs:THS:frequency
+NDBs:THS:name
+NDBs:THS:symbol
+NDBs:TIM:frequency
+NDBs:TIM:name
+NDBs:TIM:symbol
+NDBs:TN:frequency
+NDBs:TN:name
+NDBs:TN:symbol
+NDBs:TNJ:frequency
+NDBs:TNJ:name
+NDBs:TNJ:symbol
+NDBs:TPL:frequency
+NDBs:TPL:name
+NDBs:TPL:symbol
+NDBs:TPS:frequency
+NDBs:TPS:name
+NDBs:TPS:symbol
+NDBs:TRE:frequency
+NDBs:TRE:name
+NDBs:TRE:symbol
+NDBs:TRI:frequency
+NDBs:TRI:name
+NDBs:TRI:symbol
+NDBs:TRN:frequency
+NDBs:TRN:name
+NDBs:TRN:symbol
+NDBs:TSR:frequency
+NDBs:TSR:name
+NDBs:TSR:symbol
+NDBs:TU:frequency
+NDBs:TU:name
+NDBs:TU:symbol
+NDBs:UNA:frequency
+NDBs:UNA:name
+NDBs:UNA:symbol
+NDBs:URB:frequency
+NDBs:URB:name
+NDBs:URB:symbol
+NDBs:UZ:frequency
+NDBs:UZ:name
+NDBs:UZ:symbol
+NDBs:VAL:frequency
+NDBs:VAL:name
+NDBs:VAL:symbol
+NDBs:VAR:frequency
+NDBs:VAR:name
+NDBs:VAR:symbol
+NDBs:VEG:frequency
+NDBs:VEG:name
+NDBs:VEG:symbol
+NDBs:VEN:frequency
+NDBs:VEN:name
+NDBs:VEN:symbol
+NDBs:VG:frequency
+NDBs:VG:name
+NDBs:VG:symbol
+NDBs:VIB:frequency
+NDBs:VIB:name
+NDBs:VIB:symbol
+NDBs:VIE:frequency
+NDBs:VIE:name
+NDBs:VIE:symbol
+NDBs:VL:frequency
+NDBs:VL:name
+NDBs:VL:symbol
+NDBs:VRA:frequency
+NDBs:VRA:name
+NDBs:VRA:symbol
+NDBs:VRL:frequency
+NDBs:VRL:name
+NDBs:VRL:symbol
+NDBs:VRN:frequency
+NDBs:VRN:name
+NDBs:VRN:symbol
+NDBs:VRS:frequency
+NDBs:VRS:name
+NDBs:VRS:symbol
+NDBs:VTN:frequency
+NDBs:VTN:name
+NDBs:VTN:symbol
+NDBs:WAK:frequency
+NDBs:WAK:name
+NDBs:WAK:symbol
+NDBs:ZAG:frequency
+NDBs:ZAG:name
+NDBs:ZAG:symbol
+NDBs:ZK:frequency
+NDBs:ZK:name
+NDBs:ZK:symbol
+NDBs:ZO:frequency
+NDBs:ZO:name
+NDBs:ZO:symbol
+NDBs:ZRA:frequency
+NDBs:ZRA:name
+NDBs:ZRA:symbol
+NDBs:ZV:frequency
+NDBs:ZV:name
+NDBs:ZV:symbol
+NDBs:ZW:frequency
+NDBs:ZW:name
+NDBs:ZW:symbol
+Regions:LJLJ Grass Section 1:polygon
+Regions:LJLJ Grass Section 10:polygon
+Regions:LJLJ Grass Section 11:polygon
+Regions:LJLJ Grass Section 12:polygon
+Regions:LJLJ Grass Section 13:polygon
+Regions:LJLJ Grass Section 14:polygon
+Regions:LJLJ Grass Section 15:polygon
+Regions:LJLJ Grass Section 16:polygon
+Regions:LJLJ Grass Section 2:polygon
+Regions:LJLJ Grass Section 3:polygon
+Regions:LJLJ Grass Section 4:polygon
+Regions:LJLJ Grass Section 5:polygon
+Regions:LJLJ Grass Section 6:polygon
+Regions:LJLJ Grass Section 7:polygon
+Regions:LJLJ Grass Section 8:polygon
+Regions:LJLJ Grass Section 9:polygon
+Regions:LJLJ Runway (Edge):polygon
+Regions:LJLJ Runway (Main):polygon
+Regions:LJPZ Grass Section 1:polygon
+Regions:LJPZ Grass Section 2:polygon
+Regions:LJPZ Grass Section 3:polygon
+Regions:LJPZ Runway:polygon
+Runways:BKPR 17-35:extended centerline 1
+Runways:BKPR 17-35:extended centerline 1 left ticks
+Runways:BKPR 17-35:extended centerline 1 right ticks
+Runways:BKPR 17-35:extended centerline 2
+Runways:BKPR 17-35:extended centerline 2 left ticks
+Runways:BKPR 17-35:extended centerline 2 right ticks
+Runways:LAGJ 16-34:extended centerline 1
+Runways:LAGJ 16-34:extended centerline 1 left ticks
+Runways:LAGJ 16-34:extended centerline 1 right ticks
+Runways:LAGJ 16-34:extended centerline 2
+Runways:LAGJ 16-34:extended centerline 2 left ticks
+Runways:LAGJ 16-34:extended centerline 2 right ticks
+Runways:LAGJ 17-35:extended centerline 1
+Runways:LAGJ 17-35:extended centerline 1 left ticks
+Runways:LAGJ 17-35:extended centerline 1 right ticks
+Runways:LAGJ 17-35:extended centerline 2
+Runways:LAGJ 17-35:extended centerline 2 left ticks
+Runways:LAGJ 17-35:extended centerline 2 right ticks
+Runways:LAKO 01-19:extended centerline 1
+Runways:LAKO 01-19:extended centerline 1 left ticks
+Runways:LAKO 01-19:extended centerline 1 right ticks
+Runways:LAKO 01-19:extended centerline 2
+Runways:LAKO 01-19:extended centerline 2 left ticks
+Runways:LAKO 01-19:extended centerline 2 right ticks
+Runways:LAKU 01-19:extended centerline 1
+Runways:LAKU 01-19:extended centerline 1 left ticks
+Runways:LAKU 01-19:extended centerline 1 right ticks
+Runways:LAKU 01-19:extended centerline 2
+Runways:LAKU 01-19:extended centerline 2 left ticks
+Runways:LAKU 01-19:extended centerline 2 right ticks
+Runways:LAKV 14-32:extended centerline 1
+Runways:LAKV 14-32:extended centerline 1 left ticks
+Runways:LAKV 14-32:extended centerline 1 right ticks
+Runways:LAKV 14-32:extended centerline 2
+Runways:LAKV 14-32:extended centerline 2 left ticks
+Runways:LAKV 14-32:extended centerline 2 right ticks
+Runways:LASK 17-35:extended centerline 1
+Runways:LASK 17-35:extended centerline 1 left ticks
+Runways:LASK 17-35:extended centerline 1 right ticks
+Runways:LASK 17-35:extended centerline 2
+Runways:LASK 17-35:extended centerline 2 left ticks
+Runways:LASK 17-35:extended centerline 2 right ticks
+Runways:LATI 17-35:extended centerline 1
+Runways:LATI 17-35:extended centerline 1 left ticks
+Runways:LATI 17-35:extended centerline 1 right ticks
+Runways:LATI 17-35:extended centerline 2
+Runways:LATI 17-35:extended centerline 2 left ticks
+Runways:LATI 17-35:extended centerline 2 right ticks
+Runways:LAVL 16-34:extended centerline 1
+Runways:LAVL 16-34:extended centerline 1 left ticks
+Runways:LAVL 16-34:extended centerline 1 right ticks
+Runways:LAVL 16-34:extended centerline 2
+Runways:LAVL 16-34:extended centerline 2 left ticks
+Runways:LAVL 16-34:extended centerline 2 right ticks
+Runways:LDDU 12-30:extended centerline 1
+Runways:LDDU 12-30:extended centerline 1 left ticks
+Runways:LDDU 12-30:extended centerline 1 right ticks
+Runways:LDDU 12-30:extended centerline 2
+Runways:LDDU 12-30:extended centerline 2 left ticks
+Runways:LDDU 12-30:extended centerline 2 right ticks
+Runways:LDLO 02-20:extended centerline 1
+Runways:LDLO 02-20:extended centerline 1 left ticks
+Runways:LDLO 02-20:extended centerline 1 right ticks
+Runways:LDLO 02-20:extended centerline 2
+Runways:LDLO 02-20:extended centerline 2 left ticks
+Runways:LDLO 02-20:extended centerline 2 right ticks
+Runways:LDOC 10L-28R:extended centerline 1
+Runways:LDOC 10L-28R:extended centerline 1 left ticks
+Runways:LDOC 10L-28R:extended centerline 1 right ticks
+Runways:LDOC 10L-28R:extended centerline 2
+Runways:LDOC 10L-28R:extended centerline 2 left ticks
+Runways:LDOC 10L-28R:extended centerline 2 right ticks
+Runways:LDOC 10R-28L:extended centerline 1
+Runways:LDOC 10R-28L:extended centerline 1 left ticks
+Runways:LDOC 10R-28L:extended centerline 1 right ticks
+Runways:LDOC 10R-28L:extended centerline 2
+Runways:LDOC 10R-28L:extended centerline 2 left ticks
+Runways:LDOC 10R-28L:extended centerline 2 right ticks
+Runways:LDOR 07-25:extended centerline 1
+Runways:LDOR 07-25:extended centerline 1 left ticks
+Runways:LDOR 07-25:extended centerline 1 right ticks
+Runways:LDOR 07-25:extended centerline 2
+Runways:LDOR 07-25:extended centerline 2 left ticks
+Runways:LDOR 07-25:extended centerline 2 right ticks
+Runways:LDOS 11-29:extended centerline 1
+Runways:LDOS 11-29:extended centerline 1 left ticks
+Runways:LDOS 11-29:extended centerline 1 right ticks
+Runways:LDOS 11-29:extended centerline 2
+Runways:LDOS 11-29:extended centerline 2 left ticks
+Runways:LDOS 11-29:extended centerline 2 right ticks
+Runways:LDOV 04-22:extended centerline 1
+Runways:LDOV 04-22:extended centerline 1 left ticks
+Runways:LDOV 04-22:extended centerline 1 right ticks
+Runways:LDOV 04-22:extended centerline 2
+Runways:LDOV 04-22:extended centerline 2 left ticks
+Runways:LDOV 04-22:extended centerline 2 right ticks
+Runways:LDPL 09-27:extended centerline 1
+Runways:LDPL 09-27:extended centerline 1 left ticks
+Runways:LDPL 09-27:extended centerline 1 right ticks
+Runways:LDPL 09-27:extended centerline 2
+Runways:LDPL 09-27:extended centerline 2 left ticks
+Runways:LDPL 09-27:extended centerline 2 right ticks
+Runways:LDPP 09-27:extended centerline 1
+Runways:LDPP 09-27:extended centerline 1 left ticks
+Runways:LDPP 09-27:extended centerline 1 right ticks
+Runways:LDPP 09-27:extended centerline 2
+Runways:LDPP 09-27:extended centerline 2 left ticks
+Runways:LDPP 09-27:extended centerline 2 right ticks
+Runways:LDPV 18-36:extended centerline 1
+Runways:LDPV 18-36:extended centerline 1 left ticks
+Runways:LDPV 18-36:extended centerline 1 right ticks
+Runways:LDPV 18-36:extended centerline 2
+Runways:LDPV 18-36:extended centerline 2 left ticks
+Runways:LDPV 18-36:extended centerline 2 right ticks
+Runways:LDRG 07-25:extended centerline 1
+Runways:LDRG 07-25:extended centerline 1 left ticks
+Runways:LDRG 07-25:extended centerline 1 right ticks
+Runways:LDRG 07-25:extended centerline 2
+Runways:LDRG 07-25:extended centerline 2 left ticks
+Runways:LDRG 07-25:extended centerline 2 right ticks
+Runways:LDRI 14-32:extended centerline 1
+Runways:LDRI 14-32:extended centerline 1 left ticks
+Runways:LDRI 14-32:extended centerline 1 right ticks
+Runways:LDRI 14-32:extended centerline 2
+Runways:LDRI 14-32:extended centerline 2 left ticks
+Runways:LDRI 14-32:extended centerline 2 right ticks
+Runways:LDRO 14-32:extended centerline 1
+Runways:LDRO 14-32:extended centerline 1 left ticks
+Runways:LDRO 14-32:extended centerline 1 right ticks
+Runways:LDRO 14-32:extended centerline 2
+Runways:LDRO 14-32:extended centerline 2 left ticks
+Runways:LDRO 14-32:extended centerline 2 right ticks
+Runways:LDSB 04-22:extended centerline 1
+Runways:LDSB 04-22:extended centerline 1 left ticks
+Runways:LDSB 04-22:extended centerline 1 right ticks
+Runways:LDSB 04-22:extended centerline 2
+Runways:LDSB 04-22:extended centerline 2 left ticks
+Runways:LDSB 04-22:extended centerline 2 right ticks
+Runways:LDSH 10-28:extended centerline 1
+Runways:LDSH 10-28:extended centerline 1 left ticks
+Runways:LDSH 10-28:extended centerline 1 right ticks
+Runways:LDSH 10-28:extended centerline 2
+Runways:LDSH 10-28:extended centerline 2 left ticks
+Runways:LDSH 10-28:extended centerline 2 right ticks
+Runways:LDSL 10-28:extended centerline 1
+Runways:LDSL 10-28:extended centerline 1 left ticks
+Runways:LDSL 10-28:extended centerline 1 right ticks
+Runways:LDSL 10-28:extended centerline 2
+Runways:LDSL 10-28:extended centerline 2 left ticks
+Runways:LDSL 10-28:extended centerline 2 right ticks
+Runways:LDSM 09-27:extended centerline 1
+Runways:LDSM 09-27:extended centerline 1 left ticks
+Runways:LDSM 09-27:extended centerline 1 right ticks
+Runways:LDSM 09-27:extended centerline 2
+Runways:LDSM 09-27:extended centerline 2 left ticks
+Runways:LDSM 09-27:extended centerline 2 right ticks
+Runways:LDSP 05-23:extended centerline 1
+Runways:LDSP 05-23:extended centerline 1 left ticks
+Runways:LDSP 05-23:extended centerline 1 right ticks
+Runways:LDSP 05-23:extended centerline 2
+Runways:LDSP 05-23:extended centerline 2 left ticks
+Runways:LDSP 05-23:extended centerline 2 right ticks
+Runways:LDSS 08-26:extended centerline 1
+Runways:LDSS 08-26:extended centerline 1 left ticks
+Runways:LDSS 08-26:extended centerline 1 right ticks
+Runways:LDSS 08-26:extended centerline 2
+Runways:LDSS 08-26:extended centerline 2 left ticks
+Runways:LDSS 08-26:extended centerline 2 right ticks
+Runways:LDST 06-24:extended centerline 1
+Runways:LDST 06-24:extended centerline 1 left ticks
+Runways:LDST 06-24:extended centerline 1 right ticks
+Runways:LDST 06-24:extended centerline 2
+Runways:LDST 06-24:extended centerline 2 left ticks
+Runways:LDST 06-24:extended centerline 2 right ticks
+Runways:LDST 09-27:extended centerline 1
+Runways:LDST 09-27:extended centerline 1 left ticks
+Runways:LDST 09-27:extended centerline 1 right ticks
+Runways:LDST 09-27:extended centerline 2
+Runways:LDST 09-27:extended centerline 2 left ticks
+Runways:LDST 09-27:extended centerline 2 right ticks
+Runways:LDSU 09-27:extended centerline 1
+Runways:LDSU 09-27:extended centerline 1 left ticks
+Runways:LDSU 09-27:extended centerline 1 right ticks
+Runways:LDSU 09-27:extended centerline 2
+Runways:LDSU 09-27:extended centerline 2 left ticks
+Runways:LDSU 09-27:extended centerline 2 right ticks
+Runways:LDSU 15-33:extended centerline 1
+Runways:LDSU 15-33:extended centerline 1 left ticks
+Runways:LDSU 15-33:extended centerline 1 right ticks
+Runways:LDSU 15-33:extended centerline 2
+Runways:LDSU 15-33:extended centerline 2 left ticks
+Runways:LDSU 15-33:extended centerline 2 right ticks
+Runways:LDVA 16-34:extended centerline 1
+Runways:LDVA 16-34:extended centerline 1 left ticks
+Runways:LDVA 16-34:extended centerline 1 right ticks
+Runways:LDVA 16-34:extended centerline 2
+Runways:LDVA 16-34:extended centerline 2 left ticks
+Runways:LDVA 16-34:extended centerline 2 right ticks
+Runways:LDVC 03-21:extended centerline 1
+Runways:LDVC 03-21:extended centerline 1 left ticks
+Runways:LDVC 03-21:extended centerline 1 right ticks
+Runways:LDVC 03-21:extended centerline 2
+Runways:LDVC 03-21:extended centerline 2 left ticks
+Runways:LDVC 03-21:extended centerline 2 right ticks
+Runways:LDVR 13-31:extended centerline 1
+Runways:LDVR 13-31:extended centerline 1 left ticks
+Runways:LDVR 13-31:extended centerline 1 right ticks
+Runways:LDVR 13-31:extended centerline 2
+Runways:LDVR 13-31:extended centerline 2 left ticks
+Runways:LDVR 13-31:extended centerline 2 right ticks
+Runways:LDZA 05-23:extended centerline 1
+Runways:LDZA 05-23:extended centerline 1 left ticks
+Runways:LDZA 05-23:extended centerline 1 right ticks
+Runways:LDZA 05-23:extended centerline 2
+Runways:LDZA 05-23:extended centerline 2 left ticks
+Runways:LDZA 05-23:extended centerline 2 right ticks
+Runways:LDZD 04-22:extended centerline 1
+Runways:LDZD 04-22:extended centerline 1 left ticks
+Runways:LDZD 04-22:extended centerline 1 right ticks
+Runways:LDZD 04-22:extended centerline 2
+Runways:LDZD 04-22:extended centerline 2 left ticks
+Runways:LDZD 04-22:extended centerline 2 right ticks
+Runways:LDZD 14-32:extended centerline 1
+Runways:LDZD 14-32:extended centerline 1 left ticks
+Runways:LDZD 14-32:extended centerline 1 right ticks
+Runways:LDZD 14-32:extended centerline 2
+Runways:LDZD 14-32:extended centerline 2 left ticks
+Runways:LDZD 14-32:extended centerline 2 right ticks
+Runways:LDZE 04-22:extended centerline 1
+Runways:LDZE 04-22:extended centerline 1 left ticks
+Runways:LDZE 04-22:extended centerline 1 right ticks
+Runways:LDZE 04-22:extended centerline 2
+Runways:LDZE 04-22:extended centerline 2 left ticks
+Runways:LDZE 04-22:extended centerline 2 right ticks
+Runways:LDZJ 02-20:extended centerline 1
+Runways:LDZJ 02-20:extended centerline 1 left ticks
+Runways:LDZJ 02-20:extended centerline 1 right ticks
+Runways:LDZJ 02-20:extended centerline 2
+Runways:LDZJ 02-20:extended centerline 2 left ticks
+Runways:LDZJ 02-20:extended centerline 2 right ticks
+Runways:LDZK 17-35:extended centerline 1
+Runways:LDZK 17-35:extended centerline 1 left ticks
+Runways:LDZK 17-35:extended centerline 1 right ticks
+Runways:LDZK 17-35:extended centerline 2
+Runways:LDZK 17-35:extended centerline 2 left ticks
+Runways:LDZK 17-35:extended centerline 2 right ticks
+Runways:LDZL 10L-28R:extended centerline 1
+Runways:LDZL 10L-28R:extended centerline 1 left ticks
+Runways:LDZL 10L-28R:extended centerline 1 right ticks
+Runways:LDZL 10L-28R:extended centerline 2
+Runways:LDZL 10L-28R:extended centerline 2 left ticks
+Runways:LDZL 10L-28R:extended centerline 2 right ticks
+Runways:LDZL 10R-28L:extended centerline 1
+Runways:LDZL 10R-28L:extended centerline 1 left ticks
+Runways:LDZL 10R-28L:extended centerline 1 right ticks
+Runways:LDZL 10R-28L:extended centerline 2
+Runways:LDZL 10R-28L:extended centerline 2 left ticks
+Runways:LDZL 10R-28L:extended centerline 2 right ticks
+Runways:LDZU 13-31:extended centerline 1
+Runways:LDZU 13-31:extended centerline 1 left ticks
+Runways:LDZU 13-31:extended centerline 1 right ticks
+Runways:LDZU 13-31:extended centerline 2
+Runways:LDZU 13-31:extended centerline 2 left ticks
+Runways:LDZU 13-31:extended centerline 2 right ticks
+Runways:LJCE 09-27:extended centerline 1
+Runways:LJCE 09-27:extended centerline 1 left ticks
+Runways:LJCE 09-27:extended centerline 1 right ticks
+Runways:LJCE 09-27:extended centerline 2
+Runways:LJCE 09-27:extended centerline 2 left ticks
+Runways:LJCE 09-27:extended centerline 2 right ticks
+Runways:LJLJ 12-30:extended centerline 1
+Runways:LJLJ 12-30:extended centerline 1 left ticks
+Runways:LJLJ 12-30:extended centerline 1 right ticks
+Runways:LJLJ 12-30:extended centerline 2
+Runways:LJLJ 12-30:extended centerline 2 left ticks
+Runways:LJLJ 12-30:extended centerline 2 right ticks
+Runways:LJMB 14-32:extended centerline 1
+Runways:LJMB 14-32:extended centerline 1 left ticks
+Runways:LJMB 14-32:extended centerline 1 right ticks
+Runways:LJMB 14-32:extended centerline 2
+Runways:LJMB 14-32:extended centerline 2 left ticks
+Runways:LJMB 14-32:extended centerline 2 right ticks
+Runways:LJPZ 15-33:extended centerline 1
+Runways:LJPZ 15-33:extended centerline 1 left ticks
+Runways:LJPZ 15-33:extended centerline 1 right ticks
+Runways:LJPZ 15-33:extended centerline 2
+Runways:LJPZ 15-33:extended centerline 2 left ticks
+Runways:LJPZ 15-33:extended centerline 2 right ticks
+Runways:LQBI 12-30:extended centerline 1
+Runways:LQBI 12-30:extended centerline 1 left ticks
+Runways:LQBI 12-30:extended centerline 1 right ticks
+Runways:LQBI 12-30:extended centerline 2
+Runways:LQBI 12-30:extended centerline 2 left ticks
+Runways:LQBI 12-30:extended centerline 2 right ticks
+Runways:LQBK 17-35:extended centerline 1
+Runways:LQBK 17-35:extended centerline 1 left ticks
+Runways:LQBK 17-35:extended centerline 1 right ticks
+Runways:LQBK 17-35:extended centerline 2
+Runways:LQBK 17-35:extended centerline 2 left ticks
+Runways:LQBK 17-35:extended centerline 2 right ticks
+Runways:LQBZ 01-19:extended centerline 1
+Runways:LQBZ 01-19:extended centerline 1 left ticks
+Runways:LQBZ 01-19:extended centerline 1 right ticks
+Runways:LQBZ 01-19:extended centerline 2
+Runways:LQBZ 01-19:extended centerline 2 left ticks
+Runways:LQBZ 01-19:extended centerline 2 right ticks
+Runways:LQCG 11-29:extended centerline 1
+Runways:LQCG 11-29:extended centerline 1 left ticks
+Runways:LQCG 11-29:extended centerline 1 right ticks
+Runways:LQCG 11-29:extended centerline 2
+Runways:LQCG 11-29:extended centerline 2 left ticks
+Runways:LQCG 11-29:extended centerline 2 right ticks
+Runways:LQJL 04-22:extended centerline 1
+Runways:LQJL 04-22:extended centerline 1 left ticks
+Runways:LQJL 04-22:extended centerline 1 right ticks
+Runways:LQJL 04-22:extended centerline 2
+Runways:LQJL 04-22:extended centerline 2 left ticks
+Runways:LQJL 04-22:extended centerline 2 right ticks
+Runways:LQLV 13-31:extended centerline 1
+Runways:LQLV 13-31:extended centerline 1 left ticks
+Runways:LQLV 13-31:extended centerline 1 right ticks
+Runways:LQLV 13-31:extended centerline 2
+Runways:LQLV 13-31:extended centerline 2 left ticks
+Runways:LQLV 13-31:extended centerline 2 right ticks
+Runways:LQMO 16-34:extended centerline 1
+Runways:LQMO 16-34:extended centerline 1 left ticks
+Runways:LQMO 16-34:extended centerline 1 right ticks
+Runways:LQMO 16-34:extended centerline 2
+Runways:LQMO 16-34:extended centerline 2 left ticks
+Runways:LQMO 16-34:extended centerline 2 right ticks
+Runways:LQNI 18-36:extended centerline 1
+Runways:LQNI 18-36:extended centerline 1 left ticks
+Runways:LQNI 18-36:extended centerline 1 right ticks
+Runways:LQNI 18-36:extended centerline 2
+Runways:LQNI 18-36:extended centerline 2 left ticks
+Runways:LQNI 18-36:extended centerline 2 right ticks
+Runways:LQPD 09-27:extended centerline 1
+Runways:LQPD 09-27:extended centerline 1 left ticks
+Runways:LQPD 09-27:extended centerline 1 right ticks
+Runways:LQPD 09-27:extended centerline 2
+Runways:LQPD 09-27:extended centerline 2 left ticks
+Runways:LQPD 09-27:extended centerline 2 right ticks
+Runways:LQPP 09-27:extended centerline 1
+Runways:LQPP 09-27:extended centerline 1 left ticks
+Runways:LQPP 09-27:extended centerline 1 right ticks
+Runways:LQPP 09-27:extended centerline 2
+Runways:LQPP 09-27:extended centerline 2 left ticks
+Runways:LQPP 09-27:extended centerline 2 right ticks
+Runways:LQPP 18-36:extended centerline 1
+Runways:LQPP 18-36:extended centerline 1 left ticks
+Runways:LQPP 18-36:extended centerline 1 right ticks
+Runways:LQPP 18-36:extended centerline 2
+Runways:LQPP 18-36:extended centerline 2 left ticks
+Runways:LQPP 18-36:extended centerline 2 right ticks
+Runways:LQSA 12-30:extended centerline 1
+Runways:LQSA 12-30:extended centerline 1 left ticks
+Runways:LQSA 12-30:extended centerline 1 right ticks
+Runways:LQSA 12-30:extended centerline 2
+Runways:LQSA 12-30:extended centerline 2 left ticks
+Runways:LQSA 12-30:extended centerline 2 right ticks
+Runways:LQTZ 09-27:extended centerline 1
+Runways:LQTZ 09-27:extended centerline 1 left ticks
+Runways:LQTZ 09-27:extended centerline 1 right ticks
+Runways:LQTZ 09-27:extended centerline 2
+Runways:LQTZ 09-27:extended centerline 2 left ticks
+Runways:LQTZ 09-27:extended centerline 2 right ticks
+Runways:LQVI 09-27:extended centerline 1
+Runways:LQVI 09-27:extended centerline 1 left ticks
+Runways:LQVI 09-27:extended centerline 1 right ticks
+Runways:LQVI 09-27:extended centerline 2
+Runways:LQVI 09-27:extended centerline 2 left ticks
+Runways:LQVI 09-27:extended centerline 2 right ticks
+Runways:LWOH 01-19:extended centerline 1
+Runways:LWOH 01-19:extended centerline 1 left ticks
+Runways:LWOH 01-19:extended centerline 1 right ticks
+Runways:LWOH 01-19:extended centerline 2
+Runways:LWOH 01-19:extended centerline 2 left ticks
+Runways:LWOH 01-19:extended centerline 2 right ticks
+Runways:LWSK 16-34:extended centerline 1
+Runways:LWSK 16-34:extended centerline 1 left ticks
+Runways:LWSK 16-34:extended centerline 1 right ticks
+Runways:LWSK 16-34:extended centerline 2
+Runways:LWSK 16-34:extended centerline 2 left ticks
+Runways:LWSK 16-34:extended centerline 2 right ticks
+Runways:LYBE 12-30:extended centerline 1
+Runways:LYBE 12-30:extended centerline 1 left ticks
+Runways:LYBE 12-30:extended centerline 1 right ticks
+Runways:LYBE 12-30:extended centerline 2
+Runways:LYBE 12-30:extended centerline 2 left ticks
+Runways:LYBE 12-30:extended centerline 2 right ticks
+Runways:LYBJ 15R-33L:extended centerline 1
+Runways:LYBJ 15R-33L:extended centerline 1 left ticks
+Runways:LYBJ 15R-33L:extended centerline 1 right ticks
+Runways:LYBJ 15R-33L:extended centerline 2
+Runways:LYBJ 15R-33L:extended centerline 2 left ticks
+Runways:LYBJ 15R-33L:extended centerline 2 right ticks
+Runways:LYBO 15-33:extended centerline 1
+Runways:LYBO 15-33:extended centerline 1 left ticks
+Runways:LYBO 15-33:extended centerline 1 right ticks
+Runways:LYBO 15-33:extended centerline 2
+Runways:LYBO 15-33:extended centerline 2 left ticks
+Runways:LYBO 15-33:extended centerline 2 right ticks
+Runways:LYBR 01L-19R:extended centerline 1
+Runways:LYBR 01L-19R:extended centerline 1 left ticks
+Runways:LYBR 01L-19R:extended centerline 2
+Runways:LYBR 01L-19R:extended centerline 2 right ticks
+Runways:LYBR 01R-19L:extended centerline 1
+Runways:LYBR 01R-19L:extended centerline 1 right ticks
+Runways:LYBR 01R-19L:extended centerline 2
+Runways:LYBR 01R-19L:extended centerline 2 left ticks
+Runways:LYBT 12L-30R:extended centerline 1
+Runways:LYBT 12L-30R:extended centerline 1 left ticks
+Runways:LYBT 12L-30R:extended centerline 2
+Runways:LYBT 12L-30R:extended centerline 2 right ticks
+Runways:LYBT 12R-30L:extended centerline 1
+Runways:LYBT 12R-30L:extended centerline 1 right ticks
+Runways:LYBT 12R-30L:extended centerline 2
+Runways:LYBT 12R-30L:extended centerline 2 left ticks
+Runways:LYKV 14-32:extended centerline 1
+Runways:LYKV 14-32:extended centerline 1 left ticks
+Runways:LYKV 14-32:extended centerline 1 right ticks
+Runways:LYKV 14-32:extended centerline 2
+Runways:LYKV 14-32:extended centerline 2 left ticks
+Runways:LYKV 14-32:extended centerline 2 right ticks
+Runways:LYNI 11-29:extended centerline 1
+Runways:LYNI 11-29:extended centerline 1 left ticks
+Runways:LYNI 11-29:extended centerline 1 right ticks
+Runways:LYNI 11-29:extended centerline 2
+Runways:LYNI 11-29:extended centerline 2 left ticks
+Runways:LYNI 11-29:extended centerline 2 right ticks
+Runways:LYNK 15-33:extended centerline 1
+Runways:LYNK 15-33:extended centerline 1 left ticks
+Runways:LYNK 15-33:extended centerline 1 right ticks
+Runways:LYNK 15-33:extended centerline 2
+Runways:LYNK 15-33:extended centerline 2 left ticks
+Runways:LYNK 15-33:extended centerline 2 right ticks
+Runways:LYNS 14-32:extended centerline 1
+Runways:LYNS 14-32:extended centerline 1 left ticks
+Runways:LYNS 14-32:extended centerline 1 right ticks
+Runways:LYNS 14-32:extended centerline 2
+Runways:LYNS 14-32:extended centerline 2 left ticks
+Runways:LYNS 14-32:extended centerline 2 right ticks
+Runways:LYPA 13-31:extended centerline 1
+Runways:LYPA 13-31:extended centerline 1 left ticks
+Runways:LYPA 13-31:extended centerline 1 right ticks
+Runways:LYPA 13-31:extended centerline 2
+Runways:LYPA 13-31:extended centerline 2 left ticks
+Runways:LYPA 13-31:extended centerline 2 right ticks
+Runways:LYPG 18-36:extended centerline 1
+Runways:LYPG 18-36:extended centerline 1 left ticks
+Runways:LYPG 18-36:extended centerline 1 right ticks
+Runways:LYPG 18-36:extended centerline 2
+Runways:LYPG 18-36:extended centerline 2 left ticks
+Runways:LYPG 18-36:extended centerline 2 right ticks
+Runways:LYPN 10-28:extended centerline 1
+Runways:LYPN 10-28:extended centerline 1 left ticks
+Runways:LYPN 10-28:extended centerline 1 right ticks
+Runways:LYPN 10-28:extended centerline 2
+Runways:LYPN 10-28:extended centerline 2 left ticks
+Runways:LYPN 10-28:extended centerline 2 right ticks
+Runways:LYPO 18L-36R:extended centerline 1
+Runways:LYPO 18L-36R:extended centerline 1 left ticks
+Runways:LYPO 18L-36R:extended centerline 2
+Runways:LYPO 18L-36R:extended centerline 2 right ticks
+Runways:LYPO 18R-36L:extended centerline 1
+Runways:LYPO 18R-36L:extended centerline 1 right ticks
+Runways:LYPO 18R-36L:extended centerline 2
+Runways:LYPO 18R-36L:extended centerline 2 left ticks
+Runways:LYSD 18-36:extended centerline 1
+Runways:LYSD 18-36:extended centerline 1 left ticks
+Runways:LYSD 18-36:extended centerline 1 right ticks
+Runways:LYSD 18-36:extended centerline 2
+Runways:LYSD 18-36:extended centerline 2 left ticks
+Runways:LYSD 18-36:extended centerline 2 right ticks
+Runways:LYSM 09-27:extended centerline 1
+Runways:LYSM 09-27:extended centerline 1 left ticks
+Runways:LYSM 09-27:extended centerline 1 right ticks
+Runways:LYSM 09-27:extended centerline 2
+Runways:LYSM 09-27:extended centerline 2 left ticks
+Runways:LYSM 09-27:extended centerline 2 right ticks
+Runways:LYSU 14-32:extended centerline 1
+Runways:LYSU 14-32:extended centerline 1 left ticks
+Runways:LYSU 14-32:extended centerline 1 right ticks
+Runways:LYSU 14-32:extended centerline 2
+Runways:LYSU 14-32:extended centerline 2 left ticks
+Runways:LYSU 14-32:extended centerline 2 right ticks
+Runways:LYTV 14-32:extended centerline 1
+Runways:LYTV 14-32:extended centerline 1 left ticks
+Runways:LYTV 14-32:extended centerline 1 right ticks
+Runways:LYTV 14-32:extended centerline 2
+Runways:LYTV 14-32:extended centerline 2 left ticks
+Runways:LYTV 14-32:extended centerline 2 right ticks
+Runways:LYUZ 10-28:extended centerline 1
+Runways:LYUZ 10-28:extended centerline 1 left ticks
+Runways:LYUZ 10-28:extended centerline 1 right ticks
+Runways:LYUZ 10-28:extended centerline 2
+Runways:LYUZ 10-28:extended centerline 2 left ticks
+Runways:LYUZ 10-28:extended centerline 2 right ticks
+Runways:LYVA 08-26:extended centerline 1
+Runways:LYVA 08-26:extended centerline 1 left ticks
+Runways:LYVA 08-26:extended centerline 1 right ticks
+Runways:LYVA 08-26:extended centerline 2
+Runways:LYVA 08-26:extended centerline 2 left ticks
+Runways:LYVA 08-26:extended centerline 2 right ticks
+Runways:LYVR 01L-19R:extended centerline 1
+Runways:LYVR 01L-19R:extended centerline 1 left ticks
+Runways:LYVR 01L-19R:extended centerline 2
+Runways:LYVR 01L-19R:extended centerline 2 right ticks
+Runways:LYVR 01R-19L:extended centerline 1
+Runways:LYVR 01R-19L:extended centerline 1 right ticks
+Runways:LYVR 01R-19L:extended centerline 2
+Runways:LYVR 01R-19L:extended centerline 2 left ticks
+Runways:LYVR 16-34:extended centerline 1
+Runways:LYVR 16-34:extended centerline 1 left ticks
+Runways:LYVR 16-34:extended centerline 1 right ticks
+Runways:LYVR 16-34:extended centerline 2
+Runways:LYVR 16-34:extended centerline 2 left ticks
+Runways:LYVR 16-34:extended centerline 2 right ticks
+Runways:LYZR 15-33:extended centerline 1
+Runways:LYZR 15-33:extended centerline 1 left ticks
+Runways:LYZR 15-33:extended centerline 1 right ticks
+Runways:LYZR 15-33:extended centerline 2
+Runways:LYZR 15-33:extended centerline 2 left ticks
+Runways:LYZR 15-33:extended centerline 2 right ticks
+VORs:AGH:frequency
+VORs:AGH:name
+VORs:AGH:symbol
+VORs:ANC:frequency
+VORs:ANC:name
+VORs:ANC:symbol
+VORs:AQP:frequency
+VORs:AQP:name
+VORs:AQP:symbol
+VORs:ARD:frequency
+VORs:ARD:name
+VORs:ARD:symbol
+VORs:BAI:frequency
+VORs:BAI:name
+VORs:BAI:symbol
+VORs:BAR:frequency
+VORs:BAR:name
+VORs:BAR:symbol
+VORs:BEO:frequency
+VORs:BEO:name
+VORs:BEO:symbol
+VORs:BGD:frequency
+VORs:BGD:name
+VORs:BGD:symbol
+VORs:BKS:frequency
+VORs:BKS:name
+VORs:BKS:symbol
+VORs:BLC:frequency
+VORs:BLC:name
+VORs:BLC:symbol
+VORs:BLO:frequency
+VORs:BLO:name
+VORs:BLO:symbol
+VORs:BOL:frequency
+VORs:BOL:name
+VORs:BOL:symbol
+VORs:BRC:frequency
+VORs:BRC:name
+VORs:BRC:symbol
+VORs:BRD:frequency
+VORs:BRD:name
+VORs:BRD:symbol
+VORs:BUD:frequency
+VORs:BUD:name
+VORs:BUD:symbol
+VORs:BUG:frequency
+VORs:BUG:name
+VORs:BUG:symbol
+VORs:BUI:frequency
+VORs:BUI:name
+VORs:BUI:symbol
+VORs:CHI:frequency
+VORs:CHI:name
+VORs:CHI:symbol
+VORs:CLJ:frequency
+VORs:CLJ:name
+VORs:CLJ:symbol
+VORs:CMP:frequency
+VORs:CMP:name
+VORs:CMP:symbol
+VORs:CNI:frequency
+VORs:CNI:name
+VORs:CNI:symbol
+VORs:CRV:frequency
+VORs:CRV:name
+VORs:CRV:symbol
+VORs:DBK:frequency
+VORs:DBK:name
+VORs:DBK:symbol
+VORs:DER:frequency
+VORs:DER:name
+VORs:DER:symbol
+VORs:DOL:frequency
+VORs:DOL:name
+VORs:DOL:symbol
+VORs:DVA:frequency
+VORs:DVA:name
+VORs:DVA:symbol
+VORs:E:frequency
+VORs:E:name
+VORs:E:symbol
+VORs:FGG:frequency
+VORs:FGG:name
+VORs:FGG:symbol
+VORs:FOL:frequency
+VORs:FOL:name
+VORs:FOL:symbol
+VORs:FRS:frequency
+VORs:FRS:name
+VORs:FRS:symbol
+VORs:FSK:frequency
+VORs:FSK:name
+VORs:FSK:symbol
+VORs:GAR:frequency
+VORs:GAR:name
+VORs:GAR:symbol
+VORs:GRZ:frequency
+VORs:GRZ:name
+VORs:GRZ:symbol
+VORs:ILB:frequency
+VORs:ILB:name
+VORs:ILB:symbol
+VORs:IZD:frequency
+VORs:IZD:name
+VORs:IZD:symbol
+VORs:JAP:frequency
+VORs:JAP:name
+VORs:JAP:symbol
+VORs:KAL:frequency
+VORs:KAL:name
+VORs:KAL:symbol
+VORs:KAS:frequency
+VORs:KAS:name
+VORs:KAS:symbol
+VORs:KEB:frequency
+VORs:KEB:name
+VORs:KEB:symbol
+VORs:KET:frequency
+VORs:KET:name
+VORs:KET:symbol
+VORs:KFT:frequency
+VORs:KFT:name
+VORs:KFT:symbol
+VORs:KIS:frequency
+VORs:KIS:name
+VORs:KIS:symbol
+VORs:KLS:frequency
+VORs:KLS:name
+VORs:KLS:symbol
+VORs:KOR:frequency
+VORs:KOR:name
+VORs:KOR:symbol
+VORs:KOZ:frequency
+VORs:KOZ:name
+VORs:KOZ:symbol
+VORs:KRK:frequency
+VORs:KRK:name
+VORs:KRK:symbol
+VORs:KRV:frequency
+VORs:KRV:name
+VORs:KRV:symbol
+VORs:LAK:frequency
+VORs:LAK:name
+VORs:LAK:symbol
+VORs:LAT:frequency
+VORs:LAT:name
+VORs:LAT:symbol
+VORs:LBL:frequency
+VORs:LBL:name
+VORs:LBL:symbol
+VORs:LCC:frequency
+VORs:LCC:name
+VORs:LCC:symbol
+VORs:LGJ:frequency
+VORs:LGJ:name
+VORs:LGJ:symbol
+VORs:LSJ:frequency
+VORs:LSJ:name
+VORs:LSJ:symbol
+VORs:LUK:frequency
+VORs:LUK:name
+VORs:LUK:symbol
+VORs:MKR:frequency
+VORs:MKR:name
+VORs:MKR:symbol
+VORs:MNR:frequency
+VORs:MNR:name
+VORs:MNR:symbol
+VORs:MSR:frequency
+VORs:MSR:name
+VORs:MSR:symbol
+VORs:NIS:frequency
+VORs:NIS:name
+VORs:NIS:symbol
+VORs:OHR:frequency
+VORs:OHR:name
+VORs:OHR:symbol
+VORs:OMA:frequency
+VORs:OMA:name
+VORs:OMA:symbol
+VORs:OST:frequency
+VORs:OST:name
+VORs:OST:symbol
+VORs:PCT:frequency
+VORs:PCT:name
+VORs:PCT:symbol
+VORs:PEP:frequency
+VORs:PEP:name
+VORs:PEP:symbol
+VORs:PES:frequency
+VORs:PES:name
+VORs:PES:symbol
+VORs:PNZ:frequency
+VORs:PNZ:name
+VORs:PNZ:symbol
+VORs:POD:frequency
+VORs:POD:name
+VORs:POD:symbol
+VORs:POM:frequency
+VORs:POM:name
+VORs:POM:symbol
+VORs:POR:frequency
+VORs:POR:name
+VORs:POR:symbol
+VORs:PRT:frequency
+VORs:PRT:name
+VORs:PRT:symbol
+VORs:PRU:frequency
+VORs:PRU:name
+VORs:PRU:symbol
+VORs:PTB:frequency
+VORs:PTB:name
+VORs:PTB:symbol
+VORs:PTC:frequency
+VORs:PTC:name
+VORs:PTC:symbol
+VORs:PUL:frequency
+VORs:PUL:name
+VORs:PUL:symbol
+VORs:RAW:frequency
+VORs:RAW:name
+VORs:RAW:symbol
+VORs:RCH:frequency
+VORs:RCH:name
+VORs:RCH:symbol
+VORs:RIM:frequency
+VORs:RIM:name
+VORs:RIM:symbol
+VORs:RJK:frequency
+VORs:RJK:name
+VORs:RJK:symbol
+VORs:ROM:frequency
+VORs:ROM:name
+VORs:ROM:symbol
+VORs:SEG:frequency
+VORs:SEG:name
+VORs:SEG:symbol
+VORs:SIN:frequency
+VORs:SIN:name
+VORs:SIN:symbol
+VORs:SKJ:frequency
+VORs:SKJ:name
+VORs:SKJ:symbol
+VORs:SKP:frequency
+VORs:SKP:name
+VORs:SKP:symbol
+VORs:SME:frequency
+VORs:SME:name
+VORs:SME:symbol
+VORs:SMI:frequency
+VORs:SMI:name
+VORs:SMI:symbol
+VORs:SOF:frequency
+VORs:SOF:name
+VORs:SOF:symbol
+VORs:SOR:frequency
+VORs:SOR:name
+VORs:SOR:symbol
+VORs:SPL:frequency
+VORs:SPL:name
+VORs:SPL:symbol
+VORs:STK:frequency
+VORs:STK:name
+VORs:STK:symbol
+VORs:STV:frequency
+VORs:STV:name
+VORs:STV:symbol
+VORs:SVR:frequency
+VORs:SVR:name
+VORs:SVR:symbol
+VORs:TAG:frequency
+VORs:TAG:name
+VORs:TAG:symbol
+VORs:TEA:frequency
+VORs:TEA:name
+VORs:TEA:symbol
+VORs:TES:frequency
+VORs:TES:name
+VORs:TES:symbol
+VORs:TGJ:frequency
+VORs:TGJ:name
+VORs:TGJ:symbol
+VORs:TPL:frequency
+VORs:TPL:name
+VORs:TPL:symbol
+VORs:TPS:frequency
+VORs:TPS:name
+VORs:TPS:symbol
+VORs:TRN:frequency
+VORs:TRN:name
+VORs:TRN:symbol
+VORs:TSL:frequency
+VORs:TSL:name
+VORs:TSL:symbol
+VORs:TZU:frequency
+VORs:TZU:name
+VORs:TZU:symbol
+VORs:VAC:frequency
+VORs:VAC:name
+VORs:VAC:symbol
+VORs:VAL:frequency
+VORs:VAL:name
+VORs:VAL:symbol
+VORs:VBA:frequency
+VORs:VBA:name
+VORs:VBA:symbol
+VORs:VIE:frequency
+VORs:VIE:name
+VORs:VIE:symbol
+VORs:VIT:frequency
+VORs:VIT:name
+VORs:VIT:symbol
+VORs:VIW:frequency
+VORs:VIW:name
+VORs:VIW:symbol
+VORs:YNN:frequency
+VORs:YNN:name
+VORs:YNN:symbol
+VORs:ZAG:frequency
+VORs:ZAG:name
+VORs:ZAG:symbol
+VORs:ZDA:frequency
+VORs:ZDA:name
+VORs:ZDA:symbol
+VORs:ZLU:frequency
+VORs:ZLU:name
+VORs:ZLU:symbol
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:45.466198:13.600020:45.478813:13.633453
+PLUGIN:Ground Radar plugin:AirportElevation:560
+PLUGIN:Ground Radar plugin:AirportRadius:10
+PLUGIN:Ground Radar plugin:GroundMode:LJPZ
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,52 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:BKPR Parking\1:freetext
+Free Text:BKPR Parking\101:freetext
+Free Text:BKPR Parking\101A:freetext
+Free Text:BKPR Parking\101B:freetext
+Free Text:BKPR Parking\1A:freetext
+Free Text:BKPR Parking\2:freetext
+Free Text:BKPR Parking\201:freetext
+Free Text:BKPR Parking\201A:freetext
+Free Text:BKPR Parking\201B:freetext
+Free Text:BKPR Parking\202:freetext
+Free Text:BKPR Parking\202A:freetext
+Free Text:BKPR Parking\202B:freetext
+Free Text:BKPR Parking\203:freetext
+Free Text:BKPR Parking\203A:freetext
+Free Text:BKPR Parking\203B:freetext
+Free Text:BKPR Parking\3:freetext
+Free Text:BKPR Parking\4:freetext
+Free Text:BKPR Parking\5:freetext
+Free Text:BKPR Parking\6:freetext
+Free Text:BKPR Parking\7:freetext
+Free Text:BKPR Taxiways\A1:freetext
+Free Text:BKPR Taxiways\A2:freetext
+Free Text:BKPR Taxiways\A3:freetext
+Free Text:BKPR Taxiways\C:freetext
+Free Text:BKPR Taxiways\DA:freetext
+Free Text:BKPR Taxiways\E:freetext
+Free Text:BKPR Taxiways\F:freetext
+Geo:BKPR Groundlayout Region:
+Regions:BKPR Airport:polygon
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:42.557437:21.000170:42.589809:21.081794
+PLUGIN:Ground Radar plugin:AirportElevation:236
+PLUGIN:Ground Radar plugin:AirportRadius:2.1
+PLUGIN:Ground Radar plugin:GroundMode:BKPR
+PLUGIN:TopSky plugin:NoDraw:1

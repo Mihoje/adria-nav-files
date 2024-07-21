@@ -1,0 +1,68 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LYBE Parkings\A1:freetext
+Free Text:LYBE Parkings\A10:freetext
+Free Text:LYBE Parkings\A2:freetext
+Free Text:LYBE Parkings\A3:freetext
+Free Text:LYBE Parkings\A4:freetext
+Free Text:LYBE Parkings\A5:freetext
+Free Text:LYBE Parkings\A6:freetext
+Free Text:LYBE Parkings\A7:freetext
+Free Text:LYBE Parkings\A8:freetext
+Free Text:LYBE Parkings\A9:freetext
+Free Text:LYBE Parkings\B1:freetext
+Free Text:LYBE Parkings\B2:freetext
+Free Text:LYBE Parkings\B3:freetext
+Free Text:LYBE Parkings\B4:freetext
+Free Text:LYBE Parkings\B5:freetext
+Free Text:LYBE Parkings\B6:freetext
+Free Text:LYBE Parkings\B7:freetext
+Free Text:LYBE Parkings\C2:freetext
+Free Text:LYBE Parkings\C4:freetext
+Free Text:LYBE Parkings\C5:freetext
+Free Text:LYBE Parkings\C6:freetext
+Free Text:LYBE Parkings\Cargo:freetext
+Free Text:LYBE Parkings\Maintenance:freetext
+Free Text:LYBE Taxiways\A:freetext
+Free Text:LYBE Taxiways\A:freetext
+Free Text:LYBE Taxiways\A:freetext
+Free Text:LYBE Taxiways\B:freetext
+Free Text:LYBE Taxiways\C:freetext
+Free Text:LYBE Taxiways\D:freetext
+Free Text:LYBE Taxiways\E:freetext
+Free Text:LYBE Taxiways\F:freetext
+Free Text:LYBE Taxiways\G:freetext
+Free Text:LYBE Taxiways\G:freetext
+Free Text:LYBE Taxiways\H:freetext
+Free Text:LYBE Taxiways\J:freetext
+Free Text:LYBE Taxiways\K:freetext
+Free Text:LYBE Taxiways\L:freetext
+Free Text:LYBE Taxiways\L:freetext
+Geo:LYBE Groundlayout:
+Runways:LYBE 12-30:extended centerline 1
+Runways:LYBE 12-30:extended centerline 1 left ticks
+Runways:LYBE 12-30:extended centerline 1 right ticks
+Runways:LYBE 12-30:extended centerline 2
+Runways:LYBE 12-30:extended centerline 2 left ticks
+Runways:LYBE 12-30:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:44.813358:20.286824:44.823873:20.313571
+PLUGIN:Ground Radar plugin:AirportElevation:400
+PLUGIN:Ground Radar plugin:AirportRadius:10
+PLUGIN:Ground Radar plugin:GroundMode:LYBE
+PLUGIN:TopSky plugin:NoDraw:1

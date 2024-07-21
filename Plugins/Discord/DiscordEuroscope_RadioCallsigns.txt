@@ -1,0 +1,219 @@
+ADR_CTR Adria Radar
+ADR_1_CTR Adria Radar
+ADR__CTR Adria Radar
+ADR_E_CTR Adria "East" Radar
+ADR__E_CTR Adria "East" Radar
+ADR_E__CTR Adria "East" Radar
+ADR_U_CTR Adria "Upper" Radar
+ADR__U_CTR Adria "Upper" Radar
+ADR_U__CTR Adria "Upper" Radar
+ADR_W_CTR Adria "West" Radar
+ADR__W_CTR Adria "West" Radar
+ADR_W__CTR Adria "West" Radar
+BKPR_APP Pristina Approach
+BKPR_1_APP Pristina Approach
+BKPR__APP Pristina Approach
+BKPR_GND Pristina Ground
+BKPR_1_GND Pristina Ground
+BKPR__GND Pristina Ground
+BKPR_TWR Pristina Tower
+BKPR_1_TWR Pristina Tower
+BKPR__TWR Pristina Tower
+LAAA_CTR Tirana Control
+LAAA_1_CTR Tirana Control
+LAAA__CTR Tirana Control
+LATI_APP Tirana Approach
+LATI_1_APP Tirana Approach
+LATI__APP Tirana Approach
+LATI_TWR Tirana Tower
+LATI_1_TWR Tirana Tower
+LATI__TWR Tirana Tower
+LDDU_APP Dubrovnik Radar
+LDDU_1_APP Dubrovnik Radar
+LDDU__APP Dubrovnik Radar
+LDDU_TWR Dubrovnik Tower
+LDDU_1_TWR Dubrovnik Tower
+LDDU__TWR Dubrovnik Tower
+LDLO_TWR Losinj Tower
+LDLO_1_TWR Losinj Tower
+LDLO__TWR Losinj Tower
+LDOS_APP Osijek Approach
+LDOS_1_APP Osijek Approach
+LDOS__APP Osijek Approach
+LDPL_APP Pula Radar
+LDPL_1_APP Pula Radar
+LDPL__APP Pula Radar
+LDPL_TWR Pula Tower
+LDPL_1_TWR Pula Tower
+LDPL__TWR Pula Tower
+LDRI_TWR Rijeka Tower
+LDRI_1_TWR Rijeka Tower
+LDRI__TWR Rijeka Tower
+LDSB_TWR Brac Tower
+LDSB_1_TWR Brac Tower
+LDSB__TWR Brac Tower
+LDSP_APP Split Radar
+LDSP_1_APP Split Radar
+LDSP__APP Split Radar
+LDSP_TWR Split Tower
+LDSP_1_TWR Split Tower
+LDSP__TWR Split Tower
+LDZA_APP Zagreb Radar
+LDZA_1_APP Zagreb Radar
+LDZA__APP Zagreb Radar
+LDZA_GND Zagreb Ground
+LDZA_1_GND Zagreb Ground
+LDZA__GND Zagreb Ground
+LDZA_TWR Zagreb Tower
+LDZA_1_TWR Zagreb Tower
+LDZA__TWR Zagreb Tower
+LDZD_APP Zadar Radar
+LDZD_1_APP Zadar Radar
+LDZD__APP Zadar Radar
+LDZD_TWR Zadar Tower
+LDZD_1_TWR Zadar Tower
+LDZD__TWR Zadar Tower
+LDZO_CTR Zagreb Radar
+LDZO_1_CTR Zagreb Radar
+LDZO__CTR Zagreb Radar
+LDZO_E_CTR Zagreb Radar
+LDZO__E_CTR Zagreb Radar
+LDZO_E__CTR Zagreb Radar
+LDZO_S_CTR Zagreb Radar
+LDZO__S_CTR Zagreb Radar
+LDZO_S__CTR Zagreb Radar
+LJCE_TWR Cerklje Tower
+LJCE_1_TWR Cerklje Tower
+LJCE__TWR Cerklje Tower
+LJLA_CTR Ljubljana Radar
+LJLA_1_CTR Ljubljana Radar
+LJLA__CTR Ljubljana Radar
+LJLA_I_CTR Ljubljana Information
+LJLA__I_CTR Ljubljana Information
+LJLA_I__CTR Ljubljana Information
+LJLA_U_CTR Ljubljana Radar
+LJLA__U_CTR Ljubljana Radar
+LJLA_U__CTR Ljubljana Radar
+LJLJ_APP Ljubljana Radar
+LJLJ_1_APP Ljubljana Radar
+LJLJ__APP Ljubljana Radar
+LJLJ_GND Ljubljana Ground
+LJLJ_1_GND Ljubljana Ground
+LJLJ__GND Ljubljana Ground
+LJLJ_TWR Ljubljana Tower
+LJLJ_1_TWR Ljubljana Tower
+LJLJ__TWR Ljubljana Tower
+LJMB_APP Maribor Approach
+LJMB_1_APP Maribor Approach
+LJMB__APP Maribor Approach
+LJMB_TWR Maribor Tower
+LJMB_1_TWR Maribor Tower
+LJMB__TWR Maribor Tower
+LJPZ_APP Portoroz Approach
+LJPZ_1_APP Portoroz Approach
+LJPZ__APP Portoroz Approach
+LJPZ_TWR Portoroz Tower
+LJPZ_1_TWR Portoroz Tower
+LJPZ__TWR Portoroz Tower
+LQBK_APP Banja Luka Approach
+LQBK_1_APP Banja Luka Approach
+LQBK__APP Banja Luka Approach
+LQBK_TWR Banja Luka Tower
+LQBK_1_TWR Banja Luka Tower
+LQBK__TWR Banja Luka Tower
+LQMO_APP Mostar Approach
+LQMO_1_APP Mostar Approach
+LQMO__APP Mostar Approach
+LQMO_TWR Mostar Tower
+LQMO_1_TWR Mostar Tower
+LQMO__TWR Mostar Tower
+LQSA_APP Sarajevo Radar
+LQSA_1_APP Sarajevo Radar
+LQSA__APP Sarajevo Radar
+LQSA_GND Sarajevo Ground
+LQSA_1_GND Sarajevo Ground
+LQSA__GND Sarajevo Ground
+LQSA_TWR Sarajevo Tower
+LQSA_1_TWR Sarajevo Tower
+LQSA__TWR Sarajevo Tower
+LQSB_CTR Sarajevo Radar
+LQSB_1_CTR Sarajevo Radar
+LQSB__CTR Sarajevo Radar
+LQSB_I_CTR Banja Luka Information
+LQSB__I_CTR Banja Luka Information
+LQSB_I__CTR Banja Luka Information
+LQTZ_APP Tuzla Approach
+LQTZ_1_APP Tuzla Approach
+LQTZ__APP Tuzla Approach
+LQTZ_TWR Tuzla Tower
+LQTZ_1_TWR Tuzla Tower
+LQTZ__TWR Tuzla Tower
+LWOH_TWR Ohrid Tower
+LWOH_1_TWR Ohrid Tower
+LWOH__TWR Ohrid Tower
+LWSK_APP Skopje Approach
+LWSK_1_APP Skopje Approach
+LWSK__APP Skopje Approach
+LWSK_TWR Skopje Tower
+LWSK_1_TWR Skopje Tower
+LWSK__TWR Skopje Tower
+LWSS_CTR Skopje Radar
+LWSS_1_CTR Skopje Radar
+LWSS__CTR Skopje Radar
+LYBA_A_CTR Beograd Adriatic Center
+LYBA__A_CTR Beograd Adriatic Center
+LYBA_A__CTR Beograd Adriatic Center
+LYBA_CTR Beograd Center
+LYBA_1_CTR Beograd Center
+LYBA__CTR Beograd Center
+LYBA_N_CTR Beograd North Center
+LYBA__N_CTR Beograd North Center
+LYBA_N__CTR Beograd North Center
+LYBA_S_CTR Beograd South Center
+LYBA__S_CTR Beograd South Center
+LYBA_S__CTR Beograd South Center
+LYBE_APP Beograd Radar
+LYBE_1_APP Beograd Radar
+LYBE__APP Beograd Radar
+LYBE_GND Beograd Ground
+LYBE_1_GND Beograd Ground
+LYBE__GND Beograd Ground
+LYBE_TWR Beograd Tower
+LYBE_1_TWR Beograd Tower
+LYBE__TWR Beograd Tower
+LYBT_APP Batajnica Approach
+LYBT_1_APP Batajnica Approach
+LYBT__APP Batajnica Approach
+LYBT_TWR Batajnica Tower
+LYBT_1_TWR Batajnica Tower
+LYBT__TWR Batajnica Tower
+LYKV_APP Kraljevo Approach
+LYKV_1_APP Kraljevo Approach
+LYKV__APP Kraljevo Approach
+LYKV_TWR Kraljevo Tower
+LYKV_1_TWR Kraljevo Tower
+LYKV__TWR Kraljevo Tower
+LYNI_APP Nis Approach
+LYNI_1_APP Nis Approach
+LYNI__APP Nis Approach
+LYNI_TWR Nis Tower
+LYNI_1_TWR Nis Tower
+LYNI__TWR Nis Tower
+LYPG_APP Podgorica Radar
+LYPG_1_APP Podgorica Radar
+LYPG__APP Podgorica Radar
+LYPG_TWR Podgorica Tower
+LYPG_1_TWR Podgorica Tower
+LYPG__TWR Podgorica Tower
+LYTV_TWR Tivat Tower
+LYTV_1_TWR Tivat Tower
+LYTV__TWR Tivat Tower
+LYUZ_TWR Uzice Tower
+LYUZ_1_TWR Uzice Tower
+LYUZ__TWR Uzice Tower
+LYVR_TWR Vrsac Tower
+LYVR_1_TWR Vrsac Tower
+LYVR__TWR Vrsac Tower
+LAKU_I_TWR Kukes Aerodrome Information
+LAKU__I_TWR Kukes Aerodrome Information
+LAKU_I__TWR Kukes Aerodrome Information

@@ -1,0 +1,41 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\Euroscope_ADRIA_AUG\Euroscope\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LYTV Parkings\1:freetext
+Free Text:LYTV Parkings\2:freetext
+Free Text:LYTV Parkings\3:freetext
+Free Text:LYTV Parkings\4:freetext
+Free Text:LYTV Parkings\5:freetext
+Free Text:LYTV Parkings\5A:freetext
+Free Text:LYTV Parkings\6:freetext
+Free Text:LYTV Parkings\7:freetext
+Free Text:LYTV Taxiways\A:freetext
+Free Text:LYTV Taxiways\B:freetext
+Geo:LYTV Groundlayout Region:
+Regions:LYTV Airport:polygon
+Runways:LYTV 14-32:extended centerline 1
+Runways:LYTV 14-32:extended centerline 1 left ticks
+Runways:LYTV 14-32:extended centerline 1 right ticks
+Runways:LYTV 14-32:extended centerline 2
+Runways:LYTV 14-32:extended centerline 2 left ticks
+Runways:LYTV 14-32:extended centerline 2 right ticks
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:0
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:42.400641:18.708977:42.410897:18.735724
+PLUGIN:Ground Radar plugin:AirportElevation:20
+PLUGIN:Ground Radar plugin:AirportRadius:9
+PLUGIN:Ground Radar plugin:GroundMode:LYTV
+PLUGIN:TopSky plugin:NoDraw:1

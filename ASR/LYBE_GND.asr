@@ -1,0 +1,23 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:44.797025:20.247431:44.838840:20.356482
+PLUGIN:Ground Radar plugin:AirportElevation:400
+PLUGIN:Ground Radar plugin:AirportRadius:10
+PLUGIN:Ground Radar plugin:GroundMode:LYBE
+PLUGIN:TopSky plugin:NoDraw:1

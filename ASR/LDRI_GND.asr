@@ -1,0 +1,47 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\Euroscope_ADRIA_AUG\Euroscope\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LDRI Parkings\1:freetext
+Free Text:LDRI Parkings\10:freetext
+Free Text:LDRI Parkings\11:freetext
+Free Text:LDRI Parkings\12:freetext
+Free Text:LDRI Parkings\14:freetext
+Free Text:LDRI Parkings\15:freetext
+Free Text:LDRI Parkings\2:freetext
+Free Text:LDRI Parkings\3:freetext
+Free Text:LDRI Parkings\4:freetext
+Free Text:LDRI Parkings\5:freetext
+Free Text:LDRI Parkings\6:freetext
+Free Text:LDRI Parkings\6A:freetext
+Free Text:LDRI Parkings\7:freetext
+Free Text:LDRI Parkings\8:freetext
+Free Text:LDRI Parkings\9:freetext
+Free Text:LDRI Parkings\A:freetext
+Geo:LDRI Groundlayout Airport:
+Runways:LDRI 14-32:centerline
+Runways:LDRI 14-32:extended centerline 1
+Runways:LDRI 14-32:extended centerline 1 left ticks
+Runways:LDRI 14-32:extended centerline 1 right ticks
+Runways:LDRI 14-32:extended centerline 2
+Runways:LDRI 14-32:extended centerline 2 left ticks
+Runways:LDRI 14-32:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:45.213958:14.558123:45.222729:14.580994
+PLUGIN:Ground Radar plugin:AirportElevation:236
+PLUGIN:Ground Radar plugin:AirportRadius:6
+PLUGIN:Ground Radar plugin:GroundMode:LDRI
+PLUGIN:TopSky plugin:NoDraw:1

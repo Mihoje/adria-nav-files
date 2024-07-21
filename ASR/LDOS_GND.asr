@@ -1,0 +1,36 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LDOS Parkings\1:freetext
+Free Text:LDOS Parkings\2:freetext
+Free Text:LDOS Parkings\3:freetext
+Free Text:LDOS Parkings\4:freetext
+Free Text:LDOS Parkings\C:freetext
+Geo:LDOS Groundlayout Region:
+Regions:LDOS Airport:polygon
+Runways:LDOS 11-29:extended centerline 1
+Runways:LDOS 11-29:extended centerline 1 left ticks
+Runways:LDOS 11-29:extended centerline 1 right ticks
+Runways:LDOS 11-29:extended centerline 2
+Runways:LDOS 11-29:extended centerline 2 left ticks
+Runways:LDOS 11-29:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:44.887076:13.894293:44.907613:13.948721
+PLUGIN:Ground Radar plugin:AirportElevation:274
+PLUGIN:Ground Radar plugin:AirportRadius:4.0
+PLUGIN:Ground Radar plugin:GroundMode:LDOS
+PLUGIN:TopSky plugin:NoDraw:1

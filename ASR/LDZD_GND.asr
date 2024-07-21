@@ -1,0 +1,36 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+SECTORTITLE:LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+Free Text:LDZD Taxiway\A:freetext
+Free Text:LDZD Taxiway\B:freetext
+Free Text:LDZD Taxiway\C:freetext
+Free Text:LDZD Taxiway\D:freetext
+Free Text:LDZD Taxiway\E:freetext
+Free Text:LDZD Taxiway\F:freetext
+Free Text:LDZD Taxiway\G:freetext
+Free Text:LDZD Taxiway\H:freetext
+Free Text:LDZD Taxiway\K:freetext
+Free Text:LDZD Taxiway\L:freetext
+Free Text:LDZD Taxiway\M:freetext
+Geo:LDZD Groundlayout Region:
+Regions:LDZD Airport:polygon
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:44.075509:15.302381:44.115973:15.407906
+PLUGIN:Ground Radar plugin:AirportElevation:289
+PLUGIN:Ground Radar plugin:AirportRadius:5
+PLUGIN:Ground Radar plugin:GroundMode:LDZD
+PLUGIN:TopSky plugin:NoDraw:1

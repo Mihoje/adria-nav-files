@@ -1,0 +1,36 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LYNI Parkings\1:freetext
+Free Text:LYNI Parkings\2:freetext
+Free Text:LYNI Parkings\3:freetext
+Free Text:LYNI Parkings\4:freetext
+Free Text:LYNI Taxiways\D:freetext
+Geo:LYNI Groundlayout Region:
+Regions:LYNI Airport:polygon
+Runways:LYNI 11-29:extended centerline 1
+Runways:LYNI 11-29:extended centerline 1 left ticks
+Runways:LYNI 11-29:extended centerline 1 right ticks
+Runways:LYNI 11-29:extended centerline 2
+Runways:LYNI 11-29:extended centerline 2 left ticks
+Runways:LYNI 11-29:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:43.317653:21.814394:43.358118:21.916424
+PLUGIN:Ground Radar plugin:AirportElevation:650
+PLUGIN:Ground Radar plugin:AirportRadius:6
+PLUGIN:Ground Radar plugin:GroundMode:LYNI
+PLUGIN:TopSky plugin:NoDraw:1

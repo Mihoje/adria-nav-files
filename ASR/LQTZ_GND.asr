@@ -1,0 +1,40 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+Free Text:LQTZ Parkingposition\1:freetext
+Free Text:LQTZ Parkingposition\2:freetext
+Free Text:LQTZ Parkingposition\3:freetext
+Free Text:LQTZ Taxiway\A:freetext
+Free Text:LQTZ Taxiway\B:freetext
+Free Text:LQTZ Taxiway\C:freetext
+Free Text:LQTZ Taxiway\D:freetext
+Free Text:LQTZ Taxiway\E:freetext
+Free Text:LQTZ Taxiway\F:freetext
+Free Text:LQTZ Taxiway\F:freetext
+Geo:LQTZ Groundlayout:
+Runways:LQTZ 09-27:extended centerline 1
+Runways:LQTZ 09-27:extended centerline 1 left ticks
+Runways:LQTZ 09-27:extended centerline 1 right ticks
+Runways:LQTZ 09-27:extended centerline 2
+Runways:LQTZ 09-27:extended centerline 2 left ticks
+Runways:LQTZ 09-27:extended centerline 2 right ticks
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:42.559698:20.994084:42.590496:21.075708
+PLUGIN:Ground Radar plugin:AirportElevation:236
+PLUGIN:Ground Radar plugin:AirportRadius:2.1
+PLUGIN:Ground Radar plugin:GroundMode:LQTZ
+PLUGIN:TopSky plugin:NoDraw:1

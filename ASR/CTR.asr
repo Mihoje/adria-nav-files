@@ -1,0 +1,41 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Euroscope_vACC_ADRIA\ADRIA.sct
+SECTORTITLE:ADRIA.sct
+ARTCC boundary:AoR CTR LJLA MURA Line:
+ARTCC high boundary:KFOR Sector:
+ARTCC high boundary:LAAA:
+ARTCC high boundary:LBSR:
+ARTCC high boundary:LDZO:
+ARTCC high boundary:LDZO-ALL:
+ARTCC high boundary:LGGG:
+ARTCC high boundary:LGMD:
+ARTCC high boundary:LHCC:
+ARTCC high boundary:LIBB:
+ARTCC high boundary:LIPP:
+ARTCC high boundary:LJLA:
+ARTCC high boundary:LOVV:
+ARTCC high boundary:LQSB:
+ARTCC high boundary:LRBB:
+ARTCC high boundary:LWSS:
+ARTCC high boundary:LYBA:
+Geo:LA Landmark Coast:
+Geo:LA Landmark Lakes:
+Geo:LD Landmark Coast:
+Geo:LI Landmark Coast:
+Geo:LY Landmark Coast:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:-3
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:LOVV_Topsky_Trainer
+WINDOWAREA:40.249615:8.257636:48.094436:28.716006

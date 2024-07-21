@@ -1,0 +1,46 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+SECTORTITLE:LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+Free Text:LDPL Parkings\1:freetext
+Free Text:LDPL Parkings\10:freetext
+Free Text:LDPL Parkings\2:freetext
+Free Text:LDPL Parkings\3:freetext
+Free Text:LDPL Parkings\4:freetext
+Free Text:LDPL Parkings\5:freetext
+Free Text:LDPL Parkings\6:freetext
+Free Text:LDPL Parkings\6A:freetext
+Free Text:LDPL Parkings\7:freetext
+Free Text:LDPL Parkings\8:freetext
+Free Text:LDPL Parkings\8A:freetext
+Free Text:LDPL Parkings\9:freetext
+Free Text:LDPL Taxiway\A:freetext
+Free Text:LDPL Taxiway\B:freetext
+Free Text:LDPL Taxiway\C:freetext
+Free Text:LDPL Taxiway\D:freetext
+Free Text:LDPL Taxiway\E:freetext
+Free Text:LDPL Taxiway\F:freetext
+Free Text:LDPL Taxiway\G:freetext
+Free Text:LDPL Taxiway\H:freetext
+Free Text:LDPL Taxiway\J:freetext
+Geo:LDPL Groundlayout Region:
+Regions:LDPL Airport:polygon
+SHOWC:0
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA DEL/GND/TWR
+WINDOWAREA:44.886923:13.897650:44.905924:13.944186
+PLUGIN:Ground Radar plugin:AirportElevation:274
+PLUGIN:Ground Radar plugin:AirportRadius:4.0
+PLUGIN:Ground Radar plugin:GroundMode:LDPL
+PLUGIN:TopSky plugin:NoDraw:1
