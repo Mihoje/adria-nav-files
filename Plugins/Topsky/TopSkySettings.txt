@@ -1,33 +1,58 @@
-//BEGIN SCALING (change values to your liking)
-
-//Cursors (derzeit nicht funktionell)
-//System_GUI_Scale_Cursors=1
-
-//Global Menu
-System_GUI_Scale_GlobalMenu=1.4
-
-//Radar Menu
-System_GUI_Scale_Menus=1.4
-
-//Route Vector
-System_GUI_Scale_Screen=1.4
-
-//Radar Targets
-System_GUI_Scale_Tracks=1.5
-
-//Normale Fenster
-System_GUI_Scale_Windows=1.4
-
-//END SCALING
-
+Label_CFL_DefaultValue=0
 Setup_COOPANS=1
-Setup_ScreenLat=47.5
+Airspace_ASSR_Type=2
+Airspace_SIGMET_Areas=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
+Airspace_NOTAM_Add=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
+Airspace_NOTAM_Remove=LHBP,LZIB
 
-//HTTP_NOTAM_Area_Sched_Debug=1
+//Route Colors
+Color_Flight_Leg=110,210,110 //Light green
+Color_Information_FL=0,150,0 //Green
+Color_Potential_FL=0,0,255 //Blue
+Color_Warning_FL=255,255,0 //Yellow
+Color_Urgency_FL=255,0,0 // Red
 
-//Disables the mouse wheel - enable only for development and debugging
-//System_UseMouseWheel=0
+//System Colors
+Color_Selected_Group=255,255,254
+Color_Selected_Period=255,255,41
+Color_Text_Notes=0,200,0 //MSG->Text notes bright green
+Color_Field_Highlight=72,72,73
 
+//Vertical aid window
+Color_VAW_Profile=152,202,172
+Color_VAW_Sector_Limits=145,95,30
+Color_VAW_Track_Position=219,219,219
+
+//Label colors
+Color_Unconcerned=124,126,125 //Doesn't pass through sector
+Color_Concerned=105,144,106 //Notified >15mins
+Color_Coordination=140,179,121 //Coordinated <15mins
+Color_Assumed=255,255,255
+Color_Redundant=156,126,91 //Transfered to next controller still in airspace
+Color_Trough=97,99,97
+Color_Warning=250,205,1
+Color_Information=41,245,41
+Color_Urgency=255,0,0
+Color_Flight_Highlight=36,41,45
+Color_AIW_Intrusion=255,152,0
+Color_Freq_Indicator=113,189,70
+Color_Info_Coord=1,255,255
+Color_Unknown=239,224,42
+Color_VFR=135,128,118
+Color_Sid_Star_Allocation=15,185,15
+
+//CPDLC Colors
+Color_CPDLC_UM_Clearance=30,250,250
+Color_CPDLC_Controller_Late=212,128,44
+Color_CPDLC_Discarded=128,128,128
+Color_CPDLC_DM_Request=30,250,250
+Color_CPDLC_Failed=212,128,44
+Color_CPDLC_Pilot_Late=212,124,44
+Color_CPDLC_Standby=212,128,44
+Color_CPDLC_Unable=212,128,44
+Color_CPDLC_Urgency=225,25,25
+
+//Maps Colors
 Color_Active_Map=198,174,58
 Color_Active_Map_Type_1=87,87,164
 Color_Active_Map_Type_2=80,162,74
@@ -37,139 +62,35 @@ Color_Active_Map_Type_5=198,174,58
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=52,58,62
 Color_Active_Text_Map=198,174,58
-Color_AIW_Intrusion=255,152,0
-Color_Arm=97,97,97
-Color_Assumed=220,220,220
-Color_Background=78,85,89
-Color_Background=78,85,89
-Color_Border=51,51,52
-Color_BottomShadow=70,70,70
-Color_CARD_Conflict_Number=9,10,11
-Color_CARD_Mark_All=212,128,44
-Color_CARD_Mark_Own=212,128,44
-Color_CARD_Min_Sep=95,170,140
-Color_CARD_Time_Vector=170,231,197
-Color_Concerned=110,153,110
-Color_Coordination=150,215,150
-Color_CPDLC_Controller_Late=212,128,44
-Color_CPDLC_Discarded=128,128,128
-Color_CPDLC_DM_Request=30,250,250
-Color_CPDLC_Failed=212,128,44
-Color_CPDLC_Pilot_Late=212,124,44
-Color_CPDLC_Standby=212,128,44
-Color_CPDLC_UM_Clearance=30,250,250
-Color_CPDLC_Unable=212,128,44
-Color_CPDLC_Urgency=225,25,25
-Color_Datalink_Logged_On
-Color_Field_Highlight=72,72,73
-Color_Flight_Highlight=36,41,45
-Color_Flight_Leg=170,231,197
-Color_Foreground=200,200,200
-Color_FPLSEP_Tool_1=153,217,234
-Color_FPLSEP_Tool_2=255,153,184
-Color_FPLSEP_Tool_3=255,209,143
-Color_FPLSEP_Tool_4=197,64,212
-Color_FPLSEP_Tool_5=166,160,245
-Color_Freq_Indicator=237,237,237
-Color_Global_Menu_Highlight=1,165,219
-Color_Heading_Vector=170,231,197
-Color_Inactive_Sector=67,73,76
-Color_Info_Coord=1,255,255
-Color_Information=40,210,40
-Color_Information_FL=41,245,41
-Color_Informed=175,125,175
-Color_Map_1=80,95,80
-Color_Map_2=44,44,44
-Color_Map_3=100,108,111
-Color_Map_4=52,58,62
-Color_Map_Hotspot=87,139,200
-Color_Map_Info=150,150,150
-Color_Overflown=82,105,146
-Color_Potential=41,40,216
-Color_Potential_FL=40,41,216
-Color_Preactive_Map=154,138,128
-Color_Preactive_Text_Map=155,147,138
-Color_Predisplay_Map=175,130,130
-Color_Proposition=255,130,180
-Color_QDM=215,190,163
-Color_Redundant=185,140,89
+
+//Runway Colors
 Color_Runway=116,200,71
 Color_Rwy_App_Line_Inuse=81,90,90
 Color_Rwy_App_Line_Not_Inuse=90,90,16
-Color_Rwy_Locked=41,210,41
-Color_Selected=61,121,148
-Color_Selected_Group=255,255,254
-Color_Selected_Period=255,255,41
-Color_SEP_Tool_1=153,217,234
-Color_SEP_Tool_2=255,153,184
-Color_SEP_Tool_3=255,209,143
-Color_SEP_Tool_4=197,64,212
-Color_SEP_Tool_5=166,160,245
-Color_SEP_Tool_6=95,170,140
-Color_SEP_Tool_7=185,130,85
-Color_SEP_Vert=160,150,135
-Color_VFR=135,128,118
-Color_Sid_Star_Allocation=15,185,15
-Color_Sid_Star_No_Allocation=14,170,14
-Color_Suite_Highlight=0,220,255
-Color_SMW_Level_Band=24,209,114
-Color_SMW_Overflight=254,152,1
-Color_SMW_Overlap=224,25,25
-Color_SMW_Overlap_Box=207,207,207
-Color_SMW_Overshoot=239,224,41
-Color_System_Calculated_TOC=170,231,197
-Color_System_Calculated_TOD=170,231,197
-Color_Text_Notes=255,255,255
-Color_TopShadow=155,158,159
-Color_Track_Default=210,210,210
-Color_Track_Highlight=0,165,219
-Color_Trough=97,99,97
-Color_TSA_Active=93,138,195
-Color_TSA_Border_Highlight=0,0,0
-Color_TSA_Filter=0,0,255
-Color_TSA_Preactive=132,142,139
-Color_Unconcerned=135,128,118
-Color_Unknown=239,224,42
-Color_Urgency=225,25,25
-Color_Urgency_FL=225,25,25
-Color_Warning=240,225,41
-Color_VAW_Profile=152,202,172
-Color_VAW_Sector_Limits=145,95,30
-Color_VAW_Track_Position=219,219,219
-Color_Warning_FL=240,225,41
-Color_WM_Active_Fg=20,20,21
-Color_WM_Bg=88,95,99
-Color_WM_Border=88,95,99
-Color_WM_Fg=20,20,21
-Color_WM_Frame=88,95,99
+Color_Rwy_Locked=15,185,15
 
 Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
+Malrt_Weather=WX
 
-Airspace_ModeS_Code_VFR=7000
 Airspace_No_DUPE_Codes=7000,2000,2200,1200
-Airspace_SIGMET_Areas=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 Airspace_ASSR_AutoAssign_Type=2
 Airspace_ASSR_AutoAssign_AcceptCurrent=1
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
 
-Airspace_NOTAM_Remove=LHBP,LZIB
-Airspace_NOTAM_Add=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 
 System_TrueColorMode=1
 System_UseReportedGS=0
 System_ASP_IasMach=30000
 System_MetarSourceVATSIM=1
 System_TaxiTime=8
-System_FPASD=0
+System_FPASD=1
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=10
 
 
-Track_HistoryDots=1
-Track_PredictionLine=1
-Track_DivergenceSymbol_Size=8
+Track_HistoryDots=5
+Track_PredictionLine=0
 
 RwyAppLines_Length=12
 RwyAppLines_Markers=6
@@ -181,34 +102,35 @@ Label_SI_ShowFreq=1
 Label_SI_FreqTime=3
 Label_DAPs=1
 Label_Field18_Flag_Items=STS/,newbie,NEWBIE,Newbie,beginner,disabled,disability,impaired
-Label_Rev_Highlight_Delta_ETN=0
+Label_Rev_Highlight_Delta_ETN=5
 Label_Alt_Digits=2
+Label_WTC_Highlight_ATYP=DC10,MD11,B744,B748,B742,B743,B741,B772,B773,A388,A339,A333,A332,A310,A306
+Label_WTC_Highlight_WTC=H
 
 Areas_NOTAM_Activation=1
 Areas_Altitude_Filtering=1
 
-FPCP_4D_PathBuffer=4000
-FPCP_Inhibit_VFR=1
-
-
 AIW=1
 AIW_Type=1
-AIW_Filter_GS=50
 AIW_Floor=3500
 AIW_Inhibit_ActiveAreas=1
-AIW_FlightRules=2
+AIW_FlightRules=0
 
 
 Vector_AHDG_FontSize=10
 Vector_AHDG_Label_Dist=1
 Vector_QDM_FontSize=11
 Vector_QDM_MaxNumber=12
-Vector_QDM_Airports=0
+Vector_QDM_Airports=1
 Vector_MinSep_FontSize=10
 Vector_MinSep_Label_Time=1
 Vector_MinSep_VertSep_Separation=1100
 
 MSAW=1
+MSAW_Filter=1
+MSAW_AppInhibit=2
+MSAW_VFR=0
+MSAW_PredictionTime=30
 
 SAP_Floor=3500
 SAP_Buffer_Lat_U=2.5
@@ -266,89 +188,19 @@ List_ETWR_MaxTime=10
 List_VFR_FPL_Filter=1
 List_VFR_FPL_Area=47.805,9.430,48.081,12.196,49.210,14.029,49.170,17.463,46.184,17.308,46.028,12.623,46.858,9.236
 
-HTTP_SIGMET_Server=http://aviationweather.gov/
-HTTP_SIGMET_Page_Prefix=data/iffdp/
-HTTP_SIGMET_Pages=6443
-HTTP_SIGMET_Page_Suffix=.txt
-
-Shortcut_RadarMenu_Combo=0x00
-Shortcut_Map_Xfr_Combo=1,0x12
-Shortcut_Map_Xfr_Key=1,0x4D
-Shortcut_Map_Target=1,MRVA\mrvagr
-Shortcut_Map_Xfr_Combo=2,0x12
-Shortcut_Map_Xfr_Key=2,0x54
-Shortcut_Map_Target=2,LOVV\tma
-Shortcut_Map_Xfr_Combo=3,0x12
-Shortcut_Map_Xfr_Key=3,0x52
-Shortcut_Map_Target=3,LOVV\rivers
-
-
+//CDPLC Settings
 CPDLC_MinLevel=295
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
+CPDLC_FSM_CLD_Header=CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign>
+CPDLC_FSM_RCD_Header=FSM <hour><min> <year2><month2><day> <adep2> <callsign> RCD RECEIVED @REQUEST BEING PROCESSED @STANDBY
 
 Divergence_CLAM_DelayTime=120
 Divergence_RAM_Limit=3
 Divergence_RAM_DCT_DelayTime=120
-
-Label_All_N=1
-
-Label_Co_SQ=0
-Label_Co_ATYP=0
-Label_Co_ATYPW=0
-Label_Co_ADES=0
-Label_Co_NRAC=0
-Label_Co_TSSR=0
-Label_Co_RFL=0
-Label_Co_FCOPX=0
-Label_Co_WTC=0
-Label_Co_GS=0
-Label_Co_COPN=0
-Label_Co_XFL=1
-Label_Co_ASP=1
-Label_Co_PEL=1
-
-Label_Ass_SQ=0
-Label_Ass_ATYP=0
-Label_Ass_ATYPW=0
-Label_Ass_ADES=0
-Label_Ass_NRAC=0
-Label_Ass_TSSR=0
-Label_Ass_RFL=0
-Label_Ass_FCOPX=0
-Label_Ass_WTC=0
-Label_Ass_GS=0
-Label_Ass_COPX=0
-Label_Ass_XFL=1
-Label_Ass_ASP=1
-
-Label_Red_SQ=0
-Label_Red_ATYP=0
-Label_Red_ATYPW=0
-Label_Red_ADES=0
-Label_Red_NRAC=0
-Label_Red_TSSR=0
-Label_Red_RFL=0
-Label_Red_FCOPX=0
-Label_Red_WTC=0
-Label_Red_GS=0
-Label_Red_COPX=0
-Label_Red_XFL=0
-Label_Red_ASP=1
-
-Label_No_SQ=0
-Label_No_ATYP=0
-Label_No_ATYPW=0
-Label_No_ADES=0
-Label_No_NRAC=0
-Label_No_TSSR=0
-Label_No_RFL=0
-Label_No_FCOPX=0
-Label_No_WTC=0
-Label_No_GS=0
 
 WXR_Latitude=43,5
 WXR_Latitude_Max=47
@@ -360,8 +212,9 @@ WXR_Longitude_Min=13
 
 WXR_ImageSize=512
 
+//RDF Settings
 RDF_Mode=2
-RDF_Floor=4000
+RDF_Floor=0
 RDF_Accuracy=0
 RDF_MinRadius=20
 RDF_AntennaPos=0
@@ -371,3 +224,41 @@ Window_SM_LeaveHoldTime=3
 Window_SM_LowestLevel=30
 Window_PDC_SetASSR=1
 Window_PDC_SetCFL=1
+
+//TSA (EDR/D/P/TRAs)
+Areas_Altitude_Filtering=0
+Areas_Label_Name=0
+Areas_Label_MapText=1
+Areas_Label_Levels=1
+Areas_Label_Times=1
+Areas_Label_FontSize=12
+Areas_NOTAM_Activation=1
+Window_ASM_Chars_Name=15
+
+//Shortcuts
+//Shortcut_Master=1
+//Shortcut_Map_Xfr_Combo=1,0x12
+//Shortcut_Map_Xfr_Key=1,0x4D ; M
+//Shortcut_Map_Xfr_Key=9,0x55 ; U
+//Shortcut_Map_Xfr_Key=4,0x41 ; A
+//Shortcut_Map_Xfr_Key=3,0x56 ; V
+//Shortcut_Map_Xfr_Key=5,0x59 ; Y
+//Shortcut_Map_Xfr_Key=7,0x44 ; D
+//Shortcut_Map_Xfr_Key=8,0x46 ; F
+//Shortcut_Map_Xfr_Key=2,0x4E ; N
+//Shortcut_Map_Xfr_Key=10,0x43; C
+//Shortcut_Map_Target=1,MRVA\ADRE
+//Shortcut_Map_Target=2,MRVA\ADRW
+//Shortcut_Map_Target=3,VRP\VRP
+
+//Sector list
+List_Sector_Informed = 1
+List_Sector_Redundant = 1
+List_Sector_Concerned = 1
+
+//Track Control - UNCOMMENT FOR REAL LIFE EXPERIENCE OF LDZO TAGS
+//Label_NPT_Default=1111
+//Label_GS_Default=1111
+//Label_XFL_Default=1111
+//Label_AHDG_Default=1111
+//Label_ASP_Default=1111
