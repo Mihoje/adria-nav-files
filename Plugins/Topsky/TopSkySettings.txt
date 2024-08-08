@@ -225,15 +225,7 @@ Window_SM_LowestLevel=30
 Window_PDC_SetASSR=1
 Window_PDC_SetCFL=1
 
-//TSA (EDR/D/P/TRAs)
-Areas_Altitude_Filtering=0
-Areas_Label_Name=0
-Areas_Label_MapText=1
-Areas_Label_Levels=1
-Areas_Label_Times=1
-Areas_Label_FontSize=12
 Areas_NOTAM_Activation=1
-Window_ASM_Chars_Name=15
 
 //Shortcuts
 //Shortcut_Master=1
