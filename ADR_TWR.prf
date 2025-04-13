@@ -43,6 +43,7 @@ Plugins	Plugin3	\ADRIA\Plugins\Discord\DiscordEuroscope.dll
 Plugins	Plugin4	\ADRIA\Plugins\Topsky\TopSky.dll
 Plugins	Plugin5	\ADRIA\Plugins\VATAGlobal\VATAGlobal.dll
 Plugins	Plugin6	\ADRIA\Plugins\Aman\Aman.dll
+Plugins	Plugin7	\ADRIA\Plugins\vSID\vSID.dll
 Plugins	Plugin0Display0	Ground Radar display
 Plugins	Plugin0Display1	Standard ES radar screen
 Plugins	Plugin1Display0	Ground Radar display
@@ -51,6 +52,8 @@ Plugins	Plugin4Display0	Standard ES radar screen
 Plugins	Plugin4Display1	Ground Radar display
 Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin6Display1	Ground Radar display
+Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin7Display1	Ground Radar display
 Settings	sector	\ADRIA.sct
 Settings	SettingsfileORIGPLANE	\ADRIA\SETTINGS\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileSTUP	\ADRIA\SETTINGS\ADRIA_SETTINGS_GENERAL.txt
