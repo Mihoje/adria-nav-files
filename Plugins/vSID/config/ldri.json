@@ -1,0 +1,151 @@
+{
+    "LDRI":{
+        "elevation": 278,
+        "runways": "14,32",
+        "transAlt": 10000,
+        "maxInitialClimb": 8000,
+        "sids":{
+            "initial": 8000,
+            "ALIVO":{
+                "W":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "X":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":2
+                    }
+                },
+                "U":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":1
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":2
+                    }
+                },
+                "C":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+            },
+            "RUGOG":{
+                "W":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":21
+                    }
+                },
+                "X":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "U":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":1
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":2
+                    }
+                },
+                "C":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "2":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+            },
+            "CRE":{
+                "W":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":2
+                    }
+                },
+                "H":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "G":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+            },
+            "NAKIT":{
+                "C":{
+                    "4":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "4":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+            },
+            "PUL":{
+                "R":{
+                    "4":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "L":{
+                    "4":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+            }
+        }
+    }
+}

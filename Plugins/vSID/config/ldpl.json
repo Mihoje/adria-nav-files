@@ -1,0 +1,135 @@
+{
+    "LDPL":{
+        "elevation": 275,
+        "runways": "09,27",
+        "transAlt": 10000,
+        "maxInitialClimb": 5000,
+        "sids":{
+            "initial": 5000,
+            "GIRDA":{
+                "W":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "6":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "F":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"03",
+                        "prio":10
+                    }
+                }
+            },
+            "OBALA":{
+                "W":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "U":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":2
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "A":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                },
+                "B":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                }
+            },
+            "LOS":{
+                "R":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "Q":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":2
+                    }
+                },
+                "H":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                },
+                "G":{
+                    "6":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                }
+            },
+            "RJK":{
+                "W":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":2
+                    }
+                },
+                "X":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                }
+            }
+        }
+    }
+}

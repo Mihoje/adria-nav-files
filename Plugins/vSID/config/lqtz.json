@@ -1,0 +1,173 @@
+{
+    "LQTZ":{
+        "elevation": 784,
+        "runways": "09,27",
+        "transAlt": 10000,
+        "maxInitialClimb": 14000,
+        "sids":{
+            "initial": 14000,
+            "climbvia": true,
+            "VIBOP":{
+                "K":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "B":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                },
+                "A":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                }
+            },
+            "DER":{
+                "K":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "B":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                },
+                "A":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                }
+            },
+            "BOSNA":{
+                "K":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "B":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }      
+                }
+            },
+            "KEB":{
+                "K":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                }
+            },
+            "VEBAR":{
+                "K":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                }
+            },
+            "SOMUN":{
+                "K":{
+                    "1":{
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "1":{
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "B":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                },
+                "A":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":10
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "LQBK":{
+        "elevation": 401,
+        "runways": "16,34",
+        "transAlt": 10000,
+        "maxInitialClimb": 12000,
+        "sids":{
+            "initial": 12000,
+            "climbvia": true,
+            "BOSNA":{
+                "C":{
+                    "3":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy": "16",
+                        "prio": 1
+                    }
+                }
+            },
+            "DER":{
+                "D":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"16",
+                        "prio":1
+                    }
+                }
+            },
+            "KOMAR":{
+                "B":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "A":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"16",
+                        "prio":1
+                    }
+                }
+            },
+            "TEBLI":{
+                "E":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"16",
+                        "prio":1
+                    }
+                }
+            }
+        }
+    }
+}

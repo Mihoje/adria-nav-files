@@ -1,0 +1,44 @@
+{
+    "LYVR":{
+        "elevation": 276,
+        "runways": "01L,01R,16,19L,19R,34",
+        "transAlt": 10000,
+        "maxInitialClimb": 13000,
+        "sids":{
+            "initial": 7000,
+            "climbvia": true,
+            "DONIV":{
+                "X":{
+                    "2":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"01R",
+                        "prio":10
+                    }
+                },
+                "Y":{
+                    "2":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"19L",
+                        "prio":10
+                    }
+                }              
+            },
+            "MAVIT":{
+                "J":{
+                    "2":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"01R",
+                        "prio":10
+                    }
+                },
+                "K":{
+                    "2":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"19L",
+                        "prio":10
+                    }
+                }       
+            }
+        }
+    }
+}

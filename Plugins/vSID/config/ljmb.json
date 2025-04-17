@@ -1,0 +1,101 @@
+{
+    "LJMB":{
+        "elevation": 876,
+        "runways": "14, 32",
+        "transAlt": 10500,
+        "maxInitialClimb": 8000,
+        "sids":{
+            "initial": 8000,
+            "DIMLO":{
+                "G":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":2
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "H":{
+                    "3":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":1
+                    }
+                }
+            },
+            "GOLVA":{
+                "G":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "H":{
+                    "3":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":1
+                    }
+                }
+            },
+            "PETOV":{
+                "B":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "5":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":1
+                    }
+                }
+            },
+            "VALLU":{
+                "G":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "H":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                },
+                "L":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":11
+                    }
+                },
+                "S":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "N":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":1
+                    }
+                }
+            }
+        }
+    }
+}

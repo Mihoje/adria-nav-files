@@ -1,0 +1,138 @@
+{
+    "LDOS":{
+        "elevation": 291,
+        "runways": "11,29",
+        "transAlt": 10000,
+        "maxInitialClimb": 20000,
+        "sids":{
+            "climbvia":true,
+            "BAREB":{
+                "W":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+					}
+			},
+                "X":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 2
+					}
+			},
+                "E":{
+                    "3":{
+                        "rwy": "11",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+					}
+			},
+                "U":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 2
+					}
+			},
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+					}
+			},
+                "F":{
+                    "3":{
+                        "rwy": "29",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+					}
+                }
+			},
+			"LAKIK":{
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+                    }
+                },
+                "K":{
+                    "4":{
+                        "rwy": "29",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                }
+			},
+			"ADULA":{
+                "X":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+                    }
+                },
+                "C":{
+                    "4":{
+                        "rwy": "11",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+                    }
+                },
+                "D":{
+                    "3":{
+                        "rwy": "29",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                }
+            },
+			"TUVAR":{
+                "X":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+                    }
+            },
+                "C":{
+                    "6":{
+                        "rwy": "11",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "W":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+                    }
+            },
+                "D":{
+                    "4":{
+                        "rwy": "29",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                }
+            },
+			"PEROT":{
+                "C":{
+                    "3":{
+                        "rwy": "11",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+				},
+                "D":{
+                    "3":{
+                        "rwy": "29",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+					}
+                }
+			}
+        }
+    }
+}

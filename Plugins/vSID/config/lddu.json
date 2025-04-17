@@ -1,0 +1,105 @@
+{
+    "LDDU":{
+        "elevation": 527,
+        "runways": "11,29",
+        "transAlt": 10000,
+        "maxInitialClimb": 8000,
+        "sids":{
+            "initial": 8000,
+
+            "MADOS":{ 
+                "W":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+					}
+                }
+			},
+            
+			"AMUGO":{
+                "W":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+                    }
+                },
+                
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+                    }
+                }
+			},
+			"AIOSA":{
+                "W":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+                    }
+                }
+            },
+			"RIGVA":{
+                "A":{
+                    "1":{
+                        "rwy": "11",
+						"equip": {"RNAV": true,"NON-RNAV": true},
+                        "prio": 10
+                    }
+                }
+            },
+			"BEVIS":{
+                "W":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+                    }
+				},
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+					}
+                }
+			},
+			"MOKUN":{
+                "W":{
+                    "1":{
+                        "rwy": "11",
+                        "prio": 1
+                    }
+				},
+                "V":{
+                    "2":{
+                        "rwy": "29",
+                        "prio": 1
+					}
+                }
+			},
+            "DOPUT":{
+                "V":{
+                    "1":{
+                        "rwy": "29",
+                        "prio": 1
+					}
+                }
+			},
+            "NERRA": {
+                "D": {
+                    "3": {
+                        "rwy": "29",
+						"equip": {"RNAV": true,"NON-RNAV": true},
+                        "prio": 99,
+                        "sidHighlight": true
+					}
+                }
+			}
+        }
+    }
+}
