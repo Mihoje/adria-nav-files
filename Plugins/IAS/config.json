@@ -1,0 +1,21 @@
+{
+  "mach": {
+    "digits": 2,
+    "thresholdFL": 245,
+    "prefix": "M",
+    "unreliableIndicator": "",
+    "unreliableColor": "255,0,0"
+  },
+  "ias": {
+    "prefix": "I",
+    "unreliableIndicator": "",
+    "unreliableColor": "255,0,0"
+  },
+  "weather": {
+    "url": "http://wx.vatadria.com/api/regions/ALL/wx",
+    "update": 300
+  },
+  "broadcast": {
+    "unreliableSpeed": true
+  }
+}

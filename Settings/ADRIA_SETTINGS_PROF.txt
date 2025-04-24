@@ -3,330 +3,256 @@ PROFILE:ADR_CTR:300:6
 ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net / CPDLC/PDC - ADRA
 ATIS4:Feedback cc.vatadria.com/feedback/create
-
 PROFILE:ADR_E_CTR:300:6
 ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net / CPDLC/PDC - ADRE
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:ADR_W_CTR:300:6
 ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net / CPDLC/PDC - ADRW
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:ADR_U_CTR:400:6
 ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net / CPDLC - ADRU
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:<initials>_OBS:300:0
 ATIS2:$myrealname
 ATIS3:Observing the Adria Region
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
-//LWSS
 PROFILE:LWSS_CTR:200:6
 ATIS2:$radioname
 ATIS3:Covering LW* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LWSK_APP:100:5
 ATIS2:$radioname
 ATIS3:ATIS 130.125
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LWSK_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 130.125
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LWOH_APP:100:5
 ATIS2:$radioname
 ATIS3:Procedural service in Ohrid TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
-//LAAA
 PROFILE:LAAA_CTR:250:6
 ATIS2:$radioname
 ATIS3:Covering LA* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LATI_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 132.275
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LATI_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 132.275
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LATI_GND:10:3
 ATIS2:$radioname
 ATIS3:ATIS 132.275
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LAKU_I_TWR:50:4
 ATIS2:$radioname
 ATIS3:Kukes FISO
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
-//LDZO
 PROFILE:LDZO_CTR:250:6
 ATIS2:$radioname
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDDU_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDOS_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDPL_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 129.150
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDSP_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 125.300
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDZA_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDZD_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDDU_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDDU_DEL:50:4
 ATIS2:$radioname
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDLO_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDPL_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 129.150
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDRI_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDSB_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDSP_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 125.300
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDZA_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDZA_GND:25:4
 ATIS2:$radioname
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LDZD_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
-//LJLA
 PROFILE:LJLA_CTR:450:6
 ATIS2:$radioname
 ATIS3:Covering LJ* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJLA_I_CTR:450:6
 ATIS2:$radioname
 ATIS3:Covering LJ* if local ATC offline outside of controlled airspace
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJLJ_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJLJ_TWR:30:4
 ATIS2:$radioname
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJLJ_GND:10:3
 ATIS2:$radioname
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJMB_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJPZ_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJCE_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LJCE_TWR:30:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQSB_CTR:300:6
 ATIS2:$radioname
 ATIS3:Covering LQ* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQSB_I_CTR:300:6
 ATIS2:$radioname
 ATIS3:Covering LQ* below FL95 outside controlled airspace
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQBK_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQMO_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 126.225
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQSA_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 124.125
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQSA_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 124.125
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQSA_GND:10:3
 ATIS2:$radioname
 ATIS3:ATIS 124.125
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LQTZ_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
-//LYBA
 PROFILE:LYBA_CTR:350:6
 ATIS2:$radioname
 ATIS3:Covering LY* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:BKPR_APP:150:5
 ATIS2:$radioname
 ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:BKPR_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:BKPR_GND:10:3
 ATIS2:$radioname
 ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYBE_APP:150:5
 ATIS2:$radioname
-ATIS3:ATIS 125.025
+ATIS3:ATIS 120.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
-PROFILE:LYBE_F_APP:150:5
-ATIS2:$radioname
-ATIS3:ATIS 125.025
-ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYBE_TWR:50:4
 ATIS2:$radioname
-ATIS3:ATIS 125.025
+ATIS3:ATIS 120.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYBE_GND:10:3
 ATIS2:$radioname
-ATIS3:ATIS 125.025
+ATIS3:ATIS 120.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYBE_DEL:10:3
 ATIS2:$radioname
-ATIS3:ATIS 125.025
+ATIS3:ATIS 120.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYBT_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYBT_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYKV_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYNI_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYPG_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYPG_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYTV_APP:150:5
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 PROFILE:LYUZ_TWR:50:4
 ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 END
