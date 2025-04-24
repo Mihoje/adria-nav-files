@@ -1,0 +1,135 @@
+{
+    "LYPG":{
+        "elevation": 122,
+        "runways": "18,36",
+        "transAlt": 10000,
+        "maxInitialClimb": 13000,
+        "sids":{
+            "initial": 13000,
+            "climbvia": true,
+            "NIK":{
+                "G":{
+                    "2":{
+                        "rwy":"18",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"18",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "1":{
+                        "rwy":"36",
+                        "prio":1
+                    }
+                },
+                "S":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"36",
+                        "prio":10
+                    }
+                },
+                "L":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"36",
+                        "prio":11
+                    }
+                }               
+            },
+            "MOJ":{
+                "G":{
+                    "2":{
+                        "sidHighlight":true,
+                        "rwy":"18",
+                        "prio":99
+                    }
+                },
+                "V":{
+                    "3":{
+                        "sidHighlight":true,
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"18",
+                        "prio":99
+                    }
+                },
+                "D":{
+                    "2":{
+                        "sidHighlight":true,
+                        "rwy":"36",
+                        "prio":99
+                    }
+                },
+                "W":{
+                    "3":{
+                        "sidHighlight":true,
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"36",
+                        "prio":99
+                    }
+                }               
+            },
+            "LASTI":{
+                "G":{
+                    "2":{
+                        "rwy":"18",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"18",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "2":{
+                        "rwy":"36",
+                        "prio":1
+                    }
+                },
+                "S":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"36",
+                        "prio":10
+                    }
+                }              
+            },
+            "LEBGA":{
+                "G":{
+                    "2":{
+                        "rwy":"18",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"18",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "2":{
+                        "rwy":"36",
+                        "prio":1
+                    }
+                },
+                "S":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"36",
+                        "prio":10
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "LYTV":{
+        "elevation": 20,
+        "runways": "14,32",
+        "transAlt": 10000,
+        "maxInitialClimb": 13000,
+        "sids":{
+            "initial": 13000,
+            "climbvia": true,
+            "NIK":{
+                "N":{
+                    "3":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "V":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "Z":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":1
+                    }
+                },
+                "P":{
+                    "2":{
+                        "rwy":"32",
+                        "prio":2
+                    }
+                },
+                "A":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":3
+                    }
+                },
+                "C":{
+                    "1":{
+                        "rwy":"32",
+                        "prio":4
+                    }
+                },
+                "T":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }                
+            },
+            "KOFER":{
+                "E":{
+                    "1":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "P":{
+                    "2":{
+                        "rwy":"32",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+            },
+            "LASTI":{
+                "M":{
+                    "3":{
+                        "rwy":"14",
+                        "prio":1
+                    }
+                },
+                "F":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"14",
+                        "prio":10
+                    }
+                },
+                "Q":{
+                    "2":{
+                        "rwy":"32",
+                        "prio":1
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"32",
+                        "prio":10
+                    }
+                }
+                
+            }
+        }
+    }
+}

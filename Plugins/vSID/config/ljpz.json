@@ -1,0 +1,127 @@
+{
+    "LJPZ":{
+        "elevation": 7,
+        "runways": "15, 33",
+        "transAlt": 10500,
+        "maxInitialClimb": 8000,
+        "sids":{
+            "initial": 8000,
+            "FORJO":{
+                "D":{
+                    "1":{
+                        "rwy":"33",
+                        "prio":1
+                    }
+                }
+            },
+            "ABLAT":{
+                "R":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":2
+                    }                   
+                },
+                "D":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":1
+                    }                   
+                },
+                "E":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":1
+                    }                   
+                },
+                "S":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":2
+                    }                   
+                }
+            },
+            "BARPI":{
+                "R":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":2
+                    }                   
+                },
+                "S":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":2
+                    }                   
+                },
+                "J":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":1
+                    }                   
+                },
+                "K":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":1
+                    }                   
+                }
+            },
+            "BETJA":{
+                "R":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":1
+                    }                   
+                },
+                "S":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":1
+                    }                   
+                }
+            },
+            "ROTAR":{
+                "J":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":1
+                    }                   
+                },
+                "K":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":1
+                    }                   
+                }
+            },
+            "ILB":{
+                "J":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"15",
+                        "prio":1
+                    }                   
+                },
+                "K":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"33",
+                        "prio":1
+                    }                   
+                }
+            }
+        }
+    }
+}

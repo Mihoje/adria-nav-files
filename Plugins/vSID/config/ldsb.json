@@ -1,0 +1,81 @@
+{
+    "LDSB":{
+        "elevation": 1781,
+        "runways": "03,21",
+        "transAlt": 10000,
+        "maxInitialClimb": 20000,
+        "sids":{
+            "climbvia": true,
+            "SIPAL":{
+                "T":{
+                    "1":{
+                        "rwy":"21",
+                        "prio":1
+                    }
+                },
+                "R":{
+                    "6":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"21",
+                        "prio":10
+                    }
+                },
+                "Q":{
+                    "1":{
+                        "rwy":"03",
+                        "prio":1
+                    }
+                },
+                "S":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"03",
+                        "prio":10
+                    }
+                }
+            },
+            "SPL":{
+                "M":{
+                    "1":{
+                        "rwy":"21",
+                        "prio":1
+                    }
+                },
+                "Q":{
+                    "1":{
+                        "rwy":"03",
+                        "prio":1
+                    }
+                },
+                "R":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"21",
+                        "prio":10
+                    }
+                },
+                "S":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"03",
+                        "prio":10
+                    }
+                },
+                "T":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"03",
+                        "prio":11
+                    }
+                },
+                "U":{
+                    "6":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"03",
+                        "prio":12
+                    }
+                }
+            }
+        }
+    }
+}

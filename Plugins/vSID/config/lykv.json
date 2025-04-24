@@ -1,0 +1,110 @@
+{
+    "LYKV":{
+        "elevation": 694,
+        "runways": "13,31",
+        "transAlt": 10000,
+        "maxInitialClimb": 13000,
+        "sids":{
+            "initial": 13000,
+            "climbvia": true,
+            "VAL":{
+                "C":{
+                    "2":{
+                        "rwy":"13",
+                        "prio":1
+                    }
+                },
+                "L":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"13",
+                        "prio":10
+                    }
+                },
+                "N":{
+                    "2":{
+                        "rwy":"31",
+                        "prio":1
+                    }
+                },
+                "M":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"31",
+                        "prio":10
+                    }
+                }               
+            },
+            "ELGEB":{
+                "C":{
+                    "1":{
+                        "rwy":"13",
+                        "prio":1
+                    }
+                },
+                "M":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"13",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "1":{
+                        "rwy":"31",
+                        "prio":1
+                    }
+                },
+                "N":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"31",
+                        "prio":10
+                    }
+                }               
+            },
+            "TORTO":{
+                "M":{
+                    "2":{
+                        "rwy":"13",
+                        "prio":1
+                    }
+                },
+                "N":{
+                    "2":{
+                        "rwy":"31",
+                        "prio":1
+                    }
+                }            
+            },
+            "RAMAP":{
+                "E":{
+                    "2":{
+                        "rwy":"13",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "4":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"13",
+                        "prio":10
+                    }
+                },
+                "F":{
+                    "2":{
+                        "rwy":"31",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "5":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"31",
+                        "prio":10
+                    }
+                }          
+            }
+        }
+    }
+}

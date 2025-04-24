@@ -1,0 +1,239 @@
+{
+    "LDZD":{
+        "elevation": 289,
+        "runways": "04,22,13,31",
+        "transAlt": 10000,
+        "maxInitialClimb": 8000,
+        "sids":{
+            "initial": 8000,
+            "PALEZ":{
+                "A":{
+                    "2":{
+                        "rwy": "04",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+					}
+			},
+                "W":{
+                    "2":{
+                        "rwy": "04",
+                        "prio": 1
+                    }
+			},
+                "B":{
+                    "1":{
+                        "rwy": "13",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+			},
+                "V":{
+                    "1":{
+                        "rwy": "13",
+                        "prio": 1
+                    }
+			},
+               "X":{
+                    "1":{
+                        "rwy": "13",
+                        "prio": 2
+                    }
+			},
+               "C":{
+                    "1":{
+                        "rwy": "22",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+			},
+               "U":{
+                    "2":{
+                        "rwy": "22",
+                        "prio": 1
+                    }
+			},
+               "D":{
+                    "1":{
+                        "rwy": "31",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+			},
+               "T":{
+                    "2":{
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
+			},
+			"RAVNA":{
+                "A":{
+                    "2":{
+                        "rwy": "04",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                },
+                "W":{
+                    "2":{
+                        "rwy": "04",
+                        "prio": 1
+                    }
+			},
+                "B":{
+                    "1":{
+                        "rwy": "13",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy": "13",
+                        "prio": 1
+                    }
+			},
+                "X":{
+                    "1":{
+                        "rwy": "13",
+                        "prio": 2
+                    }
+			},
+                "C":{
+                    "1":{
+                        "rwy": "22",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+			},
+                "U":{
+                    "1":{
+                        "rwy": "22",
+                        "prio": 1
+                    }
+			},
+                "D":{
+                    "1":{
+                        "rwy": "31",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+			},
+                "T":{
+                    "1":{
+                        "rwy": "31",
+                        "prio": 1
+                    }
+                }
+			},
+			"SAL":{
+                "L":{
+                    "2":{
+                        "rwy": "04",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                },
+                "W":{
+                    "2":{
+                        "rwy": "04",
+                        "prio": 1
+                    }
+            },
+                "V":{
+                    "1":{
+                        "rwy": "13",
+                        "prio": 1
+                    }
+            },
+                "D":{
+                    "4":{
+                        "rwy": "13",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "U":{
+                    "1":{
+                        "rwy": "22",
+                        "prio": 1
+                    }
+            },
+                "M":{
+                    "3":{
+                        "rwy": "22",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "T":{
+                    "1":{
+                        "rwy": "31",
+                        "prio": 1
+                    }
+            },
+                "E":{
+                    "3":{
+                        "rwy": "31",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+                }
+            },
+			"SPL":{
+                "W":{
+                    "3":{
+                        "rwy": "04",
+                        "prio": 1
+                    }
+            },
+                "F":{
+                    "5":{
+                        "rwy": "04",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "V":{
+                    "1":{
+                        "rwy": "13",
+                        "prio": 1
+                    }
+            },
+                "D":{
+                    "4":{
+                        "rwy": "13",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "U":{
+                    "1":{
+                        "rwy": "22",
+                        "prio": 1
+                    }
+            },
+                "G":{
+                    "3":{
+                        "rwy": "22",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+                    }
+            },
+                "T":{
+                    "1":{
+                        "rwy": "31",
+                        "prio": 1
+                    }
+            },
+                "E":{
+                    "5":{
+                        "rwy": "31",
+						"equip": {"NON-RNAV": true},
+                        "prio": 5
+					}
+                }
+			}
+        }
+    }
+}

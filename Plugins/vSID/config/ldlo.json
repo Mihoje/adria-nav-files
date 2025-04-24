@@ -1,0 +1,111 @@
+{
+    "LDLO":{
+        "elevation": 154,
+        "runways": "02,20",
+        "transAlt": 10000,
+        "maxInitialClimb": 4000,
+        "sids":{
+            "initial": 4000,
+            "EBITA":{
+                "V":{
+                    "2":{
+                        "rwy":"02",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"02",
+                        "prio":10
+                    }
+                },
+                "U":{
+                    "2":{
+                        "rwy":"20",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"20",
+                        "prio":10
+                    }
+                }
+            },
+            "GISER":{
+                "V":{
+                    "1":{
+                        "rwy":"02",
+                        "prio":1
+                    }
+                },
+                "U":{
+                    "2":{
+                        "rwy":"20",
+                        "prio":1
+                    }
+                }
+            },
+            "LABIN":{
+                "V":{
+                    "1": {
+                        "rwy":"02",
+                        "prio":1
+                    }
+                },
+                "U":{
+                    "1": {
+                        "rwy":"20",
+                        "prio":1
+                    }
+                }
+            },
+            "PUL":{
+                "V":{
+                    "1":{
+                        "rwy":"02",
+                        "prio":1
+                    }
+                },
+               "E":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"02",
+                        "prio":10
+                    }
+                },
+                "U":{
+                    "1":{
+                        "rwy":"20",
+                        "prio":1
+                    }
+                },
+                "F":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"20",
+                        "prio":10
+                    }
+                }
+            },
+            "ULPIN":{
+                "J":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"02",
+                        "prio":10
+                    }
+                },
+                "L":{
+                    "3":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"20",
+                        "prio":10
+                    }
+                }
+            }
+        }
+    }
+}

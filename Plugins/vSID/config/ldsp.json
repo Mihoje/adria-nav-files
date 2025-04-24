@@ -1,0 +1,309 @@
+{
+    "LDSP":{
+        "elevation": 78,
+        "runways": "05,23",
+        "transAlt": 10000,
+        "maxInitialClimb": 5000,
+        "sids":{
+            "initial": 5000,
+            "SIRMI":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "8":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"23",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "2":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }
+            },
+            "UNIPA":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"23",
+                        "prio":1
+                    }
+                },
+                "G":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "8":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                }
+            },
+            "REMPI":{
+                "W":{
+                    "1": {
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "2":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1": {
+                        "rwy":"23",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "4":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }
+            },
+            "ORAKA":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+               "D":{
+                    "7":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                },
+                "C":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                }
+            },
+            "KENEM":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                },
+                "G":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":11
+                    }
+                },
+                "H":{
+                    "8":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                }
+            },
+            "VELIT":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "8":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "6":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                }
+            },
+            "SIPAL":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "7":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                },
+                "E":{
+                    "5":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                }
+            },
+            "ZDA":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "K":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"23",
+                        "prio":1
+                    }
+                },
+                "P":{
+                    "8":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }
+            },
+            "TORPO":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"23",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "8":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }
+            },
+            "VELUG":{
+                "W":{
+                    "1":{
+                        "rwy":"05",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "2":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1":{
+                        "rwy":"23",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "2":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }
+            },
+            "SPL":{
+                "D":{
+                    "2":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }
+            },
+            "RILIM": {
+                "E":{
+                    "3":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"05",
+                        "prio":10
+                    }
+                },
+                "F":{
+                    "5":{
+                        "equip": {"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":10
+                    }
+                }                                
+            },
+            "KEMIX": {
+                "A":{
+                    "3":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"23",
+                        "prio":99,
+                        "sidHighlight":true
+                    }
+                }
+            }
+        }
+    }
+}

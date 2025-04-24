@@ -1,0 +1,152 @@
+{
+    "LYNI":{
+        "elevation": 650,
+        "runways": "11,29",
+        "transAlt": 10000,
+        "maxInitialClimb": 12000,
+        "sids":{
+            "initial": 12000,
+            "climbvia": true,
+            "RAVAK":{
+                "L":{
+                    "2":{
+                        "rwy":"11",
+                        "prio":1
+                    }
+                },
+                "K":{
+                    "2":{
+                        "rwy":"11",
+                        "prio":2
+                    }
+                },
+                "F":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":10
+                    }
+                },
+                "G":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":11
+                    }
+                },
+                "N":{
+                    "2":{
+                        "rwy":"29",
+                        "prio":1
+                    }
+                },
+                "M":{
+                    "2":{
+                        "rwy":"29",
+                        "prio":2
+                    }
+                },
+                "E":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":10
+                    }
+                },
+                "D":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":11
+                    }
+                }                
+            },
+            "BAJUN":{
+                "E":{
+                    "1":{
+                        "rwy":"11",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":10
+                    }
+                },
+                "F":{
+                    "1":{
+                        "rwy":"29",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":10
+                    }
+                }               
+            },
+            "VAGEN":{
+                "E":{
+                    "2":{
+                        "rwy":"11",
+                        "prio":1
+                    }
+                },
+                "C":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":10
+                    }
+                },
+                "F":{
+                    "2":{
+                        "rwy":"29",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "7":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":10
+                    }
+                }              
+            },
+            "NISVA":{
+                "E":{
+                    "1":{
+                        "rwy":"11",
+                        "prio":1
+                    }
+                },
+                "F":{
+                    "2":{
+                        "rwy":"29",
+                        "prio":1
+                    }
+                }             
+            },
+            "AZBUX":{
+                "C":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":1
+                    }
+                },
+                "D":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":1
+                    }
+                }             
+            }
+        }
+    }
+}

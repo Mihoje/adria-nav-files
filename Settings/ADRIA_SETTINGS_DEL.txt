@@ -6,6 +6,8 @@ m_LineNumber:10
 m_Resizable:1
 m_OrderingColumn:4
 m_HeaderOnly:0
+m_Column:REQ:4:0:644:744:0:1:vSID:vSID::0:0.0
+m_Column:TIME:5:1:645:0:0:1:vSID:::0:0.0
 m_Column:FR:2:1:63:0:0:1::::1:0.0
 m_Column:POS:4:0:1:1:0:1:Ground Radar plugin:Ground Radar plugin::1:0.0
 m_Column:ATYP:4:1:10028:0:0:1:TopSky plugin:::1:0.0
@@ -17,12 +19,12 @@ m_Column:RFL:4:1:1:0:0:1:VATAAssist:::0:0.0
 m_Column:RFL:6:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 m_Column:ADEP:4:1:10007:1001:0:1:TopSky plugin:TopSky plugin::1:0.0
 m_Column:ADES:5:1:10008:1001:39:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
-m_Column:Airport:20:0:2:0:0:1:VATAAssist:::0:0.0
 m_Column:SID:8:1:641:742:741:1:vSID:vSID:vSID:1:0.0
-m_Column:RWY:4:1:10009:19:64:1:TopSky plugin::TopSky plugin:1:0.0
 m_Column:CFL:4:1:640:740:0:1:vSID:vSID::1:0.0
 m_Column:ASSR:5:1:10041:62:0:1:TopSky plugin:TopSky plugin::1:0.0
 m_Column:E:2:1:648:27:122:1:vSID::TopSky plugin:1:0.0
+m_Column:ATYP:4:1:10028:0:0:1:TopSky plugin:::1:0.0
+m_Column:RFL:4:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 m_Column:COM:4:0:11:32:32:1::::1:0.0
 m_Column:REQ:4:0:644:744:0:1:vSID:vSID::0:0.0
 m_Column:TIME:5:1:645:0:0:1:vSID:::0:0.0
