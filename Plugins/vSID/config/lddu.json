@@ -97,7 +97,7 @@
 						"equip": {"RNAV": true,"NON-RNAV": true},
                         "prio": 99,
                         "sidHighlight": true
-					}
+										}
                 }
 			}
         }
