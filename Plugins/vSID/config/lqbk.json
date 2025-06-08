@@ -55,17 +55,89 @@
                     }
                 }
             },
-            "TEBLI":{
-                "E":{
+            "OKSIG":{
+                "J":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"34",
                         "prio":1
                     }
                 },
-                "D":{
+                "G":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":10
+                    }
+                },
+                "M":{
+                    "1":{
+                        "rwy":"16",
+                        "prio":1
+                    }
+                }
+            },
+            "MARIL":{
+                "J":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "G":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":10
+                    }
+                },
+                "M":{
+                    "1":{
+                        "rwy":"16",
+                        "prio":1
+                    }
+                }
+            },
+               "DOBOT":{
+                "M":{
+                    "1":{
+                        "rwy":"16",
+                        "prio":1
+                    }
+                },
+                 "G":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":10
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                }
+            },
+            "TEBLI":{
+                "J":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "G":{
+                    "1":{
+                        "equip":{"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":10
+                    }
+                },
+                "M":{
+                    "1":{
                         "rwy":"16",
                         "prio":1
                     }

@@ -12,13 +12,13 @@
                     "equip":{"RNAV": true,"NON-RNAV": true},
                     "3":{
                         "rwy": "12L,12R",
-                        "prio": 2
+                        "prio": 3
                     }
                 },
                 "H": {
                     "3":{
                         "rwy": "12L,12R",
-                        "prio": 3
+                        "prio": 2
                     }
                 },
                 "E":{
@@ -92,13 +92,13 @@
                 "G":{
                     "3":{
                         "rwy":"12L,12R",
-                        "prio":1
+                        "prio":2
                     }
                 },
                 "D":{
                     "3":{
                         "rwy":"12L,12R",
-                        "prio":2
+                        "prio":1
                     }
                 },
                 "C":{
