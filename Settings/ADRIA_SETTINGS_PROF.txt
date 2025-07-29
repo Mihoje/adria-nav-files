@@ -24,6 +24,13 @@ ATIS2:$myrealname
 ATIS3:Observing the Adria Region
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
+// KFOR
+
+PROFILE:KFOR_CTR:300:6
+ATIS2:$radioname
+ATIS3:Coverage map.vatsim.net
+ATIS4:Feedback cc.vatadria.com/feedback/create
+
 //LWSS
 PROFILE:LWSS_CTR:200:6
 ATIS2:$radioname
