@@ -1,0 +1,119 @@
+VOICE
+AG:KFOR_CTR KFOR Radar:133.185
+AG:ADR_CTR Adria Radar:130.000
+AG:ADR_E_CTR Adria Radar:130.550
+AG:ADR_UE_CTR Adria Radar:130.250
+AG:ADR_UW_CTR Adria Radar:130.110
+AG:ADR_U_CTR Adria Radar:130.750
+AG:ADR_W_CTR Adria Radar:130.450
+AG:BKPR_APP Pristina Approach:125.980
+AG:BKPR_ATIS:134.385
+AG:BKPR_GND Pristina Ground:128.830
+AG:BKPR_TWR Pristina Tower:126.550
+AG:LAAA_CTR Tirana Control:127.500
+AG:LAKU_I_TWR Kukes Aerodrome Information:118.375
+AG:LATI_APP Tirana Approach:133.150
+AG:LATI_ATIS:132.275
+AG:LATI_GND Tirana Ground:136.250
+AG:LATI_TWR Tirana Tower:122.500
+AG:LDDU_APP Dubrovnik Radar:123.600
+AG:LDDU_ATIS:118.425
+AG:LDDU_DEL Dubrovnik Delivery:125.400
+AG:LDDU_F_APP Dubrovnik Director:134.725
+AG:LDDU_TWR Dubrovnik Tower:129.500
+AG:LDLO_TWR Losinj Tower:120.300
+AG:LDOS_APP Osijek Approach:128.350
+AG:LDPL_APP Pula Radar:124.600
+AG:LDPL_ATIS:129.150
+AG:LDPL_TWR Pula Tower:132.000
+AG:LDRI_TWR Rijeka Tower:119.000
+AG:LDSB_TWR Brac Tower:118.025
+AG:LDSP_APP Split Radar:120.875
+AG:LDSP_ATIS:125.300
+AG:LDSP_F_APP Split Director:128.675
+AG:LDSP_TWR Split Tower:124.675
+AG:LDZA_APP Zagreb Radar:118.885
+AG:LDZA_ATIS:124.575
+AG:LDZA_GND Zagreb Ground:121.850
+AG:LDZA_TWR Zagreb Tower:118.300
+AG:LDZD_APP Zadar Radar:128.525
+AG:LDZD_DEL Zadar Delivery:132.975
+AG:LDZD_TWR Zadar Tower:123.700
+AG:LDZO_CTR Zagreb Radar:135.800
+AG:LDZO_C_CTR Zagreb Radar:132.340
+AG:LDZO_N_CTR Zagreb Radar:128.275
+AG:LDZO_S_CTR Zagreb Radar:122.575
+AG:LDZO_UC_CTR Zagreb Radar:136.300
+AG:LDZO_UN_CTR Zagreb Radar:133.635
+AG:LDZO_US_CTR Zagreb Radar:131.275
+AG:LDZO_UW_CTR Zagreb Radar:125.780
+AG:LDZO_U_CTR Zagreb Radar:129.650
+AG:LDZO_W_CTR Zagreb Radar:124.375
+AG:LIPP_CE1_CTR Padova Radar:120.725
+AG:LIPP_NE2_CTR Padova Radar:130.525
+AG:LIPP_NE3_CTR Padova Radar:132.860
+AG:LIPP_NE6_CTR Padova Radar:134.390
+AG:LIPP_NE8_CTR Padova Radar:127.380
+AG:LIPP_NW1_CTR Padova Radar:125.900
+AG:LIPP_SD2_CTR Padova Radar:133.940
+AG:LIPP_SD3_CTR Padova Radar:133.705
+AG:LIPP_SD5_CTR Padova Radar:136.465
+AG:LIPP_SD7_CTR Padova Radar:133.305
+AG:LJCE_TWR Cerklje Tower:127.230
+AG:LJLA_CTR Ljubljana Radar:128.880
+AG:LJLA_I_CTR Ljubljana Information:118.480
+AG:LJLA_U_CTR Ljubljana Radar:128.875
+AG:LJLJ_APP Ljubljana Radar:135.280
+AG:LJLJ_ATIS:128.175
+AG:LJLJ_GND Ljubljana Ground:121.930
+AG:LJLJ_TWR Ljubljana Tower:118.005
+AG:LJMB_APP Maribor Approach:119.205
+AG:LJMB_TWR Maribor Tower:134.305
+AG:LJPZ_APP Portoroz Approach:124.880
+AG:LJPZ_TWR Portoroz Tower:129.805
+AG:LQBK_APP Banja Luka Approach:118.950
+AG:LQBK_TWR Banja Luka Tower:133.075
+AG:LQMO_APP Mostar Approach:120.225
+AG:LQMO_ATIS:126.225
+AG:LQMO_TWR Mostar Tower:125.550
+AG:LQSA_APP Sarajevo Radar:119.775
+AG:LQSA_ATIS:124.125
+AG:LQSA_GND Sarajevo Ground:121.900
+AG:LQSA_TWR Sarajevo Tower:118.250
+AG:LQSB_CTR Sarajevo Radar:128.850
+AG:LQSB_I_CTR Banja Luka Information:135.575
+AG:LQTZ_APP Tuzla Approach:120.350
+AG:LQTZ_TWR Tuzla Tower:132.925
+AG:LWOH_APP Ohrid Approach:119.200
+AG:LWOH_TWR Ohrid Tower:119.200
+AG:LWSK_APP Skopje Approach:120.300
+AG:LWSK_ATIS:130.125
+AG:LWSK_TWR Skopje Tower:118.500
+AG:LWSS_CTR Skopje Radar:119.375
+AG:LYBA_CTR Beograd Radar:123.775
+AG:LYBA_E_CTR Beograd East Radar:120.420
+AG:LYBA_N_CTR Beograd North Radar:134.025
+AG:LYBA_UE_CTR Beograd Upper East Radar:125.925
+AG:LYBA_UN_CTR Beograd Upper North Radar:135.355
+AG:LYBA_UW_CTR Beograd Upper West Radar:129.025
+AG:LYBA_U_CTR Beograd Upper Center Radar:129.230
+AG:LYBA_W_CTR Beograd West Radar:128.475
+AG:LYBE_APP Beograd Radar:133.100
+AG:LYBE_ATIS:125.025
+AG:LYBE_DEL Belgrade Delivery:121.975
+AG:LYBE_F_APP Belgrade Director:119.100
+AG:LYBE_GND Beograd Ground:118.300
+AG:LYBE_TWR Beograd Tower:118.100
+AG:LYBT_APP Batajnica Approach:126.050
+AG:LYBT_TWR Batajnica Tower:118.200
+AG:LYKV_APP Kraljevo Approach:124.925
+AG:LYKV_TWR Kraljevo Tower:127.225
+AG:LYNI_APP Nis Approach:119.525
+AG:LYNI_TWR Nis Tower:118.950
+AG:LYPG_APP Podgorica Radar:135.150
+AG:LYPG_TWR Podgorica Tower:118.200
+AG:LYTV_APP Tivat Approach:118.000
+AG:LYUZ_TWR Uzice Tower:126.825
+AG:LYVR_APP Vrsac Approach:127.050
+AG:LYVR_TWR Vrsac Tower:128.075
+END

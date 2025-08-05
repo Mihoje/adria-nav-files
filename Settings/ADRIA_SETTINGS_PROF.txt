@@ -80,7 +80,7 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 //LDZO
 PROFILE:LDZO_CTR:250:6
-ATIS2:$radioname
+ATIS2:$radioname / CPDLC - LDZO
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -105,7 +105,7 @@ ATIS3:ATIS 125.300
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZA_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -150,12 +150,12 @@ ATIS3:ATIS 125.300
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZA_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZA_GND:25:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -166,7 +166,7 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 //LJLA
 PROFILE:LJLA_CTR:450:6
-ATIS2:$radioname
+ATIS2:$radioname / CPDLC - LJLA
 ATIS3:Covering LJ* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -176,17 +176,17 @@ ATIS3:Covering LJ* if local ATC offline outside of controlled airspace
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJLJ_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LJLJ]
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJLJ_TWR:30:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LJLJ]
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJLJ_GND:10:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LJLJ]
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -252,7 +252,7 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 //LYBA
 PROFILE:LYBA_CTR:350:6
-ATIS2:$radioname
+ATIS2:$radioname / CPDLC - LYBA
 ATIS3:Covering LY* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -272,7 +272,7 @@ ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -282,17 +282,17 @@ ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_GND:10:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_DEL:10:3
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 

@@ -1,0 +1,102 @@
+Settings	SettingsfileSYMBOLOGY	\ADRIA\Settings\LDZO\LDZO_SETTINGS_SYMB.txt
+Settings	SettingsfileVOICE	\ADRIA\SETTINGS\VoiceChannels.txt
+Settings	SettingsfilePROFILE	\ADRIA\Settings\ADRIA_SETTINGS_PROF.txt
+Settings	SettingsfileTAGS	\ADRIA\Settings\ADRIA_SETTINGS_TAGS.txt
+Settings	SettingsfileSIL	\ADRIA\Settings\ADRIA_SETTINGS_SIL.txt
+Settings	SettingsfileSEL	\ADRIA\Settings\ADRIA_SETTINGS_SEL.txt
+Settings	SettingsfileDEP	\ADRIA\Settings\ADRIA_SETTINGS_DEL.txt
+Settings	SettingsfileARR	\ADRIA\Settings\ADRIA_SETTINGS_ARL.txt
+Settings	SettingsfileFP	\ADRIA\Settings\ADRIA_SETTINGS_FPL.txt
+Settings	SettingsfilePLUGINS	\ADRIA\Settings\ADRIA_SETTINGS_PLUGINS.txt
+Settings	Settingsfile	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+Settings	SettingsfileSCREEN	\ADRIA\Settings\ADRIA_SETTINGS_LAYOUT.txt
+Settings	SettingsfileCONFLICT	\ADRIA\Settings\ADRIA_SETTINGS_COL.txt
+Settings	SettingsfileVCCS	\ADRIA\Settings\ADRIA_SETTINGS_VCCS.txt
+Settings	SettingsfilePILOTING	\ADRIA\Settings\ADRIA_SETTINGS_PLL.txt
+Settings	alias	\ADRIA\Alias\alias.txt
+Settings	AtisFolder	\ADRIA\ATIS\Atisfile.txt
+Settings	airlines	\ADRIA\ICAO\ICAO_Airlines.txt
+Settings	airports	\ADRIA\ICAO\ICAO_Airports.txt
+Settings	aircraft	\ADRIA\ICAO\ICAO_Aircraft.txt
+Settings	airways	\ADRIA\NavData\airway.txt
+Settings	airportcoords	\ADRIA\NavData\icao.txt
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
+ASRFastKeys	1	\ADRIA\ASR\LDZA_GND.asr
+ASRFastKeys	2	\ADRIA\ASR\LDSP_GND.asr
+ASRFastKeys	3	\ADRIA\ASR\LDDU_GND.asr
+ASRFastKeys	4	\ADRIA\ASR\LJLJ_GND.asr
+ASRFastKeys	5	\ADRIA\ASR\LQSA_GND.asr
+ASRFastKeys	6	\ADRIA\ASR\LYBE_GND.asr
+ASRFastKeys	7	\ADRIA\ASR\LYTV_GND.asr
+TeamSpeakVccs	TsVccsMiniControlX	1355
+TeamSpeakVccs	TsVccsMiniControlY	75
+TeamSpeakVccs	Ts3G2GPtt	18677760
+TeamSpeakVccs	Ts3DialogLeft	465
+TeamSpeakVccs	Ts3DialogTop	220
+TeamSpeakVccs	Ts3DialogRight	1263
+TeamSpeakVccs	Ts3DialogBottom	784
+Plugins	Plugin0	\ADRIA\Plugins\Groundradar\GRplugin.dll
+Plugins	Plugin1	\ADRIA\Plugins\vSID\vSID.dll
+Plugins	Plugin2	\ADRIA\Plugins\AfvEuroScopeBridge.dll
+Plugins	Plugin4	\ADRIA\Plugins\Discord\DiscordEuroscope.dll
+Plugins	Plugin5	\ADRIA\Plugins\VATAGlobal\VATAGlobal.dll
+Plugins	Plugin6	\ADRIA\Plugins\Aman\Aman.dll
+Plugins	Plugin7	\ADRIA\Plugins\IASsure\IASsure.dll
+Plugins	Plugin8	\ADRIA\Plugins\Maestro\MAESTRO.dll
+Plugins	Plugin9	\ADRIA\Plugins\VATAAssist\VATAAssist.dll
+Plugins	Plugin10	\ADRIA\Plugins\Topsky\LDZO\TopSky.dll
+Plugins	Plugin0Display0	Ground Radar display
+Plugins	Plugin0Display1	Standard ES radar screen
+Plugins	Plugin1Display0	Ground Radar display
+Plugins	Plugin1Display1	Standard ES radar screen
+Plugins	Plugin2Display0	Ground Radar display
+Plugins	Plugin2Display1	Standard ES radar screen
+Plugins	Plugin4Display0	Standard ES radar screen
+Plugins	Plugin4Display1	Ground Radar display
+Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin5Display1	Ground Radar display
+Plugins	Plugin6Display0	Standard ES radar screen
+Plugins	Plugin6Display1	Ground Radar display
+Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin7Display1	Ground Radar display
+Plugins	Plugin8Display0	Standard ES radar screen
+Plugins	Plugin8Display1	Ground Radar display
+Plugins	Plugin9Display0	Standard ES radar screen
+Plugins	Plugin9Display1	Ground Radar display
+Plugins	Plugin10Display0	Ground Radar display
+Plugins	Plugin10Display1	Standard ES radar screen
+Settings	SettingsfileORIGPLANE	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+Settings	SettingsfileSTUP	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+Settings	SettingsfileTAXIOUT	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+Settings	SettingsfileTAKEOFF	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+Settings	SettingsfileADCS	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+Settings	SettingsfileTAXIIN	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
+TeamSpeakVccs	Ts3NickName	ADRW
+TeamSpeakVccs	PlaybackMode	Windows Audio Session
+TeamSpeakVccs	PlaybackDevice	Speakers (USB Audio Device)
+TeamSpeakVccs	CaptureMode	Windows Audio Session
+TeamSpeakVccs	CaptureDevice	Microphone (USB Audio Device)
+RecentFiles	Recent1	\ADRIA\ASR\CTR_APP.asr
+Sounds	Sound0	\ADRIA\Sounds\handoff_request.wav
+Sounds	Sound1	\ADRIA\Sounds\handoff_accept.wav
+Sounds	Sound2	\ADRIA\Sounds\conflict_alert.wav
+Sounds	Sound3	\ADRIA\Sounds\radio_message.wav
+Sounds	Sound4	\ADRIA\Sounds\private_message.wav
+Sounds	Sound5	\ADRIA\Sounds\atc_message.wav
+Sounds	Sound6	\ADRIA\Sounds\broadcast_message.wav
+Sounds	Sound7	\ADRIA\Sounds\landline_request.wav
+Sounds	Sound8	\ADRIA\Sounds\supervisor_message.wav
+Sounds	Sound9	\ADRIA\Sounds\connected.wav
+Sounds	Sound10	\ADRIA\Sounds\disconnected.wav
+Sounds	Sound11	\ADRIA\Sounds\ongoing_request.wav
+Sounds	Sound12	\ADRIA\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\ADRIA\Sounds\ongoing_refused.wav
+Sounds	Sound14	\ADRIA\Sounds\ongoing_manual.wav
+Sounds	Sound15	\ADRIA\Sounds\new_atis.wav
+Sounds	Sound16	\ADRIA\Sounds\handoff_refused.wav
+Sounds	Sound17	\ADRIA\Sounds\pointout.wav
+Sounds	Sound18	\ADRIA\Sounds\startup.wav
+Plugins	Plugin11	\ADRIA\Plugins\RDF\RDFPlugin.dll
+Plugins	Plugin11Display0	Ground Radar display
+Plugins	Plugin11Display1	Standard ES radar screen
