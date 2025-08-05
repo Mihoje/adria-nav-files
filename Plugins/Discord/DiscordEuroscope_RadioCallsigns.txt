@@ -10,6 +10,7 @@ ADR_U__CTR Adria "Upper" Radar
 ADR_W_CTR Adria "West" Radar
 ADR__W_CTR Adria "West" Radar
 ADR_W__CTR Adria "West" Radar
+KFOR_CTR KFOR Radar
 BKPR_APP Pristina Approach
 BKPR_1_APP Pristina Approach
 BKPR__APP Pristina Approach

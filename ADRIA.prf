@@ -39,19 +39,21 @@ TeamSpeakVccs	Ts3DialogBottom	784
 Plugins	Plugin0	\ADRIA\Plugins\Groundradar\GRplugin.dll
 Plugins	Plugin1	\ADRIA\Plugins\vSID\vSID.dll
 Plugins	Plugin2	\ADRIA\Plugins\AfvEuroScopeBridge.dll
-Plugins	Plugin4	\ADRIA\Plugins\Discord\DiscordEuroscope.dll
-Plugins	Plugin5	\ADRIA\Plugins\VATAGlobal\VATAGlobal.dll
-Plugins	Plugin6	\ADRIA\Plugins\Aman\Aman.dll
-Plugins	Plugin7	\ADRIA\Plugins\IASsure\IASsure.dll
-Plugins	Plugin8	\ADRIA\Plugins\Maestro\MAESTRO.dll
-Plugins	Plugin9	\ADRIA\Plugins\VATAAssist\VATAAssist.dll
-Plugins	Plugin10	\ADRIA\Plugins\Topsky\ADRIA\TopSky.dll
+Plugins	Plugin3	\ADRIA\Plugins\Discord\DiscordEuroscope.dll
+Plugins	Plugin4	\ADRIA\Plugins\VATAGlobal\VATAGlobal.dll
+Plugins	Plugin5	\ADRIA\Plugins\Aman\Aman.dll
+Plugins	Plugin6	\ADRIA\Plugins\IASsure\IASsure.dll
+Plugins	Plugin7	\ADRIA\Plugins\Maestro\MAESTRO.dll
+Plugins	Plugin8	\ADRIA\Plugins\VATAAssist\VATAAssist.dll
+Plugins	Plugin9	\ADRIA\Plugins\Topsky\ADRIA\TopSky.dll
 Plugins	Plugin0Display0	Ground Radar display
 Plugins	Plugin0Display1	Standard ES radar screen
 Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin2Display0	Ground Radar display
 Plugins	Plugin2Display1	Standard ES radar screen
+Plugins	Plugin3Display0	Standard ES radar screen
+Plugins	Plugin3Display1	Ground Radar display
 Plugins	Plugin4Display0	Standard ES radar screen
 Plugins	Plugin4Display1	Ground Radar display
 Plugins	Plugin5Display0	Standard ES radar screen
@@ -62,10 +64,8 @@ Plugins	Plugin7Display0	Standard ES radar screen
 Plugins	Plugin7Display1	Ground Radar display
 Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin8Display1	Ground Radar display
-Plugins	Plugin9Display0	Standard ES radar screen
-Plugins	Plugin9Display1	Ground Radar display
-Plugins	Plugin10Display0	Ground Radar display
-Plugins	Plugin10Display1	Standard ES radar screen
+Plugins	Plugin9Display0	Ground Radar display
+Plugins	Plugin9Display1	Standard ES radar screen
 Settings	SettingsfileORIGPLANE	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileSTUP	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileTAXIOUT	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
@@ -97,6 +97,3 @@ Sounds	Sound15	\ADRIA\Sounds\new_atis.wav
 Sounds	Sound16	\ADRIA\Sounds\handoff_refused.wav
 Sounds	Sound17	\ADRIA\Sounds\pointout.wav
 Sounds	Sound18	\ADRIA\Sounds\startup.wav
-Plugins	Plugin11	\ADRIA\Plugins\RDF\RDFPlugin.dll
-Plugins	Plugin11Display0	Ground Radar display
-Plugins	Plugin11Display1	Standard ES radar screen
