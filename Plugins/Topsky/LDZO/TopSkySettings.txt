@@ -1,0 +1,275 @@
+Label_CFL_DefaultValue=0
+Setup_COOPANS=1
+Airspace_ASSR_Type=2
+Airspace_SIGMET_Areas=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
+Airspace_NOTAM_Add=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
+Airspace_NOTAM_Remove=LHBP,LZIB
+
+//Route Colors
+Color_Flight_Leg=110,210,110 //Light green
+Color_Information_FL=0,150,0 //Green
+Color_Potential_FL=0,0,255 //Blue
+Color_Warning_FL=255,255,0 //Yellow
+Color_Urgency_FL=255,0,0 // Red
+
+//System Colors
+Color_Selected_Group=255,255,254
+Color_Selected_Period=255,255,41
+Color_Text_Notes=0,200,0 //MSG->Text notes bright green
+Color_Field_Highlight=72,72,73
+
+//Vertical aid window
+Color_VAW_Profile=152,202,172
+Color_VAW_Sector_Limits=145,95,30
+Color_VAW_Track_Position=219,219,219
+
+//Label colors
+Color_Unconcerned=124,126,125 //Doesn't pass through sector
+Color_Concerned=105,144,106 //Notified >15mins
+Color_Coordination=140,179,121 //Coordinated <15mins
+Color_Assumed=255,255,255
+Color_Redundant=156,126,91 //Transfered to next controller still in airspace
+Color_Trough=97,99,97
+Color_Warning=250,205,1
+Color_Information=41,245,41
+Color_Urgency=255,0,0
+Color_Flight_Highlight=36,41,45
+Color_AIW_Intrusion=255,152,0
+Color_Freq_Indicator=113,189,70
+Color_Info_Coord=1,255,255
+Color_Unknown=239,224,42
+Color_VFR=135,128,118
+Color_Sid_Star_Allocation=15,185,15
+
+//CPDLC Colors
+Color_CPDLC_UM_Clearance=30,250,250
+Color_CPDLC_Controller_Late=212,128,44
+Color_CPDLC_Discarded=128,128,128
+Color_CPDLC_DM_Request=30,250,250
+Color_CPDLC_Failed=212,128,44
+Color_CPDLC_Pilot_Late=212,124,44
+Color_CPDLC_Standby=212,128,44
+Color_CPDLC_Unable=212,128,44
+Color_CPDLC_Urgency=225,25,25
+
+//Maps Colors
+Color_Active_Map=198,174,58
+Color_Active_Map_Type_1=87,87,164
+Color_Active_Map_Type_2=80,162,74
+Color_Active_Map_Type_3=179,180,180
+Color_Active_Map_Type_4=200,53,18
+Color_Active_Map_Type_5=198,174,58
+Color_Active_RD_Infill_Map=90,90,90
+Color_Active_Sector=52,58,62
+Color_Active_Text_Map=198,174,58
+
+//Runway Colors
+Color_Runway=116,200,71
+Color_Rwy_App_Line_Inuse=81,90,90
+Color_Rwy_App_Line_Not_Inuse=90,90,16
+Color_Rwy_Locked=15,185,15
+
+Malrt_Misap=MAPP
+Malrt_Inbound_EST=EST
+Malrt_Irregular=IRR
+Malrt_Weather=WX
+
+Airspace_No_DUPE_Codes=7000,2000,2200,1200
+Airspace_ASSR_AutoAssign_Type=2
+Airspace_ASSR_AutoAssign_AcceptCurrent=1
+
+
+System_TrueColorMode=1
+System_UseReportedGS=0
+System_ASP_IasMach=30000
+System_MetarSourceVATSIM=1
+System_TaxiTime=8
+System_FPASD=1
+System_ProxySounds=0
+System_RefreshInterval_AHDG/QDM=10
+
+
+Track_HistoryDots=5
+Track_PredictionLine=0
+
+RwyAppLines_Length=12
+RwyAppLines_Markers=6
+RwyAppLines_MarkerSpacing=2
+RwyAppLines_Auto=1
+
+
+Label_SI_ShowFreq=1
+Label_SI_FreqTime=3
+Label_DAPs=1
+Label_Field18_Flag_Items=STS/,newbie,NEWBIE,Newbie,beginner,disabled,disability,impaired
+Label_Rev_Highlight_Delta_ETN=5
+Label_Alt_Digits=2
+Label_WTC_Highlight_ATYP=DC10,MD11,B744,B748,B742,B743,B741,B772,B773,A388,A339,A333,A332,A310,A306
+Label_WTC_Highlight_WTC=H
+
+Areas_NOTAM_Activation=1
+Areas_Altitude_Filtering=1
+
+AIW=1
+AIW_Type=1
+AIW_Floor=3500
+AIW_Inhibit_ActiveAreas=1
+AIW_FlightRules=0
+
+
+Vector_AHDG_FontSize=10
+Vector_AHDG_Label_Dist=1
+Vector_QDM_FontSize=11
+Vector_QDM_MaxNumber=12
+Vector_QDM_Airports=1
+Vector_MinSep_FontSize=10
+Vector_MinSep_Label_Time=1
+Vector_MinSep_VertSep_Separation=1100
+
+MSAW=1
+MSAW_Filter=1
+MSAW_AppInhibit=2
+MSAW_VFR=0
+MSAW_PredictionTime=30
+
+SAP_Floor=3500
+SAP_Buffer_Lat_U=2.5
+SAP_Buffer_Lat_L_IFR=2
+SAP_Buffer_Lat_L_VFR=2
+SAP_Buffer_Vert_U=400
+SAP_Buffer_Vert_L_IFR=400
+SAP_Buffer_Vert_L_VFR=0
+
+
+APW=1
+APW_Filter=1
+APW_VFR=1
+APW_UseCFL=0
+APW_Buffer_Lat_U=0
+APW_Buffer_Lat_L_IFR=0
+APW_Buffer_Lat_L_VFR=0
+APW_Buffer_Vert_U=0
+APW_Buffer_Vert_L_IFR=0
+APW_Buffer_Vert_L_VFR=0
+
+
+MTCD_DeAcknowledge=5
+MTCD_Filter_Dep=3
+MTCD_Sep_Lat=6
+
+
+FlightLeg_FontSize=10
+FlightLeg_AutoShow=1
+FlightLeg_Label_DIST=1
+FlightLeg_Label_RFL=1
+FlightLeg_Label_SCFL=1
+
+
+
+STCA=1
+STCA_VFR=0
+STCA_UseCFL=0
+STCA_Sep_Lat_SepLevel=12500
+STCA_Floor=2000
+STCA_Coarse_Sep_Vert_U=1000
+STCA_Coarse_Sep_Vert_L=1000
+STCA_FastDiv_Sep_Vert_U=650
+STCA_FastDiv_Sep_Vert_L=650
+STCA_LinPred_Sep_Vert_U=750
+STCA_LinPred_Sep_Vert_L=750
+STCA_CurrProx_Sep_Vert_U=800
+STCA_CurrProx_Sep_Vert_L=800
+STCA_LevelOff_Sep_Vert_U=700
+STCA_LevelOff_Sep_Vert_L=700
+
+Menu_MaxListItems=15
+List_OptionsInGlobalMenu=0
+List_ETWR_MaxTime=10
+List_VFR_FPL_Filter=1
+List_VFR_FPL_Area=47.805,9.430,48.081,12.196,49.210,14.029,49.170,17.463,46.184,17.308,46.028,12.623,46.858,9.236
+
+//CDPLC Settings
+CPDLC_MinLevel=295
+CPDLC_Transfer=1
+CPDLC_CFL=1
+CPDLC_DCT=1
+CPDLC_AHDG=1
+CPDLC_ASP=1
+CPDLC_FSM_CLD_Header=CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign>
+CPDLC_FSM_RCD_Header=FSM <hour><min> <year2><month2><day> <adep2> <callsign> RCD RECEIVED @REQUEST BEING PROCESSED @STANDBY
+
+Divergence_CLAM_DelayTime=120
+Divergence_RAM_Limit=3
+Divergence_RAM_DCT_DelayTime=120
+
+WXR_Latitude=43,5
+WXR_Latitude_Max=47
+WXR_Latitude_Min=39,5
+
+WXR_Longitude=16,3
+WXR_Longitude_Max=23
+WXR_Longitude_Min=13
+
+WXR_ImageSize=512
+
+//RDF Settings
+RDF_Mode=2
+RDF_Floor=0
+RDF_Accuracy=0
+RDF_MinRadius=20
+RDF_AntennaPos=0
+
+//Window_CPDLC_Current=1,600,1
+Window_SM_LeaveHoldTime=3
+Window_SM_LowestLevel=30
+Window_PDC_SetASSR=1
+Window_PDC_SetCFL=1
+
+Areas_NOTAM_Activation=1
+
+//Shortcuts
+//Shortcut_Master=1
+//Shortcut_Map_Xfr_Combo=1,0x12
+//Shortcut_Map_Xfr_Key=1,0x4D ; M
+//Shortcut_Map_Xfr_Key=9,0x55 ; U
+//Shortcut_Map_Xfr_Key=4,0x41 ; A
+//Shortcut_Map_Xfr_Key=3,0x56 ; V
+//Shortcut_Map_Xfr_Key=5,0x59 ; Y
+//Shortcut_Map_Xfr_Key=7,0x44 ; D
+//Shortcut_Map_Xfr_Key=8,0x46 ; F
+//Shortcut_Map_Xfr_Key=2,0x4E ; N
+//Shortcut_Map_Xfr_Key=10,0x43; C
+//Shortcut_Map_Target=1,MRVA\ADRE
+//Shortcut_Map_Target=2,MRVA\ADRW
+//Shortcut_Map_Target=3,VRP\VRP
+
+//Sector list
+List_Sector_Informed = 1
+List_Sector_Redundant = 1
+List_Sector_Concerned = 1
+
+//Track Control - UNCOMMENT FOR REAL LIFE EXPERIENCE OF LDZO TAGS
+Label_NPT_Default=1111
+Label_GS_Default=1111
+Label_XFL_Default=1111
+Label_AHDG_Default=1111
+Label_ASP_Default=1111
+
+[_CTR]
+
+Window_CPDLC_Setting=1,1,350
+Window_CPDLC_Current=1,1100,15
+Window_CARD=3,1565,755
+Window_QNHTL=1
+
+[LJLJ]
+
+Window_CPDLC_Setting=1,1,350
+
+[LYBE]
+
+Window_CPDLC_Setting=1,1,350
+
+[LDZA]
+
+Window_CPDLC_Setting=1,1,350
