@@ -251,7 +251,7 @@ TopSky plugin:ACList/SECTOR LIST/m_Column_5:COPX:5:0:10005:45:45:1:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_6:ASSR:5:1:10041:62:62:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_7:FCOPX:5:0:10045:45:45:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_8:ADES:6:1:10008:1001:39:1:TopSky plugin:TopSky plugin:TopSky plugin
-TopSky plugin:ACList/SECTOR LIST/m_Column_9:STAR:15:0:10012:18:0:1:TopSky plugin::
+TopSky plugin:ACList/SECTOR LIST/m_Column_9:RWY:4:0:10010:19:0:1:TopSky plugin::
 VATAAssist:ACList/NEW LIST/m_Visible:0
 VATAAssist:ACList/NEW LIST/m_X:773
 VATAAssist:ACList/NEW LIST/m_Y:64
@@ -268,4 +268,5 @@ VATITA Controller Plugin:ACList/Mode S/m_Column_0:ARCID:9:1:9:0:0:1:::
 VATITA Controller Plugin:ACList/Mode S/m_Column_1:DIAS:6:1:901:202:951:1:VATITA Controller Plugin::
 VATITA Controller Plugin:ACList/Mode S/m_Column_2:DMACH:6:1:905:954:955:1:VATITA Controller Plugin::
 VATITA Controller Plugin:ACList/Mode S/m_Column_3:DHDG:4:1:125:0:0:1:VATITA Controller Plugin::
+TopSky plugin:ACList/Sector List/m_Column_10:STAR:15:0:10012:18:0:1:TopSky plugin::
 END
