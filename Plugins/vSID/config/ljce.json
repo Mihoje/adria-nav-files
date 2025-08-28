@@ -1,0 +1,83 @@
+{
+    "LJCE":{
+        "elevation": 503,
+        "runways": "09,27",
+        "transAlt": 10500,
+        "maxInitialClimb": 8000,
+        "sids":{
+            "MEDFI":{
+                "initial": 8000,
+                "E":{
+                    "1":{
+                    	  "equip": {"NON-RNAV": true},
+                        "rwy":"09",
+                        "prio":1
+                    }
+                }
+            },
+            "OLEZE":{
+                "initial": 8000,
+                "D":{
+                    "1":{
+                    	  "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+												"prio":1
+                    }
+                },
+                "E":{
+                    "1":{
+                    	  "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+												"prio":2
+                    }
+                }
+            },
+            "OTMOH":{
+                "initial": 8000,
+                "D":{
+                    "1":{
+                    	  "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":1
+                    }
+                },
+                "E":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                }
+            },
+            "ZARVE":{
+                "initial": 8000,
+                "D":{
+                    "1":{
+                    	  "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":3
+                    }
+                },
+                "E":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"27",
+                        "prio":10
+                    }
+                },
+                "V":{
+                    "1":{                    	  
+                        "rwy":"09",
+                        "prio":1
+                    }
+                },
+                "Z":{
+                    "1":{                        
+                        "rwy":"27",
+                        "prio":2
+                    }
+                }
+            }            
+        }
+    }    
+}
