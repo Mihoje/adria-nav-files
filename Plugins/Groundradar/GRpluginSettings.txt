@@ -19,6 +19,7 @@ TowerLabel_Font=Lucida Sans Unicode
 Window_APP_Scale=12.5
 Window_APP_AltFilter=6000
 Window_APP_Extensions=10
+Window_APW_MaxDist=15
 Track_HistoryDots_GND=3
 System_CMAC_HighSpeed=35
 System_CMAC_HighSpeed_Info=30
