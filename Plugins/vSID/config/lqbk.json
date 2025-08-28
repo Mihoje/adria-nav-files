@@ -72,8 +72,8 @@
                 },
                 "M":{
                     "1":{
-						"equip":{"RNAV": true,"NON-RNAV": true},
-						"rwy":"16"
+												"equip":{"RNAV": true,"NON-RNAV": true},
+												"rwy":"16",
                         "prio":1
                     }
                 }
