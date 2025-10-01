@@ -8,7 +8,7 @@ Color_SelectedFieldFill_Twr=220,220,220
 
 RawVideo=0
 System_GUI_Version=1
-Equip_ProMode=1
+Equip_ProMode=0
 Track_Heading_Line=1
 Track_PredictionLine_TWR=1
 Track_PredictionLine_APP=1
