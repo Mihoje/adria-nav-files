@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
-DisplayTypeNeedRadarContent:1
+DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\Euroscope_ADRIA_AUG\Euroscope\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:LYTV Parkings\1:freetext
 Free Text:LYTV Parkings\2:freetext
 Free Text:LYTV Parkings\3:freetext
@@ -22,7 +22,7 @@ Runways:LYTV 14-32:extended centerline 2
 Runways:LYTV 14-32:extended centerline 2 left ticks
 Runways:LYTV 14-32:extended centerline 2 right ticks
 SHOWC:1
-SHOWSB:1
+SHOWSB:0
 BELOW:0
 ABOVE:0
 LEADER:-1
@@ -33,8 +33,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:42.400641:18.708977:42.410897:18.735724
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:42.392134:18.679143:42.417174:18.766523
 PLUGIN:Ground Radar plugin:AirportElevation:20
 PLUGIN:Ground Radar plugin:AirportRadius:9
 PLUGIN:Ground Radar plugin:GroundMode:LYTV
