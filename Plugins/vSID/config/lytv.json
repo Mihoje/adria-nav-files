@@ -5,7 +5,7 @@
         "transAlt": 10000,
         "maxInitialClimb": 13000,
         "sids":{
-            "initial": 13000,
+            "initial": 10000,
             "climbvia": true,
             "NIK":{
                 "N":{
