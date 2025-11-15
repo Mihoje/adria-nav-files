@@ -1,8 +1,8 @@
 {
-  "name": "Adria ATIS v2.2",
-  "id": "182927e0-d1a1-424b-86bd-e0d1a946ffb9",
+  "name": "Adria ATIS v2.3",
+  "id": "182927e0-d1a1-424b-86bd-e0d1a946ffb1",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2025102801,
+  "updateSerial": 2025111501,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -18152,7 +18152,7 @@
         {
           "id": "3ce7b863-2865-4ee5-aaff-9951b28c8891",
           "name": "RWY17",
-          "airportConditions": "EXPECT ILS APPROACH RUNWAY 17 IN USE WITH BRAKING ACTION GOOD",
+          "airportConditions": "EXPECT RNP APPROACH RUNWAY 17 IN USE WITH BRAKING ACTION GOOD",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
