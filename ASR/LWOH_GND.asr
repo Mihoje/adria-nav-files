@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:
+SECTORTITLE:
 DisplayRotation:0.00000:
 Free Text:LWOH Taxiways\A:freetext
 Free Text:LWOH Taxiways\B:freetext

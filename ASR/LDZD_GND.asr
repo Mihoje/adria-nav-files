@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
-SECTORTITLE:LOVV-LOVV-Sectorfile_20220715070855-220701-0001.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:LDZD Taxiway\A:freetext
 Free Text:LDZD Taxiway\B:freetext
 Free Text:LDZD Taxiway\C:freetext
