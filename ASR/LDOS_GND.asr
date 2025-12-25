@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20251127181416-251201-0001.sct
+SECTORTITLE:ADRIA-Package_20251127181416-251201-0001.sct
 Free Text:LDOS Parkings\1:freetext
 Free Text:LDOS Parkings\2:freetext
 Free Text:LDOS Parkings\3:freetext
@@ -29,7 +29,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:44.887076:13.894293:44.907613:13.948721
+WINDOWAREA:45.453552:18.777873:45.474089:18.849539
 PLUGIN:Ground Radar plugin:AirportElevation:274
 PLUGIN:Ground Radar plugin:AirportRadius:4.0
 PLUGIN:Ground Radar plugin:GroundMode:LDOS

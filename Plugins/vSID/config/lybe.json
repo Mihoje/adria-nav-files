@@ -12,39 +12,39 @@
                     "equip":{"RNAV": true,"NON-RNAV": true},
                     "3":{
                         "rwy": "12L,12R",
-                        "prio": 3
+                        "prio": 2
                     }
                 },
                 "H": {
                     "3":{
                         "rwy": "12L,12R",
-                        "prio": 2
+                        "prio": 1
                     }
                 },
                 "E":{
                     "8":{
                         "equip": {"NON-RNAV": true},
                         "rwy": "12L,12R",
-                        "prio": 99
+                        "prio": 10
                     }
                 },
                 "L":{
                     "3":{
                         "rwy":"30L,30R",
-                        "prio":2
+                        "prio":1
                     }
                 },
                 "S":{
                     "3":{
                         "rwy":"30L,30R",
-                        "prio":3
+                        "prio":2
                     }
                 },
                 "D":{
                     "7":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
-                        "prio":99
+                        "prio":10
                     }
                 }
             },
@@ -202,7 +202,7 @@
                         "sidHighlight":true,
                         "equip": {"NON-RNAV": true},
                         "rwy":"12L,12R",
-                        "prio": 1
+                        "prio": 5
                     }
                 },
                 "Z":{
@@ -228,7 +228,7 @@
                         "sidHighlight":true,
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
-                        "prio":1
+                        "prio":10
                     }
                 }
             },
@@ -236,13 +236,13 @@
                 "L":{
                     "3":{
                         "rwy":"12L,12R",
-                        "prio":1
+                        "prio":2
                     }
                 },
                 "C":{
                     "3":{
                         "rwy":"12L,12R",
-                        "prio":2
+                        "prio":1
                     }
                 },
                 "N":{
