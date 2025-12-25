@@ -6,9 +6,9 @@ Airspace_NOTAM_Add=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 Airspace_NOTAM_Remove=LHBP,LZIB
 
 //Route Colors
-Color_Flight_Leg=110,210,110 //Light green
-Color_Information_FL=0,150,0 //Green
-Color_Potential_FL=0,0,255 //Blue
+Color_Flight_Leg=0,255,255
+Color_Information_FL=0,255,255
+Color_Potential_FL=0,0,0
 Color_Warning_FL=255,255,0 //Yellow
 Color_Urgency_FL=255,0,0 // Red
 
@@ -16,7 +16,26 @@ Color_Urgency_FL=255,0,0 // Red
 Color_Selected_Group=255,255,254
 Color_Selected_Period=255,255,41
 Color_Text_Notes=0,200,0 //MSG->Text notes bright green
-Color_Field_Highlight=72,72,73
+
+Color_Active_Sector=209,209,209
+Color_Inactive_Sector=205,205,205
+Color_Background=195,195,185
+Color_Field_Highlight=210,210,210
+Color_Flight_Highlight=218,218,218
+Color_Foreground=0,0,0
+Color_Global_Menu_Highlight=0,125,255
+
+Color_WM_Active_Fg=0,0,0
+Color_WM_Bg=195,195,185
+Color_WM_Border=0,0,0
+Color_WM_Fg=0,0,0
+Color_WM_Frame=195,195,185
+
+Color_QDM=255,242,0
+
+Color_Proposition_Accepted=34,139,34
+Color_Proposition_In=240,20,170
+Color_Proposition_Out=240,20,170
 
 //Vertical aid window
 Color_VAW_Profile=152,202,172
@@ -24,16 +43,15 @@ Color_VAW_Sector_Limits=145,95,30
 Color_VAW_Track_Position=219,219,219
 
 //Label colors
-Color_Unconcerned=124,126,125 //Doesn't pass through sector
-Color_Concerned=105,144,106 //Notified >15mins
-Color_Coordination=140,179,121 //Coordinated <15mins
-Color_Assumed=255,255,255
-Color_Redundant=156,126,91 //Transfered to next controller still in airspace
+Color_Unconcerned=204,127,166 //Doesn't pass through sector
+Color_Concerned=0,255,128  //Notified >15mins
+Color_Coordination=0,255,128 //Coordinated <15mins
+Color_Assumed=0,0,0
+Color_Redundant=255,204,153 //Transfered to next controller still in airspace
 Color_Trough=97,99,97
 Color_Warning=250,205,1
-Color_Information=41,245,41
+Color_Information=0,255,255
 Color_Urgency=255,0,0
-Color_Flight_Highlight=36,41,45
 Color_AIW_Intrusion=255,152,0
 Color_Freq_Indicator=113,189,70
 Color_Info_Coord=1,255,255
@@ -60,8 +78,7 @@ Color_Active_Map_Type_3=179,180,180
 Color_Active_Map_Type_4=200,53,18
 Color_Active_Map_Type_5=198,174,58
 Color_Active_RD_Infill_Map=90,90,90
-Color_Active_Sector=52,58,62
-Color_Active_Text_Map=198,174,58
+Color_Active_Text_Map=204,204,0
 
 //Runway Colors
 Color_Runway=116,200,71
@@ -117,7 +134,7 @@ AIW_Inhibit_ActiveAreas=1
 AIW_FlightRules=0
 
 
-Vector_AHDG_FontSize=10
+Vector_AHDG_FontSize=13
 Vector_AHDG_Label_Dist=1
 Vector_QDM_FontSize=11
 Vector_QDM_MaxNumber=12
@@ -158,11 +175,12 @@ MTCD_Filter_Dep=3
 MTCD_Sep_Lat=6
 
 
-FlightLeg_FontSize=10
+FlightLeg_AssumeTime=2
+FlightLeg_FontSize=11
 FlightLeg_AutoShow=1
 FlightLeg_Label_DIST=1
 FlightLeg_Label_RFL=1
-FlightLeg_Label_SCFL=1
+FlightLeg_LineWidth=0
 
 
 
@@ -212,6 +230,8 @@ WXR_Longitude_Min=13
 
 WXR_ImageSize=512
 
+Window_ASM=1,250,100,675,400
+
 //RDF Settings
 RDF_Mode=2
 RDF_Floor=0
@@ -248,12 +268,10 @@ List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
 
-//Track Control - UNCOMMENT FOR REAL LIFE EXPERIENCE OF LDZO TAGS
-Label_NPT_Default=1111
-Label_GS_Default=1111
-Label_XFL_Default=1111
-Label_AHDG_Default=1111
-Label_ASP_Default=1111
+[_APP]
+
+Window_CARD=3,1565,755
+Window_QNHTL=1
 
 [_CTR]
 

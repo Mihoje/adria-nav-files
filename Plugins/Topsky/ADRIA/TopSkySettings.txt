@@ -230,6 +230,8 @@ WXR_Longitude_Min=13
 
 WXR_ImageSize=512
 
+Window_ASM=1,250,100,675,400
+
 //RDF Settings
 RDF_Mode=2
 RDF_Floor=0
@@ -265,6 +267,11 @@ Areas_NOTAM_Activation=1
 List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
+
+[_APP]
+
+Window_CARD=3,1565,755
+Window_QNHTL=1
 
 [_CTR]
 

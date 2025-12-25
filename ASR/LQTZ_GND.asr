@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20251127181416-251201-0001.sct
+SECTORTITLE:ADRIA-Package_20251127181416-251201-0001.sct
 Free Text:LQTZ Parkingposition\1:freetext
 Free Text:LQTZ Parkingposition\2:freetext
 Free Text:LQTZ Parkingposition\3:freetext
@@ -33,7 +33,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:42.559698:20.994084:42.590496:21.075708
+WINDOWAREA:44.448135:18.683843:44.472773:18.769822
 PLUGIN:Ground Radar plugin:AirportElevation:236
 PLUGIN:Ground Radar plugin:AirportRadius:2.1
 PLUGIN:Ground Radar plugin:GroundMode:LQTZ
