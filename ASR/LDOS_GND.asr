@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20251127181416-251201-0001.sct
-SECTORTITLE:ADRIA-Package_20251127181416-251201-0001.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:LDOS Parkings\1:freetext
 Free Text:LDOS Parkings\2:freetext
 Free Text:LDOS Parkings\3:freetext

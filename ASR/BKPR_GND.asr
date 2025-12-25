@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:BKPR Parking\1:freetext
 Free Text:BKPR Parking\101:freetext
 Free Text:BKPR Parking\101A:freetext

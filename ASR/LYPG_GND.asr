@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\filip\Documents\EuroScope\adria vACC\Adria TOPSKY\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:LYPG Parkings\1:freetext
 Free Text:LYPG Parkings\2:freetext
 Free Text:LYPG Parkings\3:freetext

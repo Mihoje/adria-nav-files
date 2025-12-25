@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\HT-ICT\Desktop\Adria\Euroscope_ADRIA_AUG\Euroscope\ADRIA.sct
-SECTORTITLE:ADRIA.sct
+SECTORFILE:
+SECTORTITLE:
 Free Text:LDRI Parkings\1:freetext
 Free Text:LDRI Parkings\10:freetext
 Free Text:LDRI Parkings\11:freetext
