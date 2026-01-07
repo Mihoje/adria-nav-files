@@ -258,17 +258,17 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:BKPR_APP:150:5
 ATIS2:$radioname
-ATIS3:ATIS 132.385
+ATIS3:ATIS 134.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:BKPR_TWR:50:4
 ATIS2:$radioname
-ATIS3:ATIS 132.385
+ATIS3:ATIS 134.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:BKPR_GND:10:3
 ATIS2:$radioname
-ATIS3:ATIS 132.385
+ATIS3:ATIS 134.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_APP:150:5
