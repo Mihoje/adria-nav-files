@@ -19,6 +19,16 @@ ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net / CPDLC - ADRU
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
+PROFILE:ADR_UW_CTR:400:6
+ATIS2:$radioname
+ATIS3:Coverage map.vatsim.net / CPDLC - ADUW
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:ADR_UE_CTR:400:6
+ATIS2:$radioname
+ATIS3:Coverage map.vatsim.net / CPDLC - ADUE
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
 PROFILE:<initials>_OBS:300:0
 ATIS2:$myrealname
 ATIS3:Observing the Adria Region
@@ -81,6 +91,51 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 //LDZO
 PROFILE:LDZO_CTR:250:6
 ATIS2:$radioname / CPDLC - LDZO
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_S_CTR:250:6
+ATIS2:$radioname / CPDLC - LDS1
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_N_CTR:250:6
+ATIS2:$radioname / CPDLC - LDN1
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_W_CTR:250:6
+ATIS2:$radioname / CPDLC - LDW1
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_C_CTR:250:6
+ATIS2:$radioname / CPDLC - LDC1
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_UN_CTR:250:6
+ATIS2:$radioname / CPDLC - LDN7
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_US_CTR:250:6
+ATIS2:$radioname / CPDLC - LDS7
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_UW_CTR:250:6
+ATIS2:$radioname / CPDLC - LDW7
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_UC_CTR:250:6
+ATIS2:$radioname / CPDLC - LDC7
+ATIS3:Covering LD* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZO_U_CTR:250:6
+ATIS2:$radioname / CPDLC - LDZU
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -256,19 +311,54 @@ ATIS2:$radioname / CPDLC - LYBA
 ATIS3:Covering LY* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
+PROFILE:LYBA_W_CTR:350:6
+ATIS2:$radioname / CPDLC - LYW1
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LYBA_E_CTR:350:6
+ATIS2:$radioname / CPDLC - LYE1
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LYBA_N_CTR:350:6
+ATIS2:$radioname / CPDLC - LYN1
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LYBA_UN_CTR:350:6
+ATIS2:$radioname / CPDLC - LYN7
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LYBA_UE_CTR:350:6
+ATIS2:$radioname / CPDLC - LYE7
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LYBA_UW_CTR:350:6
+ATIS2:$radioname / CPDLC - LYW7
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LYBA_U_CTR:350:6
+ATIS2:$radioname / CPDLC - LYBU
+ATIS3:Covering LY* if local ATC offline
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
 PROFILE:BKPR_APP:150:5
 ATIS2:$radioname
-ATIS3:ATIS 134.385
+ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:BKPR_TWR:50:4
 ATIS2:$radioname
-ATIS3:ATIS 134.385
+ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:BKPR_GND:10:3
 ATIS2:$radioname
-ATIS3:ATIS 134.385
+ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_APP:150:5
