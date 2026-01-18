@@ -10,38 +10,38 @@
             "TISAK": {
                 "Z": {
                     "equip":{"RNAV": true,"NON-RNAV": true},
-                    "3":{
+                    "4":{
                         "rwy": "12L,12R",
-                        "prio": 2
+                        "prio": 1
                     }
                 },
                 "H": {
                     "3":{
                         "rwy": "12L,12R",
-                        "prio": 1
+                        "prio": 2
                     }
                 },
                 "E":{
-                    "8":{
+                    "9":{
                         "equip": {"NON-RNAV": true},
                         "rwy": "12L,12R",
                         "prio": 10
                     }
                 },
                 "L":{
-                    "3":{
+                    "4":{
                         "rwy":"30L,30R",
                         "prio":1
                     }
                 },
                 "S":{
-                    "3":{
+                    "4":{
                         "rwy":"30L,30R",
                         "prio":2
                     }
                 },
                 "D":{
-                    "7":{
+                    "8":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
                         "prio":10
@@ -50,38 +50,38 @@
             },
             "VAL": {
                 "F":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio": 1
                     }
                 },
                 "D":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio":2
                     }
                 },
                 "Y":{
-                    "4":{
+                    "5":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"12L,12R",
                         "prio":10
                     }
                 },
                 "J":{
-                    "3":{
+                    "4":{
                         "rwy":"30L,30R",
                         "prio":1
                     }
                 },
                 "Z":{
-                    "3":{
+                    "4":{
                         "rwy":"30L,30R",
                         "prio":2
                     }
                 },
                 "G":{
-                    "1":{
+                    "2":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
                         "prio":10
@@ -90,38 +90,38 @@
             },
             "TPL":{
                 "G":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio":2
                     }
                 },
                 "D":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio":1
                     }
                 },
                 "C":{
-                    "7":{
+                    "8":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"12L,12R",
                         "prio":10
                     }
                 },
                 "W":{
-                    "3":{
+                    "4":{
                         "rwy":"30L,30R",
                         "prio":1
                     }
                 },
                 "R":{
-                    "3":{
+                    "4":{
                         "rwy":"30L,30R",
                         "prio":2
                     }
                 },
                 "J":{
-                    "5":{
+                    "6":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
                         "prio":10
@@ -130,13 +130,13 @@
             },
             "DONIV":{
                 "N":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio":1
                     }
                 },
                 "G":{
-                    "5":{
+                    "6":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"12L,12R",
                         "prio":10
@@ -149,20 +149,20 @@
                     }
                 },
                 "T":{
-                    "1":{
+                    "2":{
                         "rwy":"30L,30R",
                         "prio":2
                     }
                 },
                 "H":{
-                    "4":{
+                    "5":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
                         "prio":10
                     }
                 },
                 "J":{
-                    "4":{
+                    "5":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
                         "prio":99
@@ -172,7 +172,7 @@
             "PELOV":{
                 "prio":99,
                 "F":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "initial":13000
                     }
@@ -180,7 +180,7 @@
             },
             "TADAM":{
                 "L":{
-                    "3":{
+                    "4":{
                         "wpt": "TISAK",
                         "customRule": "milact",
                         "sidHighlight":true,
@@ -189,14 +189,14 @@
                     }
                 },
                 "G":{
-                    "3":{
+                    "4":{
                         "prio":99,
                         "rwy":"12L,12R",
                         "sidHighlight":true
                     }
                 },
                 "Y":{
-                    "5":{
+                    "6":{
                         "wpt": "TISAK",
                         "customRule": "milact",
                         "sidHighlight":true,
@@ -206,7 +206,7 @@
                     }
                 },
                 "Z":{
-                    "3":{
+                    "4":{
                         "wpt":"TISAK",
                         "customRule":"milact",
                         "sidHighlight":true,
@@ -215,14 +215,14 @@
                     }
                 },
                 "S":{
-                    "3":{
+                    "2":{
                         "prio":99,
                         "rwy":"30L,30R",
                         "sidHighlight":true
                     }
                 },
                 "T":{
-                    "5":{
+                    "6":{
                         "wpt":"TISAK",
                         "customRule":"milact",
                         "sidHighlight":true,
@@ -234,38 +234,38 @@
             },
             "TUVAR":{
                 "L":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio":2
                     }
                 },
                 "C":{
-                    "3":{
+                    "4":{
                         "rwy":"12L,12R",
                         "prio":1
                     }
                 },
                 "N":{
-                    "4":{
+                    "5":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"12L,12R",
                         "prio":10
                     }
                 },
                 "V":{
-                    "3":{
+                    "4":{
                         "prio":1,
                         "rwy":"30L,30R"
                     }
                 },
                 "S":{
-                    "1":{
+                    "2":{
                         "prio":2,
                         "rwy":"30L,30R"
                     }
                 },
                 "Z":{
-                    "3":{
+                    "4":{
                         "equip": {"NON-RNAV": true},
                         "rwy":"30L,30R",
                         "prio":10
