@@ -7,53 +7,7 @@
         "sids":{
             "initial": 12000,
             "climbvia": true,
-            "BOSNA":{
-                "C":{
-                    "3":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":1
-                    }
-                },
-                "E":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy": "16",
-                        "prio": 1
-                    }
-                }
-            },
-            "DER":{
-                "D":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":1
-                    }
-                },
-                "C":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"16",
-                        "prio":1
-                    }
-                }
-            },
             "KOMAR":{
-                "B":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":1
-                    }
-                },
-                "A":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"16",
-                        "prio":1
-                    }
-                },
                 "G":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
@@ -139,25 +93,11 @@
                         "prio":10
                     }
                 },
-                "E":{
-                    "1":{
-                        "equip":{"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":1
-                    }
-                },
                 "M":{
                     "1":{
 						"equip":{"RNAV": true},
                         "rwy":"16",
                         "prio":10
-                    }
-                },
-                "D":{
-                    "1":{
-						"equip":{"NON-RNAV": true},
-                        "rwy":"16",
-                        "prio":1
                     }
                 }
             }
