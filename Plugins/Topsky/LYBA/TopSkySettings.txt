@@ -103,6 +103,7 @@ System_TaxiTime=8
 System_FPASD=1
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=10
+System_UseAUP=1
 
 
 Track_HistoryDots=5
@@ -229,8 +230,10 @@ WXR_Longitude_Min=13
 
 WXR_ImageSize=512
 
+Window_ASM=1,250,100,675,400
+
 //RDF Settings
-RDF_Mode=2
+RDF_Mode=1
 RDF_Floor=0
 RDF_Accuracy=0
 RDF_MinRadius=20
@@ -264,6 +267,11 @@ Areas_NOTAM_Activation=1
 List_Sector_Informed = 1
 List_Sector_Redundant = 1
 List_Sector_Concerned = 1
+
+[_APP]
+
+Window_CARD=3,1565,755
+Window_QNHTL=1
 
 [_CTR]
 
