@@ -75,20 +75,6 @@
                         "rwy":"09",
                         "prio":1
                     }
-                },
-                "C":{
-                    "1":{
-                        "equip":{"NON-RNAV": true},
-                        "rwy":"27",
-                        "prio":10
-                    }
-                },
-                "D":{
-                    "1":{
-                        "equip":{"NON-RNAV": true},
-                        "rwy":"09",
-                        "prio":10
-                    }
                 }
             },
             "SOMUN":{
