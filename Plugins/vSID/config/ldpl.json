@@ -40,13 +40,6 @@
                         "rwy":"27",
                         "prio":1
                     }
-                },
-                "F":{
-                    "5":{
-                        "equip": {"NON-RNAV": true},
-                        "rwy":"09",
-                        "prio":10
-                    }
                 }
             },
             "OBALA":{
