@@ -7,16 +7,16 @@
         "sids":{
             "initial": 7000,
             "climbvia": true,
-            "DONIV":{
-                "X":{
-                    "2":{
+            "TAZUM":{
+                "C":{
+                    "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"01R",
                         "prio":10
                     }
                 },
-                "Y":{
-                    "2":{
+                "F":{
+                    "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"19L",
                         "prio":10
@@ -24,15 +24,15 @@
                 }              
             },
             "MAVIT":{
-                "J":{
-                    "2":{
+                "S":{
+                    "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"01R",
                         "prio":10
                     }
                 },
-                "K":{
-                    "2":{
+                "U":{
+                    "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"19L",
                         "prio":10
