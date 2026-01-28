@@ -277,7 +277,12 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LQBK_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:ATIS 122.625
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LQBK_TWR:50:4
+ATIS2:$radioname
+ATIS3:ATIS 122.625
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LQMO_APP:150:5
