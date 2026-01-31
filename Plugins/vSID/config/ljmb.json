@@ -17,7 +17,7 @@
                 "J":{
                     "1":{
                         "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"14",
+                        "rwy":"32",
                         "prio":1
                     }
                 },

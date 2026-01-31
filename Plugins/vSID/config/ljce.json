@@ -1,7 +1,7 @@
 {
     "LJCE":{
         "elevation": 503,
-        "runways": "09,27",
+        "runways": "08,26",
         "transAlt": 10500,
         "maxInitialClimb": 8000,
         "sids":{
@@ -10,7 +10,7 @@
                 "E":{
                     "1":{
                     	  "equip": {"NON-RNAV": true},
-                        "rwy":"09",
+                        "rwy":"08",
                         "prio":1
                     }
                 }
@@ -20,14 +20,14 @@
                 "D":{
                     "1":{
                     	  "equip": {"NON-RNAV": true},
-                        "rwy":"27",
+                        "rwy":"26",
 												"prio":1
                     }
                 },
                 "E":{
                     "1":{
                     	  "equip": {"NON-RNAV": true},
-                        "rwy":"27",
+                        "rwy":"08",
 												"prio":2
                     }
                 }
@@ -37,14 +37,14 @@
                 "D":{
                     "1":{
                     	  "equip": {"NON-RNAV": true},
-                        "rwy":"27",
+                        "rwy":"26",
                         "prio":1
                     }
                 },
                 "E":{
                     "1":{
                         "equip": {"NON-RNAV": true},
-                        "rwy":"27",
+                        "rwy":"08",
                         "prio":10
                     }
                 }
@@ -54,26 +54,26 @@
                 "D":{
                     "1":{
                     	  "equip": {"NON-RNAV": true},
-                        "rwy":"27",
+                        "rwy":"26",
                         "prio":3
                     }
                 },
                 "E":{
                     "1":{
                         "equip": {"NON-RNAV": true},
-                        "rwy":"27",
+                        "rwy":"08",
                         "prio":10
                     }
                 },
                 "V":{
                     "1":{                    	  
-                        "rwy":"09",
+                        "rwy":"08",
                         "prio":1
                     }
                 },
                 "Z":{
                     "1":{                        
-                        "rwy":"27",
+                        "rwy":"26",
                         "prio":2
                     }
                 }

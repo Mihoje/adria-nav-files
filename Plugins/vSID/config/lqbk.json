@@ -6,98 +6,89 @@
         "maxInitialClimb": 12000,
         "sids":{
             "initial": 12000,
-            "climbvia": true,
-            "KOMAR":{
+            "TEBLI":{
+                "M":{
+                    "1":{
+                        "rwy":"16",
+                        "prio":1
+                    }
+                },
                 "G":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                },
+                "J":{
+                    "1":{
                         "rwy":"34",
                         "prio":2
                     }
                 }
             },
+            "KOMAR":{
+                "G":{
+                    "1":{
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"34",
+                        "prio":1
+                    }
+                }
+            },
             "OKSIG":{
                 "J":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                    "1": {
                         "rwy":"34",
                         "prio":1
                     }
                 },
                 "M":{
                     "1":{
-												"equip":{"RNAV": true,"NON-RNAV": true},
-												"rwy":"16",
+                        "equip": {"NON-RNAV": true},
+                        "rwy":"16",
                         "prio":1
                     }
                 }
             },
             "MARIL":{
-                "J":{
+                "G":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"34",
                         "prio":1
                     }
                 },
-                "G":{
+                "J":{
                     "1":{
-                        "equip":{"NON-RNAV": true},
                         "rwy":"34",
-                        "prio":10
-                    }
+                        "prio":1
+					}
                 },
                 "M":{
                     "1":{
-						"equip":{"RNAV": true},
                         "rwy":"16",
                         "prio":1
                     }
                 }
             },
-               "DOBOT":{
-                "M":{
-                    "1":{
-						"equip":{"RNAV": true},
-                        "rwy":"16",
-                        "prio":1
-                    }
-                },
-                 "G":{
-                    "1":{
-                        "equip":{"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":10
-                    }
-                },
-                "J":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":1
-                    }
-                }
-            },
-            "TEBLI":{
-                "J":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"34",
-                        "prio":10
-                    }
-                },
+            "DOBOT":{
                 "G":{
                     "1":{
-                        "equip":{"NON-RNAV": true},
+                        "equip": {"NON-RNAV": true},
                         "rwy":"34",
-                        "prio":10
-                    }
+                        "prio":1
+					}
+                },
+                "J":{
+                    "1":{
+                        "rwy":"34",
+                        "prio":1
+					}
                 },
                 "M":{
                     "1":{
-						"equip":{"RNAV": true},
                         "rwy":"16",
-                        "prio":10
+                        "prio":1
                     }
                 }
             }
