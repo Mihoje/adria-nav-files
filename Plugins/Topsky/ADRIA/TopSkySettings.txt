@@ -213,8 +213,6 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-CPDLC_FSM_CLD_Header=CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign>
-CPDLC_FSM_RCD_Header=FSM <hour><min> <year2><month2><day> <adep2> <callsign> RCD RECEIVED @REQUEST BEING PROCESSED @STANDBY
 
 Divergence_CLAM_DelayTime=120
 Divergence_RAM_Limit=3
