@@ -16,7 +16,7 @@
   
   "LYBA_CTR": {
     "match": "^LYBA.*CTR$",
-    "airports": ["LYBE","LYVR","LYBT","LYNI","LYTV","LYPG","LYKR"]    
+    "airports": ["LYBE","LYVR","LYBT","LYNI","LYTV","LYPG","LYKR","BKPR"]    
   },
   
   "LDZO_CTR": {
@@ -102,5 +102,21 @@
   "LQSA_APP": {
     "match": "^LQSA.*APP$",
     "airports": ["LQSA"]
+  },
+  
+  "LATI_APP": {
+    "match": "^LATI.*APP$",
+    "airports": ["LATI"]
+  },
+  
+  "BKPR_APP": {
+    "match": "^BKPR.*APP$",
+    "airports": ["BKPR"]
+  },
+  
+  "BL_OBS":{
+    "match": "^BL.*OBS$",
+    "airports": ["LIMC","LIML","LIME","LIMJ","LIPX"]
   }
+  
 }
