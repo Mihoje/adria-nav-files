@@ -1,5 +1,5 @@
 {
-  "name": "Adria ATIS v2.5",
+  "name": "Adria ATIS v2.6",
   "id": "6b233919-7233-4e88-b5e8-d2d8835d666f",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
   "updateSerial": 2025111501,
@@ -2043,7 +2043,7 @@
         {
           "text": "ARRANGE TO VACATE VIA R2",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "ARRANGE TO VACATE VIA E.",
@@ -2058,7 +2058,7 @@
         {
           "text": "ARRANGE TO VACATE VIA R4.",
           "ordinal": 5,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -24325,6 +24325,7 @@
           "id": "9076b5cc-2ff5-4e92-b301-7fd5313971d5",
           "name": "RWY35",
           "airportConditions": "EXPECT RNP APPROACH RUNWAY 35 IN USE WITH BRAKING ACTION GOOD",
+          "notams": "TWY C CLSD. TWY E CLSD.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
             "enabled": false
@@ -26353,5 +26354,4 @@
     }
   ],
   "version": 4
-
 }
