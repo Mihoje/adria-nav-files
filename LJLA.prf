@@ -66,10 +66,10 @@ Settings	SettingsfileTAKEOFF	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileADCS	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileTAXIIN	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 TeamSpeakVccs	Ts3NickName	ADRW
-TeamSpeakVccs	PlaybackMode	Direct Sound
-TeamSpeakVccs	PlaybackDevice	Sluchátka (HyperX Cloud III)
+TeamSpeakVccs	PlaybackMode	Windows Audio Session
+TeamSpeakVccs	PlaybackDevice	Speakers (USB Audio Device)
 TeamSpeakVccs	CaptureMode	Windows Audio Session
-TeamSpeakVccs	CaptureDevice	Mikrofon (HyperX Cloud III)
+TeamSpeakVccs	CaptureDevice	Microphone (USB Audio Device)
 Sounds	Sound0	\ADRIA\Sounds\handoff_request.wav
 Sounds	Sound1	\ADRIA\Sounds\handoff_accept.wav
 Sounds	Sound2	\ADRIA\Sounds\conflict_alert.wav
@@ -89,37 +89,3 @@ Sounds	Sound15	\ADRIA\Sounds\new_atis.wav
 Sounds	Sound16	\ADRIA\Sounds\handoff_refused.wav
 Sounds	Sound17	\ADRIA\Sounds\pointout.wav
 Sounds	Sound18	\ADRIA\Sounds\startup.wav
-Settings	sector	\ADRIA-Package_20260131092519-260101-0009.sct
-LastSession	atis_freq4	118000
-LastSession	connecttype	0
-LastSession	callsign	LJLA_CTR
-LastSession	realname	Jakub
-LastSession	certificate	1655553
-LastSession	password	Jakoubek08
-LastSession	facility	6
-LastSession	rating	4
-LastSession	server	AUTOMATIC
-LastSession	tovatsim	1
-LastSession	atis2	$radioname / CPDLC - LJLA
-LastSession	atis4	Feedback - cc.vatadria.com/feedback/create
-LastSession	range	450
-LastSession	proxyserver	localhost
-LastSession	simdatapublish	0
-RecentFiles	Recent2	\ADRIA\ASR\LJLJ_GND.asr
-RecentFiles	Recent3	\ADRIA\ASR\LATI_GND.asr
-RecentFiles	Recent4	\ADRIA\ASR\LJMB_GND.asr
-Plugins	Plugin9	\ADRIA\Plugins\RDF\RDFPlugin.dll
-Plugins	Plugin9Display0	Standard ES radar screen
-RecentFiles	Recent5	\ADRIA\ASR\LYBE_GND.asr
-RecentFiles	Recent6	\ADRIA\ASR\LWSK_GND.asr
-Plugins	Plugin2Display0	Standard ES radar screen
-Plugins	Plugin2Display1	Ground Radar display
-RecentFiles	Recent7	C:\Users\04Kub\Desktop\Euroscope.ttf
-LastSession	atis_freq3	118000
-RecentFiles	Recent8	\ADRIA\ASR\LDZA_GND.asr
-RecentFiles	Recent9	\ADRIA\ASR\LQSA_GND.asr
-RecentFiles	Recent10	\ADRIA\ASR\LDDU_GND.asr
-RecentFiles	Recent11	\ADRIA\ASR\LDSP_GND.asr
-RecentFiles	Recent1	\ADRIA\ASR\CTR_APP.asr
-LastSession	scenario	C:\Users\04Kub\Desktop\Training\SB files\LDZA Medium TWR.txt
-LastSession	atis3	Covering LJ* if local ATC offline
