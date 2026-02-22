@@ -1,0 +1,71 @@
+[stations]
+selected_profile = "ADR"
+
+[stations.profiles.ADR]
+include = [
+    "LY*",
+    "LD*",
+    "LW*",
+    "LQ*",
+    "LA*",
+    "LJ*",
+    "BK*",
+    "LO*",
+    "LIR*",
+    "LIP*",
+    "LIB*",
+    "LHC*",
+    "LRB*",
+    "LB*",
+    "LG*",
+  
+]
+exclude = [
+    "LON*",
+    "LIRF*",
+    "LIRN*",
+    "LOWW*",
+
+]
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+]
+
+[stations.profiles.ADR.aliases]
+"130.000" = "ADR"
+"130.550" = "ADR_E_CTR"
+"130.450" = "ADR_W_CTR"
+
+"134.350" = "LOVV_N_CTR"
+
+
+
+
+[stations.profiles.Default]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+]
+
+[stations.profiles.LIPP.aliases]
+
+[stations.profiles.LIPP]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+
+]
+
+[stations.profiles.Default.aliases]
