@@ -4098,6 +4098,11 @@
           "text": "RUNWAY CONDITION CODE 5 5 5.",
           "ordinal": 2,
           "enabled": false
+        },
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE",
+          "ordinal": 3,
+          "enabled": true
         }
       ],
       "notamDefinitions": []
@@ -18286,7 +18291,7 @@
           "name": "LQTZ09",
           "airportConditions": "RWY IN USE - 09. EXPECT ILS APPROACH.",
           "notams": "",
-          "template": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
