@@ -166,7 +166,7 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZD_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDDU_TWR:50:4
@@ -216,7 +216,12 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZD_TWR:50:4
 ATIS2:$radioname
-ATIS3:
+ATIS3:ATIS 126.685
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZD_DEL:50:4
+ATIS2:$radioname
+ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 //LJLA
