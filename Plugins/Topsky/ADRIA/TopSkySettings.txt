@@ -4,6 +4,11 @@ Airspace_ASSR_Type=2
 Airspace_SIGMET_Areas=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 Airspace_NOTAM_Add=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 Airspace_NOTAM_Remove=LHBP,LZIB
+HTTP_NOTAM_Server=https://notams.blip-radar.org/
+HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
+HTTP_NOTAM_Page_Suffix=
+Window_NOTAM=1,500,400
+HTTP_NOTAM_Area_Sched_Debug=1
 
 //Route Colors
 Color_Flight_Leg=0,255,255
@@ -227,8 +232,6 @@ WXR_Longitude_Max=23
 WXR_Longitude_Min=13
 
 WXR_ImageSize=512
-
-Window_ASM=1,250,100,675,400
 
 //RDF Settings
 RDF_Mode=2
