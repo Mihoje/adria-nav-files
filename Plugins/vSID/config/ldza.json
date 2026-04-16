@@ -145,24 +145,10 @@
                         "prio":1
                     }
                 },
-                "C":{
-                    "5":{
-                        "equip": {"NON-RNAV": true},
-                        "rwy":"04",
-                        "prio":10
-                    }
-                },
                 "V":{
                     "1":{
                         "rwy":"22",
                         "prio":1
-                    }
-                },
-                "E":{
-                    "5":{
-                        "equip": {"NON-RNAV": true},
-                        "rwy":"22",
-                        "prio":10
                     }
                 }
             },
