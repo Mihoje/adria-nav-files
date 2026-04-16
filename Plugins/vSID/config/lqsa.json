@@ -8,7 +8,7 @@
             "initial": 6000,
             "BOSNA":{
                 "A":{
-                    "4":{
+                    "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":1
@@ -32,7 +32,7 @@
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy": "11",
-                        "prio": 2
+                        "prio": 1
                     }
                 }
             },
