@@ -6,14 +6,6 @@
         "maxInitialClimb": 6000,
         "sids":{
             "initial": 6000,
-            "BOSNA":{
-                "M":{
-                    "1":{
-                        "equip":{"RNAV": true},
-                        "rwy": "11",
-                        "prio": 1
-                    }
-                },
                 "A":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
@@ -50,13 +42,6 @@
                         "rwy":"29",
                         "prio":2
                     }
-                },
-                "M":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"11",
-                        "prio":1
-                    }
                 }
             },
             "VRANA":{
@@ -72,13 +57,6 @@
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":2
-                    }
-                },
-                "M":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"11",
-                        "prio":1
                     }
                 }
             },
@@ -96,13 +74,6 @@
                         "rwy":"29",
                         "prio":2
                     }
-                },
-                "M":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"11",
-                        "prio":1
-                    }
                 }
             },
             "GACMO":{
@@ -118,13 +89,6 @@
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":2
-                    }
-                },
-                "M":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"11",
-                        "prio":1
                     }
                 }
             },
@@ -146,4 +110,3 @@
             }
         }
     }
-}
