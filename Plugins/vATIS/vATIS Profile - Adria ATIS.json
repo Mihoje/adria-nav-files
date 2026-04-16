@@ -1,5 +1,5 @@
 {
-  "name": "Adria ATIS v2.6",
+  "name": "Adria ATIS v2.7",
   "id": "19158b8b-e0c7-4adc-b846-8f486a182687",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
   "updateSerial": 2025111501,
@@ -4069,7 +4069,7 @@
         {
           "id": "6653fd8d-a404-4bd0-8866-0e0b105afd28",
           "name": "LDZA04",
-          "airportConditions": "RWY IN USE 04. EXPECT LOCALIZER Z OR RNP APPROACH.",
+          "airportConditions": "RWY IN USE 04. EXPECT LOCALIZER X OR RNP APPROACH.",
           "notams": "TWY A & TWY B CLOSED DUE TO WIP. TORA C 2162M. ADVISE IF ABLE TO DEPART WITHOUT BACKTRACK. BACKTRACK ABEAM H/P B AVAILABLE. ILS APPROACH UNAVAILABLE DUE TO WIP.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
