@@ -7,24 +7,8 @@
         "sids":{
             "initial": 6000,
             "BOSNA":{
-                "W":{
+                "A":{
                     "4":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"29",
-                        "prio":1
-                    }
-                },
-                "A":{
-                    "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy": "29",
-                        "prio": 2
-                    }
-                }
-            },
-            "KUTAK":{
-                "A":{
-                    "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":1
@@ -33,8 +17,22 @@
                 "B":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
-                        "rwy":"29",
-                        "prio":2
+                        "rwy": "29",
+                        "prio": 2
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy": "29",
+                        "prio": 2
+                    }
+                },
+                "M":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy": "11",
+                        "prio": 2
                     }
                 }
             },
@@ -55,30 +53,106 @@
                 }
             },
             "MITNO":{
-                "C":{
+                "J":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":1
                     }
                 },
-                "D":{
+                "B":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":2
                     }
+                },
+                "M":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":1
+                    }
                 }
             },
             "VRANA":{
-                "C":{
+                "B":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
                         "prio":1
                     }
                 },
-                "D":{
+                "J":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":2
+                    }
+                },
+                "M":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":1
+                    }
+                }
+            },
+            "OSLUD":{
+                "B":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":1
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":2
+                    }
+                },
+                "M":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":1
+                    }
+                }
+            },
+            "GACMO":{
+                "B":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":1
+                    }
+                },
+                "J":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":2
+                    }
+                },
+                "M":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"11",
+                        "prio":1
+                    }
+                }
+            },
+            "SOMUN":{
+                "B":{
+                    "1":{
+                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "rwy":"29",
+                        "prio":1
+                    }
+                },
+                "J":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
