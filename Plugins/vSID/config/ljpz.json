@@ -22,20 +22,6 @@
                         "prio":2
                     }                   
                 },
-                "D":{
-                    "2":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"33",
-                        "prio":1
-                    }                   
-                },
-                "E":{
-                    "1":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"15",
-                        "prio":1
-                    }                   
-                },
                 "S":{
                     "2":{
                         "equip": {"RNAV": true,"NON-RNAV": true},
@@ -58,20 +44,6 @@
                         "rwy":"33",
                         "prio":2
                     }                   
-                },
-                "J":{
-                    "1":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"15",
-                        "prio":1
-                    }                   
-                },
-                "K":{
-                    "2":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"33",
-                        "prio":1
-                    }                   
                 }
             },
             "BETJA":{
@@ -84,38 +56,6 @@
                 },
                 "S":{
                     "1":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"33",
-                        "prio":1
-                    }                   
-                }
-            },
-            "ROTAR":{
-                "J":{
-                    "1":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"15",
-                        "prio":1
-                    }                   
-                },
-                "K":{
-                    "2":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"33",
-                        "prio":1
-                    }                   
-                }
-            },
-            "ILB":{
-                "J":{
-                    "1":{
-                        "equip": {"RNAV": true,"NON-RNAV": true},
-                        "rwy":"15",
-                        "prio":1
-                    }                   
-                },
-                "K":{
-                    "2":{
                         "equip": {"RNAV": true,"NON-RNAV": true},
                         "rwy":"33",
                         "prio":1
