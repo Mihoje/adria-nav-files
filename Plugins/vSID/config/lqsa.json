@@ -7,6 +7,13 @@
         "sids":{
             "initial": 6000,
             "BOSNA":{
+                "M":{
+                    "1":{
+                        "equip":{"RNAV": true},
+                        "rwy": "11",
+                        "prio": 1
+                    }
+                },
                 "A":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
@@ -26,13 +33,6 @@
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy": "29",
                         "prio": 2
-                    }
-                },
-                "M":{
-                    "1":{
-                        "equip":{"RNAV": true},
-                        "rwy": "11",
-                        "prio": 1
                     }
                 }
             },
