@@ -1,8 +1,8 @@
 {
-  "name": "Adria ATIS v2.6",
-  "id": "19158b8b-e0c7-4adc-b846-8f486a182687",
+  "name": "Adria ATIS v2.7",
+  "id": "992dc84d-dac8-4c5b-9bd2-7d608cf82970",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2025111501,
+  "updateSerial": 2026041902,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -12237,7 +12237,7 @@
           "name": "LDZD31 ARR&DEP",
           "airportConditions": "RWY IN USE 31. EXPECT RNP APPROACH.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12275,7 +12275,7 @@
         {
           "text": "RUNWAY 04 AVAILABLE FOR ARRIVALS PER REQUEST.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": []
