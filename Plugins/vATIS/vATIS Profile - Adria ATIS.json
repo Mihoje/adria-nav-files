@@ -1,8 +1,8 @@
 {
   "name": "Adria ATIS v2.7",
-  "id": "f9089249-9001-461e-8c56-4868c087d0c4",
+  "id": "992dc84d-dac8-4c5b-9bd2-7d608cf82970",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026041903,
+  "updateSerial": 2026042801,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -1992,7 +1992,7 @@
           "id": "e38183d6-2c9f-46d9-b6f9-e9ae9611c31a",
           "name": "RWY 30R",
           "airportConditions": "EXPECT ILS APPROACH. RUNWAY 30R IN USE.",
-          "notams": "NO CLEARENCE REQUIRED TO CROSS RUNWAY 30L. RUNWAY 12 RIGHT/30 LEFT USED AS TAXIWAY ONLY. UNABLE TISAK DEPARTURE DUE TO SPECIAL TRAFFIC NORTH OF THE FIELD.",
+          "notams": "NO CLEARANCE REQUIRED TO CROSS RUNWAY 30L. RUNWAY 12 RIGHT/30 LEFT USED AS TAXIWAY ONLY. UNABLE TISAK DEPARTURE DUE TO SPECIAL TRAFFIC NORTH OF THE FIELD.",
           "template": "BEOGRAD ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
@@ -12237,7 +12237,7 @@
           "name": "LDZD31 ARR&DEP",
           "airportConditions": "RWY IN USE 31. EXPECT RNP APPROACH.",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
