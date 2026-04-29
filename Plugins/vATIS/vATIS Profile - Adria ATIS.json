@@ -2,7 +2,7 @@
   "name": "Adria ATIS v2.7",
   "id": "992dc84d-dac8-4c5b-9bd2-7d608cf82970",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026042801,
+  "updateSerial": 2026042901,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
