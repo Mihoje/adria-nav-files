@@ -219,11 +219,6 @@ ATIS2:$radioname
 ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZD_DEL:50:4
-ATIS2:$radioname
-ATIS3:ATIS 126.685
-ATIS4:Feedback - cc.vatadria.com/feedback/create
-
 //LJLA
 PROFILE:LJLA_CTR:450:6
 ATIS2:$radioname / CPDLC - LJLA
@@ -265,6 +260,11 @@ ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
+PROFILE:LJCE_TWR:30:4
+ATIS2:$radioname
+ATIS3:
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
 PROFILE:LQSB_CTR:300:6
 ATIS2:$radioname
 ATIS3:Covering LQ* if local ATC offline
@@ -276,6 +276,11 @@ ATIS3:Covering LQ* below FL95 outside controlled airspace
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LQBK_APP:150:5
+ATIS2:$radioname
+ATIS3:ATIS 122.625
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LQBK_TWR:50:4
 ATIS2:$radioname
 ATIS3:ATIS 122.625
 ATIS4:Feedback - cc.vatadria.com/feedback/create
