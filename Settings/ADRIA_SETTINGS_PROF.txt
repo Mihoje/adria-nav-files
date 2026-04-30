@@ -426,6 +426,11 @@ ATIS2:$radioname
 ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
+PROFILE:LYVR_APP:150:5
+ATIS2:$radioname
+ATIS3:
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
 PROFILE:LYUZ_TWR:50:4
 ATIS2:$radioname
 ATIS3:
