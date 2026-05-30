@@ -12,7 +12,7 @@
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy":"29",
-                        "prio":1
+                        "prio":3
                     }
                 },
                 "B":{
@@ -26,21 +26,21 @@
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
                         "rwy": "29",
-                        "prio": 2
+                        "prio": 1
                     }
                 }
             },
             "MITNO":{
                 "J":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"RNAV": true},
                         "rwy":"29",
                         "prio":1
                     }
                 },
                 "B":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"NON-RNAV": true},
                         "rwy":"29",
                         "prio":2
                     }
@@ -49,30 +49,30 @@
             "VRANA":{
                 "B":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"NON-RNAV": true},
                         "rwy":"29",
-                        "prio":1
+                        "prio":2
                     }
                 },
                 "J":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"RNAV": true},
                         "rwy":"29",
-                        "prio":2
+                        "prio":1
                     }
                 }
             },
             "OSLUD":{
                 "B":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"NON-RNAV": true},
                         "rwy":"29",
                         "prio":1
                     }
                 },
                 "J":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"RNAV": true},
                         "rwy":"29",
                         "prio":2
                     }
@@ -81,14 +81,14 @@
             "GACMO":{
                 "B":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"NON-RNAV": true},
                         "rwy":"29",
                         "prio":1
                     }
                 },
                 "J":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"RNAV": true},
                         "rwy":"29",
                         "prio":2
                     }
@@ -97,16 +97,16 @@
             "SOMUN":{
                 "B":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"NON-RNAV": true},
                         "rwy":"29",
-                        "prio":1
+                        "prio":2
                     }
                 },
                 "J":{
                     "1":{
-                        "equip":{"RNAV": true,"NON-RNAV": true},
+                        "equip":{"RNAV": true},
                         "rwy":"29",
-                        "prio":2
+                        "prio":1
                     }
                 }
             }
