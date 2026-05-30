@@ -6,6 +6,8 @@
         "maxInitialClimb": 6000,
         "sids":{
             "initial": 6000,
+            "climbvia": true,
+            "BOSNA":{
                 "A":{
                     "1":{
                         "equip":{"RNAV": true,"NON-RNAV": true},
@@ -110,3 +112,4 @@
             }
         }
     }
+}
