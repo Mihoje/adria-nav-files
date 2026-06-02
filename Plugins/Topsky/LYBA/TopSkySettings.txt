@@ -289,6 +289,6 @@ Window_CPDLC_Setting=1,1,350
 
 Window_CPDLC_Setting=1,1,350
 
-[LDZA]
+[LDZA,LDPL,LDZD,LDDU]
 
 Window_CPDLC_Setting=1,1,350
