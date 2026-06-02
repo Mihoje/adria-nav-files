@@ -1,6 +1,6 @@
 [DCL]
 // ****************** REQ STARTUP ON OWN FREQ ****************** 
-DCL:LYBE,LDZA,LJLJ:SID:CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <atis> <rmk> <startup_own>
+DCL:LYBE,LDZA,LDPL,LDZD,LDDU,LJLJ:SID:CLRD TO <ades> OFF <drwy> VIA <sid> CLIMB <cfl> SQUAWK <assr> <atis> NEXT FREQUENCY <freq_own> REQ STARTUP ACC EOBT OR CTOT ON <freq_own> <rmk>
 
 [FREETEXT]
 FREETEXT:UNICOM:MONITOR ADVISORY 122.8 GOODBYE
