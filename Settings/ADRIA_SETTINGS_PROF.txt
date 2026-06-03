@@ -1,20 +1,20 @@
 PROFILE
-PROFILE:ADR_CTR:300:6
+PROFILE:ADR_CTR:500:6
 ATIS2:$radioname
-ATIS3:Coverage map.vatsim.net / CPDLC/PDC - ADRA
+ATIS3:Coverage map.vatsim.net / CPDLC - ADRA
 ATIS4:Feedback cc.vatadria.com/feedback/create
 
-PROFILE:ADR_E_CTR:300:6
+PROFILE:ADR_E_CTR:400:6
 ATIS2:$radioname
-ATIS3:Coverage map.vatsim.net / CPDLC/PDC - ADRE
+ATIS3:Coverage map.vatsim.net / CPDLC - ADRE
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:ADR_W_CTR:300:6
+PROFILE:ADR_W_CTR:400:6
 ATIS2:$radioname
-ATIS3:Coverage map.vatsim.net / CPDLC/PDC - ADRW
+ATIS3:Coverage map.vatsim.net / CPDLC - ADRW
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:ADR_U_CTR:400:6
+PROFILE:ADR_U_CTR:500:6
 ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net / CPDLC - ADRU
 ATIS4:Feedback - cc.vatadria.com/feedback/create
@@ -36,7 +36,7 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 // KFOR
 
-PROFILE:KFOR_CTR:300:6
+PROFILE:KFOR_CTR:200:6
 ATIS2:$radioname
 ATIS3:Coverage map.vatsim.net
 ATIS4:Feedback cc.vatadria.com/feedback/create
@@ -89,68 +89,68 @@ ATIS3:Kukes FISO
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 //LDZO
-PROFILE:LDZO_CTR:250:6
+PROFILE:LDZO_CTR:350:6
 ATIS2:$radioname / CPDLC - LDZO
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_S_CTR:250:6
+PROFILE:LDZO_S_CTR:350:6
 ATIS2:$radioname / CPDLC - LDS1
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_N_CTR:250:6
+PROFILE:LDZO_N_CTR:350:6
 ATIS2:$radioname / CPDLC - LDN1
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_W_CTR:250:6
+PROFILE:LDZO_W_CTR:350:6
 ATIS2:$radioname / CPDLC - LDW1
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_C_CTR:250:6
+PROFILE:LDZO_C_CTR:350:6
 ATIS2:$radioname / CPDLC - LDC1
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_UN_CTR:250:6
+PROFILE:LDZO_UN_CTR:350:6
 ATIS2:$radioname / CPDLC - LDN7
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_US_CTR:250:6
+PROFILE:LDZO_US_CTR:350:6
 ATIS2:$radioname / CPDLC - LDS7
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_UW_CTR:250:6
+PROFILE:LDZO_UW_CTR:350:6
 ATIS2:$radioname / CPDLC - LDW7
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_UC_CTR:250:6
+PROFILE:LDZO_UC_CTR:350:6
 ATIS2:$radioname / CPDLC - LDC7
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZO_U_CTR:250:6
+PROFILE:LDZO_U_CTR:350:6
 ATIS2:$radioname / CPDLC - LDZU
 ATIS3:Covering LD* if local ATC offline
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDDU_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDDU]
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDOS_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Osijek TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDPL_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDPL]
 ATIS3:ATIS 129.150
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -165,17 +165,17 @@ ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZD_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDZD]
 ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDDU_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDDU]
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDDU_DEL:50:4
-ATIS2:$radioname
+PROFILE:LDDU_DEL:20:4
+ATIS2:$radioname - DCL [LDDU]
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -185,7 +185,7 @@ ATIS3:
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDPL_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDPL]
 ATIS3:ATIS 129.150
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -209,13 +209,18 @@ ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZA_GND:25:4
+PROFILE:LDZA_GND:20:4
 ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDZD_TWR:50:4
-ATIS2:$radioname
+ATIS2:$radioname - DCL [LDZD]
+ATIS3:ATIS 126.685
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDZD_DEL:20:4
+ATIS2:$radioname - DCL [LDZD]
 ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -235,29 +240,29 @@ ATIS2:$radioname - DCL [LJLJ]
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LJLJ_TWR:30:4
+PROFILE:LJLJ_TWR:50:4
 ATIS2:$radioname - DCL [LJLJ]
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LJLJ_GND:10:3
+PROFILE:LJLJ_GND:20:3
 ATIS2:$radioname - DCL [LJLJ]
 ATIS3:ATIS 128.175
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJMB_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Maribor TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJPZ_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Portoroz TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJCE_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Cerklje TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LJCE_TWR:30:4
@@ -361,7 +366,7 @@ ATIS2:$radioname
 ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:BKPR_GND:10:3
+PROFILE:BKPR_GND:20:3
 ATIS2:$radioname
 ATIS3:ATIS 132.385
 ATIS4:Feedback - cc.vatadria.com/feedback/create
@@ -372,7 +377,7 @@ ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBE_F_APP:150:5
-ATIS2:$radioname
+ATIS2:$radioname - Callsign only on initial contact!
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
@@ -381,19 +386,19 @@ ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LYBE_GND:10:3
+PROFILE:LYBE_GND:20:3
 ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LYBE_DEL:10:3
+PROFILE:LYBE_DEL:20:3
 ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBT_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Batajnica TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYBT_TWR:50:4
@@ -403,12 +408,12 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYKV_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Kraljevo TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYNI_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Nis TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYPG_APP:150:5
@@ -423,12 +428,12 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYTV_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Tivat TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYVR_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:Procedural service for Vrsac TMA
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LYUZ_TWR:50:4
