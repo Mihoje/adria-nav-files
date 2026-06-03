@@ -174,7 +174,7 @@ ATIS2:$radioname - DCL [LDDU]
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDDU_DEL:20:4
+PROFILE:LDDU_DEL:20:2
 ATIS2:$radioname - DCL [LDDU]
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
@@ -209,7 +209,7 @@ ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZA_GND:20:4
+PROFILE:LDZA_GND:20:3
 ATIS2:$radioname - DCL [LDZA]
 ATIS3:ATIS 124.575
 ATIS4:Feedback - cc.vatadria.com/feedback/create
@@ -219,7 +219,7 @@ ATIS2:$radioname - DCL [LDZD]
 ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LDZD_DEL:20:4
+PROFILE:LDZD_DEL:20:2
 ATIS2:$radioname - DCL [LDZD]
 ATIS3:ATIS 126.685
 ATIS4:Feedback - cc.vatadria.com/feedback/create
@@ -391,7 +391,7 @@ ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
-PROFILE:LYBE_DEL:20:3
+PROFILE:LYBE_DEL:20:2
 ATIS2:$radioname - DCL [LYBE]
 ATIS3:ATIS 125.025
 ATIS4:Feedback - cc.vatadria.com/feedback/create
