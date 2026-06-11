@@ -2,7 +2,7 @@
   "name": "Adria ATIS v2.7",
   "id": "f9089249-9001-461e-8c56-4868c087d0c4",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026053102,
+  "updateSerial": 2026061101,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -2031,6 +2031,11 @@
         {
           "text": "RUNWAY CONDITION CODE 5 5 5. ",
           "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -4108,7 +4113,7 @@
         {
           "text": "CLEARANCE VIA PDC AVAILABLE",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": []
@@ -6130,7 +6135,7 @@
         {
           "id": "9be9d01e-0bb6-4ba6-93fd-132e944f90d5",
           "name": "LDDU29",
-          "airportConditions": "RWY IN USE 29. EXPECT RNP B APPROACH.",
+          "airportConditions": "RWY IN USE 29. EXPECT RNP APPROACH.",
           "notams": "TWY B AVAILABLE FOR ACFT TYPE A AND B ONLY.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
@@ -6139,7 +6144,13 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -8168,7 +8179,13 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -12268,14 +12285,19 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "RUNWAY 22 AVAILABLE FOR DEPARTURES PER REQUEST.",
+          "text": "RUNWAY 22 AVAILABLE FOR DEPARTURES.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "RUNWAY 04 AVAILABLE FOR ARRIVALS PER REQUEST.",
+          "text": "RUNWAY 04 AVAILABLE FOR ARRIVALS.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
+        },
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 3,
+          "enabled": false
         }
       ],
       "notamDefinitions": []
@@ -14318,7 +14340,7 @@
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": []
