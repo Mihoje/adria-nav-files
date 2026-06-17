@@ -56,7 +56,7 @@ RawVideo_Afterglow=70
 RawVideo_MaxHistory=1
 GroundLabel=1
 GroundLabel_FontStyle=500,0,0,0
-
+System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LD,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
 
 Label_STAND=1,1,0
 Label_ATYP=1,1,1
