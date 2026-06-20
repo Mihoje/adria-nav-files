@@ -144,6 +144,11 @@ ATIS2:$radioname - DCL [LDDU]
 ATIS3:ATIS 118.425
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
+PROFILE:LDDU_F_APP:150:5
+ATIS2:$radioname - Callsign only on initial contact!
+ATIS3:ATIS 118.425
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
 PROFILE:LDOS_APP:150:5
 ATIS2:$radioname
 ATIS3:Procedural service for Osijek TMA
@@ -156,6 +161,11 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LDSP_APP:150:5
 ATIS2:$radioname
+ATIS3:ATIS 125.300
+ATIS4:Feedback - cc.vatadria.com/feedback/create
+
+PROFILE:LDSP_F_APP:150:5
+ATIS2:$radioname - Callsign only on initial contact!
 ATIS3:ATIS 125.300
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 

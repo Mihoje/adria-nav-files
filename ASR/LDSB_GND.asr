@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:A
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20260617084327-260601-0002.sct
+SECTORTITLE:ADRIA-Package_20260617084327-260601-0002.sct
 Free Text:LDSB Parkings\1:freetext
 Free Text:LDSB Parkings\2:freetext
 Free Text:LDSB Parkings\3:freetext
@@ -20,9 +20,9 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:43.274708:16.653394:43.300606:16.718693
-PLUGIN:Ground Radar plugin:AirportElevation:289
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:43.276438:16.651220:43.293013:16.709060
+PLUGIN:Ground Radar plugin:AirportElevation:1781
 PLUGIN:Ground Radar plugin:AirportRadius:5
-PLUGIN:Ground Radar plugin:GroundMode:LDZD
+PLUGIN:Ground Radar plugin:GroundMode:LDSB
 PLUGIN:TopSky plugin:NoDraw:1
