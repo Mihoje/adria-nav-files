@@ -4,6 +4,7 @@ Airspace_ASSR_Type=2
 Airspace_SIGMET_Areas=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 Airspace_NOTAM_Add=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
 Airspace_NOTAM_Remove=LHBP,LZIB
+HTTP_NOTAM_Source=0
 HTTP_NOTAM_Server=https://notams.blip-radar.org/
 HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
 HTTP_NOTAM_Page_Suffix=
