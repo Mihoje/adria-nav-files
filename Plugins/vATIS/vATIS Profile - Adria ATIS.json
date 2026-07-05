@@ -2,7 +2,7 @@
   "name": "Adria ATIS v2.7",
   "id": "f9089249-9001-461e-8c56-4868c087d0c4",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026061701,
+  "updateSerial": 2026070501,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -6125,7 +6125,7 @@
         {
           "id": "a307a5d9-d1fb-4fc6-a82d-b8710bcdaed8",
           "name": "LDDU11",
-          "airportConditions": "RWY IN USE 11. EXPECT ILS ZULU APPROACH",
+          "airportConditions": "RWY IN USE 11. EXPECT ILS ZULU APPROACH.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
