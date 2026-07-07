@@ -282,3 +282,7 @@ Window_CPDLC_Setting=1,1,350
 [LDZA,LDPL,LDZD,LDDU]
 
 Window_CPDLC_Setting=1,1,350
+
+[LYBA_]
+
+CPDLC_MinLevel=205
