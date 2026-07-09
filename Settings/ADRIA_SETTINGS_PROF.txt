@@ -322,7 +322,7 @@ ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 PROFILE:LQTZ_APP:150:5
 ATIS2:$radioname
-ATIS3:
+ATIS3:ATIS 133.825
 ATIS4:Feedback - cc.vatadria.com/feedback/create
 
 //LYBA
