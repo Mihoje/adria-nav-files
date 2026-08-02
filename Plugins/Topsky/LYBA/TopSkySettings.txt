@@ -294,6 +294,6 @@ Window_CPDLC_Setting=1,1,350
 
 Window_CPDLC_Setting=1,1,350
 
-[LYBA_]
+[LYBA_,LDZO_,ADR_,LJLA_]
 
 CPDLC_MinLevel=205
