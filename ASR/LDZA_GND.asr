@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20260806172321-260801-0001.sct
+SECTORTITLE:ADRIA-Package_20260806172321-260801-0001.sct
 Free Text:LD VRP\A1:freetext
 Free Text:LD VRP\A2:freetext
 Free Text:LD VRP\A3:freetext
@@ -86,9 +86,12 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:45.720920:16.018218:45.761109:16.116654
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:45.722935:16.007143:45.758315:16.130605
 PLUGIN:Ground Radar plugin:AirportElevation:360
 PLUGIN:Ground Radar plugin:AirportRadius:8
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
 PLUGIN:Ground Radar plugin:GroundMode:LDZA
 PLUGIN:TopSky plugin:NoDraw:1
