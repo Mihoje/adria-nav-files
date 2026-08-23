@@ -1,8 +1,8 @@
 {
-  "name": "Adria ATIS v2.71",
+  "name": "Adria ATIS v2.8",
   "id": "f9089249-9001-461e-8c56-4868c087d0c4",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026072201,
+  "updateSerial": 2026082401,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -2064,6 +2064,11 @@
           "text": "ARRANGE TO VACATE VIA R4.",
           "ordinal": 5,
           "enabled": false
+        },
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 6,
+          "enabled": false
         }
       ]
     },
@@ -2081,7 +2086,7 @@
         "observationTime": {
           "template": {
             "text": "{time}Z",
-            "voice": "{time} ZULU {special}"
+            "voice": "{hour}{minute} ZULU {special}"
           }
         },
         "surfaceWind": {
@@ -2092,7 +2097,7 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir} degrees, {wind_spd} knots,",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
@@ -2142,7 +2147,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "{visibility},",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -3884,7 +3889,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather},",
             "voice": "{weather}"
           }
         },
@@ -3955,7 +3960,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "{clouds},",
             "voice": "{clouds}"
           }
         },
@@ -3963,7 +3968,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "Temperature {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -3971,14 +3976,14 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DEWPOINT {dewpoint},",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} ({altimeter|text})",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}"
           }
         },
@@ -4055,8 +4060,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "text": " CONFIRM INFORMATION {letter} ON FIRST CONTACT.",
+            "voice": "CONFIRM INFORMATION {letter|word} ON FIRST CONTACT."
           }
         }
       },
@@ -4074,9 +4079,9 @@
         {
           "id": "6653fd8d-a404-4bd0-8866-0e0b105afd28",
           "name": "LDZA04",
-          "airportConditions": "RWY IN USE 04. EXPECT ILS Z APPROACH.",
+          "airportConditions": "EXPECT ILS Z APPROACH. RWY IN USE 04 FOR ARRIVAL AND DEPARTURE",
           "notams": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
+          "template": "THIS IS ZAGREB ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING]. [NOTAMS].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4116,7 +4121,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "e7b736b6-f2a9-49e1-b71f-bb949ab726f6",
@@ -6151,7 +6162,13 @@
           "enabled": true
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "9a00234f-b46e-4c7f-9ea2-40cf199387f3",
@@ -8186,7 +8203,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "eaf1b3aa-61b4-4ddb-9bf1-bb05c44b1896",
@@ -10227,7 +10250,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "776e1493-9397-4891-b370-2d0238a6c6d2",
@@ -12313,7 +12342,7 @@
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": []
@@ -14359,7 +14388,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "8b100780-762d-4a2c-8286-47f267e9f736",
@@ -18429,7 +18464,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "ed3c5c6d-e11e-443c-bf77-2d8fffc05c81",
@@ -24459,7 +24500,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     },
     {
       "id": "0b58840b-9347-4f6c-b944-273acb545549",
@@ -26474,7 +26521,13 @@
       ],
       "contractions": [],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "62015019-1cda-4643-86d4-81f0f17ee4bf",
