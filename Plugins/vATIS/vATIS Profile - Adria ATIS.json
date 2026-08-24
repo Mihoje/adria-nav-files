@@ -1,6 +1,6 @@
 {
   "name": "Adria ATIS v2.81",
-  "id": "861204fc-5118-4a78-829e-e1e2ed0714b5",
+  "id": "a95741a8-ef3d-499b-96c5-90b1308f155a",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
   "updateSerial": 2026082410,
   "stations": [
@@ -2103,26 +2103,26 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
+              "text": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} knots",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "text": "WIND VRB{wind_spd} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd} knots, maximum {wind_gust} knots",
-              "voice": "WIND VARIABLE AT {wind_spd} MAXIMUM {wind_gust}"
+              "text": "WIND VRB{wind_spd} knots, maximum {wind_gust} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin} and {wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "text": "varying between {wind_vmin} and {wind_vmax}",
+              "voice": "WIND VARYING BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
@@ -4166,26 +4166,26 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
+              "text": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} knots",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "text": "WIND VRB{wind_spd} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd} knots, maximum {wind_gust} knots",
-              "voice": "WIND VARIABLE AT {wind_spd} MAXIMUM {wind_gust}"
+              "text": "WIND VRB{wind_spd} knots, maximum {wind_gust} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin} and {wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "text": "varying between {wind_vmin} and {wind_vmax}",
+              "voice": "WIND VARYING BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
@@ -6235,26 +6235,26 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
+              "text": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} knots",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "text": "WIND VRB{wind_spd} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd} knots, maximum {wind_gust} knots",
-              "voice": "WIND VARIABLE AT {wind_spd} MAXIMUM {wind_gust}"
+              "text": "WIND VRB{wind_spd} knots, maximum {wind_gust} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin} and {wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "text": "varying between {wind_vmin} and {wind_vmax}",
+              "voice": "WIND VARYING BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
@@ -8288,26 +8288,26 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
+              "text": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} knots",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "text": "WIND VRB{wind_spd} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd} knots, maximum {wind_gust} knots",
-              "voice": "WIND VARIABLE AT {wind_spd} MAXIMUM {wind_gust}"
+              "text": "WIND VRB{wind_spd} knots, maximum {wind_gust} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin} and {wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "text": "varying between {wind_vmin} and {wind_vmax}",
+              "voice": "WIND VARYING BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
@@ -10337,26 +10337,26 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
+              "text": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust} knots",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} knots",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "text": "WIND VRB{wind_spd} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd} knots, maximum {wind_gust} knots",
-              "voice": "WIND VARIABLE AT {wind_spd} MAXIMUM {wind_gust}"
+              "text": "WIND VRB{wind_spd} knots, maximum {wind_gust} knots",
+              "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin} and {wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "text": "varying between {wind_vmin} and {wind_vmax}",
+              "voice": "WIND VARYING BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
           "calm": {
