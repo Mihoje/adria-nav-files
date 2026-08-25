@@ -235,7 +235,7 @@ WXR_Longitude_Min=13
 WXR_ImageSize=512
 
 //RDF Settings
-RDF_Mode=2
+RDF_Mode=-1
 RDF_Floor=0
 RDF_Accuracy=0
 RDF_MinRadius=20
