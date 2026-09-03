@@ -47,6 +47,7 @@ Plugins	Plugin6	\ADRIA\Plugins\IASsure\IASsure.dll
 Plugins	Plugin7	\ADRIA\Plugins\Maestro\MAESTRO.dll
 Plugins	Plugin8	\ADRIA\Plugins\VATAAssist\VATAAssist.dll
 Plugins	Plugin9	\ADRIA\Plugins\Topsky\ADRIA\TopSky.dll
+Plugins	Plugin10	\ADRIA\Plugins\CDM Plugin\CDM.dll
 Plugins	Plugin0Display0	Ground Radar display
 Plugins	Plugin0Display1	Standard ES radar screen
 Plugins	Plugin1Display0	Ground Radar display
@@ -67,6 +68,8 @@ Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin8Display1	Ground Radar display
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
+Plugins	Plugin10Display0	Standard ES radar screen
+Plugins	Plugin10Display1	Ground Radar display
 Settings	SettingsfileORIGPLANE	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileSTUP	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileTAXIOUT	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
