@@ -13,7 +13,7 @@ Settings	SettingsfileSCREEN	\ADRIA\Settings\ADRIA_SETTINGS_LAYOUT.txt
 Settings	SettingsfileCONFLICT	\ADRIA\Settings\ADRIA_SETTINGS_COL.txt
 Settings	SettingsfileVCCS	\ADRIA\Settings\ADRIA_SETTINGS_VCCS.txt
 Settings	SettingsfilePILOTING	\ADRIA\Settings\ADRIA_SETTINGS_PLL.txt
-Settings	SettingsfileSTUP	\ADRIA\Settings\ADRIA_SETTINGS_STL
+Settings	SettingsfileSTUP	\ADRIA\Settings\ADRIA_SETTINGS_STL.txt
 Settings	alias	\ADRIA\Alias\alias.txt
 Settings	AtisFolder	\ADRIA\ATIS\Atisfile.txt
 Settings	airlines	\ADRIA\ICAO\ICAO_Airlines.txt
