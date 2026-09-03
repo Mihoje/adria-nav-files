@@ -97,6 +97,7 @@ Sounds	Sound15	\ADRIA\Sounds\new_atis.wav
 Sounds	Sound16	\ADRIA\Sounds\handoff_refused.wav
 Sounds	Sound17	\ADRIA\Sounds\pointout.wav
 Sounds	Sound18	\ADRIA\Sounds\startup.wav
+RecentFiles	Recent1	\ADRIA\ASR\CTR_APP.asr
 Plugins	Plugin10	\ADRIA\Plugins\ACDM\CDM.dll
 Plugins	Plugin10Display0	Ground Radar display
 Plugins	Plugin10Display1	Standard ES radar screen
