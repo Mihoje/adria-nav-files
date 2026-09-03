@@ -1,5 +1,5 @@
 DisplayTypeName:Ground Radar display
-DisplayTypeNeedRadarContent:1
+DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
@@ -15,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:44.797025:20.247431:44.838840:20.356482
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:44.805078:20.254334:44.830777:20.344014
 PLUGIN:Ground Radar plugin:AirportElevation:400
 PLUGIN:Ground Radar plugin:AirportRadius:10
 PLUGIN:Ground Radar plugin:GroundMode:LYBE
