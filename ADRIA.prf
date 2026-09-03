@@ -68,8 +68,8 @@ Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin8Display1	Ground Radar display
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
-Plugins	Plugin10Display0	Ground Radar display
-Plugins	Plugin10Display1	Standard ES radar screen
+Plugins	Plugin10Display0 Ground Radar display
+Plugins	Plugin10Display1 Standard ES radar screen
 Settings	SettingsfileORIGPLANE	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileSTUP	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
 Settings	SettingsfileTAXIOUT	\ADRIA\Settings\ADRIA_SETTINGS_GENERAL.txt
