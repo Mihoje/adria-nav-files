@@ -2048,7 +2048,7 @@
         {
           "text": "ARRANGE TO VACATE VIA R2",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "ARRANGE TO VACATE VIA E.",
@@ -2068,7 +2068,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 6,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -4131,7 +4131,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -6158,7 +6158,7 @@
         {
           "id": "9be9d01e-0bb6-4ba6-93fd-132e944f90d5",
           "name": "LDDU29",
-          "airportConditions": "EXPECT RNP B APPROACH. RUNWAY 29 FOR ARRIVAL AND DEPARTURE",
+          "airportConditions": "EXPECT RNP APPROACH. RUNWAY 29 FOR ARRIVAL AND DEPARTURE",
           "notams": "",
           "template": "THIS IS DUBROVNIK ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [ARPT_COND]. [TL]. [FULL_WX_STRING] [NOTAMS].",
           "externalGenerator": {
@@ -6200,7 +6200,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -8253,7 +8253,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -10302,7 +10302,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -12380,12 +12380,12 @@
         {
           "text": "RUNWAY 22 AVAILABLE FOR DEPARTURES.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RUNWAY 04 AVAILABLE FOR ARRIVALS.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
@@ -24552,7 +24552,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
