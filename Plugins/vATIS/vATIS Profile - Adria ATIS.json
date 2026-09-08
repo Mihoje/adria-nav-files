@@ -1,8 +1,8 @@
 {
-  "name": "Adria ATIS v2.81",
+  "name": "Adria ATIS v2.82",
   "id": "a95741a8-ef3d-499b-96c5-90b1308f155a",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026082410,
+  "updateSerial": 2026090801,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -2068,7 +2068,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -4131,7 +4131,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -6200,7 +6200,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -8253,7 +8253,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -10302,7 +10302,7 @@
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -12380,12 +12380,12 @@
         {
           "text": "RUNWAY 22 AVAILABLE FOR DEPARTURES.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RUNWAY 04 AVAILABLE FOR ARRIVALS.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
@@ -16464,6 +16464,22 @@
           "id": "ce25c650-bf06-4ab1-a7e8-b75983e7d533",
           "name": "LQBK - 16 ARR&DEP 34 DEP",
           "airportConditions": "RWY IN USE - ARRIVALS 16. EXPECT ILS APPROACH. DEPARTURE RWY 16 AND RWY 34 ON ATC DISCRETION.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "2c1ad501-38db-4562-8d51-b9547bddc6b4",
+          "name": "LQBK34",
+          "airportConditions": "RWY IN USE - RWY 34. EXPECT RNP APPROACH.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [TL]. [ARPT_COND] [NOTAMS].",
           "externalGenerator": {
