@@ -80,8 +80,8 @@
         },
         "squawkNotSet": {
             "r": 255,
-            "g": 0,
-            "b": 0
+            "g": 63,
+            "b": 81
         },
         "requestNeutral": {
             "r": 128,
