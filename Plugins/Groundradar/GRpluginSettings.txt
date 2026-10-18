@@ -13,9 +13,11 @@ Track_Heading_Line=1
 Track_PredictionLine_TWR=1
 Track_PredictionLine_APP=1
 Window_APP_Extensions=10
-GroundLabel_Font=Lucida Sans Unicode
-AppLabel_Font=Lucida Sans Unicode
-TowerLabel_Font=Lucida Sans Unicode
+TextNotes_Font=EuroScope
+GroundLabel_Font=EuroScope
+AppLabel_Font=EuroScope
+ApwLabel_Font=EuroScope
+TowerLabel_Font=EuroScope
 Window_APP_Scale=12.5
 Window_APP_AltFilter=6000
 Window_APP_Extensions=10
@@ -130,6 +132,12 @@ Airport_Runway_Closed_Arr=12R
 Airport_Runway_Closed_Dep=12R
 Airport_Runway_Closed_Arr=30L
 Airport_Runway_Closed_Dep=30L
+Color_Arrival=255,200,15
+Color_Departure=33,196,255
+
+[LY]
+Color_Arrival=255,200,15
+Color_Departure=33,196,255
 
 Window_APW_MaxDist=15
 AppPath=BKPR:ILS17:N042.35.07.209:E021.02.04.560:176.4:R:1789:3

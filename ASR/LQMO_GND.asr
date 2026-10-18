@@ -1,32 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-DisplayRotation:0.00000:
-Free Text:LQMO Parkingposition\1:freetext
-Free Text:LQMO Parkingposition\2:freetext
-Free Text:LQMO Parkingposition\21:freetext
-Free Text:LQMO Parkingposition\22:freetext
-Free Text:LQMO Parkingposition\23:freetext
-Free Text:LQMO Parkingposition\24:freetext
-Free Text:LQMO Runway\16/A TORA 2400m:freetext
-Free Text:LQMO Runway\34/F TORA 2400m:freetext
-Free Text:LQMO Taxiway\A:freetext
-Free Text:LQMO Taxiway\B:freetext
-Free Text:LQMO Taxiway\C:freetext
-Free Text:LQMO Taxiway\D:freetext
-Free Text:LQMO Taxiway\E:freetext
-Free Text:LQMO Taxiway\F:freetext
-Geo:LQMO Groundlayout Airport:
-Geo:LQMO Groundlayout Parking:
-Geo:LQMO Groundlayout Taxiway Centerline:
-Runways:LQMO 16-34:extended centerline 1
-Runways:LQMO 16-34:extended centerline 1 left ticks
-Runways:LQMO 16-34:extended centerline 1 right ticks
-Runways:LQMO 16-34:extended centerline 2
-Runways:LQMO 16-34:extended centerline 2 left ticks
-Runways:LQMO 16-34:extended centerline 2 right ticks
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20261001111759-261001-0001.sct
+SECTORTITLE:ADRIA-Package_20261001111759-261001-0001.sct
 SHOWC:0
 SHOWSB:0
 BELOW:0
@@ -38,8 +14,9 @@ HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:43.263490:17.801118:43.301988:17.903148
+DisplayRotation:0.00000
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:43.270103:17.803293:43.294742:17.889273
 PLUGIN:Ground Radar plugin:AirportElevation:650
 PLUGIN:Ground Radar plugin:AirportRadius:13
 PLUGIN:Ground Radar plugin:GroundMode:LQMO

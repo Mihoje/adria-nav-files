@@ -1,22 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Free Text:LYNI Parkings\1:freetext
-Free Text:LYNI Parkings\2:freetext
-Free Text:LYNI Parkings\3:freetext
-Free Text:LYNI Parkings\4:freetext
-Free Text:LYNI Taxiways\D:freetext
-Geo:LYNI Groundlayout Region:
-Regions:LYNI Airport:polygon
-Runways:LYNI 11-29:extended centerline 1
-Runways:LYNI 11-29:extended centerline 1 left ticks
-Runways:LYNI 11-29:extended centerline 1 right ticks
-Runways:LYNI 11-29:extended centerline 2
-Runways:LYNI 11-29:extended centerline 2 left ticks
-Runways:LYNI 11-29:extended centerline 2 right ticks
-SHOWC:0
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20261001111759-261001-0001.sct
+SECTORTITLE:ADRIA-Package_20261001111759-261001-0001.sctSHOWC:0
 SHOWSB:0
 BELOW:0
 ABOVE:0
@@ -28,8 +14,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:43.317653:21.814394:43.358118:21.916424
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:43.324931:21.820203:43.350840:21.910615
 PLUGIN:Ground Radar plugin:AirportElevation:650
 PLUGIN:Ground Radar plugin:AirportRadius:6
 PLUGIN:Ground Radar plugin:GroundMode:LYNI

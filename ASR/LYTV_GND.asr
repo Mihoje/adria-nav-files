@@ -1,26 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Free Text:LYTV Parkings\1:freetext
-Free Text:LYTV Parkings\2:freetext
-Free Text:LYTV Parkings\3:freetext
-Free Text:LYTV Parkings\4:freetext
-Free Text:LYTV Parkings\5:freetext
-Free Text:LYTV Parkings\5A:freetext
-Free Text:LYTV Parkings\6:freetext
-Free Text:LYTV Parkings\7:freetext
-Free Text:LYTV Taxiways\A:freetext
-Free Text:LYTV Taxiways\B:freetext
-Geo:LYTV Groundlayout Region:
-Regions:LYTV Airport:polygon
-Runways:LYTV 14-32:extended centerline 1
-Runways:LYTV 14-32:extended centerline 1 left ticks
-Runways:LYTV 14-32:extended centerline 1 right ticks
-Runways:LYTV 14-32:extended centerline 2
-Runways:LYTV 14-32:extended centerline 2 left ticks
-Runways:LYTV 14-32:extended centerline 2 right ticks
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20261001111759-261001-0001.sct
+SECTORTITLE:ADRIA-Package_20261001111759-261001-0001.sct
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -34,7 +16,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:ADRIA TWR
-WINDOWAREA:42.392134:18.679143:42.417174:18.766523
+WINDOWAREA:42.392128:18.679122:42.417180:18.766544
 PLUGIN:Ground Radar plugin:AirportElevation:20
 PLUGIN:Ground Radar plugin:AirportRadius:9
 PLUGIN:Ground Radar plugin:GroundMode:LYTV
