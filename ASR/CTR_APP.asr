@@ -1,8 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20261001111759-261001-0001.sct
+SECTORTITLE:ADRIA-Package_20261001111759-261001-0001.sct
 ARTCC boundary:AoR CTR LJLA MURA Line:
 ARTCC boundary:LATI_APP:
 ARTCC boundary:LBSF_APP:
@@ -38,24 +38,20 @@ ARTCC high boundary:LJLA:
 ARTCC high boundary:LOVV:
 ARTCC high boundary:LQSB:
 ARTCC high boundary:LQSB-FIS:
-ARTCC high boundary:LRBB:
 ARTCC high boundary:LWSS:
 ARTCC high boundary:LYBA:
 ARTCC low boundary:TMA LJLJ TMA Ljubjana 3:
 ARTCC low boundary:TMA LJLJ TMA Ljubljana 1:
 ARTCC low boundary:TMA LJLJ TMA Ljubljana 2:
-NDBs:GAC:symbol
 NDBs:IZD:symbol
 NDBs:PEP:symbol
 VORs:AGH:symbol
 VORs:ANC:symbol
-VORs:AQP:symbol
 VORs:ARD:symbol
 VORs:BAI:symbol
 VORs:BAR:symbol
 VORs:BGD:symbol
 VORs:BKS:symbol
-VORs:BLC:symbol
 VORs:BLO:symbol
 VORs:BOL:symbol
 VORs:BRC:symbol
@@ -71,7 +67,6 @@ VORs:DBK:symbol
 VORs:DER:symbol
 VORs:DOL:symbol
 VORs:DVA:symbol
-VORs:E:symbol
 VORs:FGG:symbol
 VORs:FOL:symbol
 VORs:FRS:symbol
@@ -96,7 +91,6 @@ VORs:LAK:symbol
 VORs:LAT:symbol
 VORs:LBL:symbol
 VORs:LCC:symbol
-VORs:LGJ:symbol
 VORs:LSJ:symbol
 VORs:LUK:symbol
 VORs:MKR:symbol
@@ -143,7 +137,6 @@ VORs:TSL:symbol
 VORs:TZU:symbol
 VORs:VAC:symbol
 VORs:VAL:symbol
-VORs:VBA:symbol
 VORs:VIE:symbol
 VORs:VIT:symbol
 VORs:VIW:symbol
@@ -156,12 +149,12 @@ SHOWSB:0
 BELOW:0
 ABOVE:0
 LEADER:-1
-SHOWLEADER:0
+SHOWLEADER:1
 TURNLEADER:0
 HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:BEOGRAD RADAR
-WINDOWAREA:40.892089:5.989457:48.521487:25.800436
+TAGFAMILY:ZAGREB RADAR
+WINDOWAREA:46.013483:14.090253:46.501205:15.792217

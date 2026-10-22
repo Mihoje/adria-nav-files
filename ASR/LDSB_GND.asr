@@ -1,13 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20260617084327-260601-0002.sct
-SECTORTITLE:ADRIA-Package_20260617084327-260601-0002.sct
-Free Text:LDSB Parkings\1:freetext
-Free Text:LDSB Parkings\2:freetext
-Free Text:LDSB Parkings\3:freetext
-Geo:LDSB Groundlayout Region:
-Regions:LDSB Airport:polygon
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20260806172321-260801-0001.sct
+SECTORTITLE:ADRIA-Package_20260806172321-260801-0001.sct
 SHOWC:0
 SHOWSB:0
 BELOW:0

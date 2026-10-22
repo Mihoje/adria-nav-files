@@ -1,37 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-Free Text:BKPR Parking\1:freetext
-Free Text:BKPR Parking\101:freetext
-Free Text:BKPR Parking\101A:freetext
-Free Text:BKPR Parking\101B:freetext
-Free Text:BKPR Parking\1A:freetext
-Free Text:BKPR Parking\2:freetext
-Free Text:BKPR Parking\201:freetext
-Free Text:BKPR Parking\201A:freetext
-Free Text:BKPR Parking\201B:freetext
-Free Text:BKPR Parking\202:freetext
-Free Text:BKPR Parking\202A:freetext
-Free Text:BKPR Parking\202B:freetext
-Free Text:BKPR Parking\203:freetext
-Free Text:BKPR Parking\203A:freetext
-Free Text:BKPR Parking\203B:freetext
-Free Text:BKPR Parking\3:freetext
-Free Text:BKPR Parking\4:freetext
-Free Text:BKPR Parking\5:freetext
-Free Text:BKPR Parking\6:freetext
-Free Text:BKPR Parking\7:freetext
-Free Text:BKPR Taxiways\A1:freetext
-Free Text:BKPR Taxiways\A2:freetext
-Free Text:BKPR Taxiways\A3:freetext
-Free Text:BKPR Taxiways\C:freetext
-Free Text:BKPR Taxiways\DA:freetext
-Free Text:BKPR Taxiways\E:freetext
-Free Text:BKPR Taxiways\F:freetext
-Geo:BKPR Groundlayout Region:
-Regions:BKPR Airport:polygon
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20261001111759-261001-0001.sct
+SECTORTITLE:ADRIA-Package_20261001111759-261001-0001.sct
 SHOWC:0
 SHOWSB:0
 BELOW:0
@@ -44,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:42.557437:21.000170:42.589809:21.081794
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:42.551512:20.964802:42.591977:21.106010
 PLUGIN:Ground Radar plugin:AirportElevation:236
 PLUGIN:Ground Radar plugin:AirportRadius:2.1
 PLUGIN:Ground Radar plugin:GroundMode:BKPR

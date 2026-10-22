@@ -1,21 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
-DisplayRotation:0.00000:
-Free Text:LWOH Taxiways\A:freetext
-Free Text:LWOH Taxiways\B:freetext
-Free Text:LWOH Taxiways\C:freetext
-Free Text:LWOH Taxiways\D:freetext
-Geo:LWOH Groundlayout Region:
-Regions:LWOH Airport:polygon
-Runways:LWOH 01-19:extended centerline 1
-Runways:LWOH 01-19:extended centerline 1 left ticks
-Runways:LWOH 01-19:extended centerline 1 right ticks
-Runways:LWOH 01-19:extended centerline 2
-Runways:LWOH 01-19:extended centerline 2 left ticks
-Runways:LWOH 01-19:extended centerline 2 right ticks
+SECTORFILE:C:\Users\04Kub\Documents\ADRIA_MAIN\ADRIA-Package_20261001111759-261001-0001.sct
+SECTORTITLE:ADRIA-Package_20261001111759-261001-0001.sct
 SHOWC:0
 SHOWSB:0
 BELOW:0
@@ -28,8 +15,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:ADRIA DEL/GND/TWR
-WINDOWAREA:41.165314:20.704066:41.196113:20.785690
+TAGFAMILY:ADRIA TWR
+WINDOWAREA:41.163785:20.692296:41.194584:20.799773
 PLUGIN:Ground Radar plugin:AirportElevation:2300
 PLUGIN:Ground Radar plugin:AirportRadius:6
 PLUGIN:Ground Radar plugin:GroundMode:LWOH
