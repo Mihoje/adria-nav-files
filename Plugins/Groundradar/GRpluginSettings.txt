@@ -135,10 +135,6 @@ Airport_Runway_Closed_Dep=30L
 Color_Arrival=255,200,15
 Color_Departure=33,196,255
 
-[LY]
-Color_Arrival=255,200,15
-Color_Departure=33,196,255
-
 Window_APW_MaxDist=15
 AppPath=BKPR:ILS17:N042.35.07.209:E021.02.04.560:176.4:R:1789:3
 AppPath=BKPR:ILS35:N042.33.28.951:E021.02.14.571:356.4:L:1793:3.5
