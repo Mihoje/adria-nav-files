@@ -1,0 +1,90 @@
+// Ground Radar plugin symbols - Balkans
+// Based on the minimal style: raw video shows the aircraft shape,
+// the symbol only marks the target.
+
+// ---------- Ground mode ----------
+// primary-only target: no symbol, the raw video return is enough
+SYMBOL:GND_PRIMARY
+MOVETO:0:0
+
+// squawking aircraft: thin ring
+SYMBOL:GND_SSR
+ARC:0:0:5:0:360
+
+// squawking ident: ring + outer ring
+SYMBOL:GND_SSR_SPI
+ARC:0:0:5:0:360
+ARC:0:0:9:0:360
+
+// history trail: small square
+SYMBOL:GND_HISTORY
+FILLRECT:-1:-1:1:1
+
+// ---------- Approach window ----------
+// prediction line minute marks: small cross
+SYMBOL:APP_PREDMIN
+MOVETO:-2:0
+LINETO:3:0
+MOVETO:0:-2
+LINETO:0:3
+
+// ---------- Tower mode ----------
+// primary only: small cross
+SYMBOL:TWR_PRIMARY
+MOVETO:-4:0
+LINETO:5:0
+MOVETO:0:-4
+LINETO:0:5
+
+// SSR only: ring
+SYMBOL:TWR_SSR
+ARC:0:0:5:0:360
+
+SYMBOL:TWR_SSR_SPI
+ARC:0:0:5:0:360
+ARC:0:0:9:0:360
+
+// PSR + SSR: ring with centre dot
+SYMBOL:TWR_PSR+SSR
+ARC:0:0:5:0:360
+FILLRECT:-1:-1:1:1
+
+SYMBOL:TWR_PSR+SSR_SPI
+ARC:0:0:5:0:360
+FILLRECT:-1:-1:1:1
+ARC:0:0:9:0:360
+
+// ADS-B only: diamond
+SYMBOL:TWR_ADSB
+MOVETO:0:-5
+LINETO:5:0
+LINETO:0:5
+LINETO:-5:0
+LINETO:0:-5
+
+SYMBOL:TWR_ADSB_SPI
+MOVETO:0:-5
+LINETO:5:0
+LINETO:0:5
+LINETO:-5:0
+LINETO:0:-5
+ARC:0:0:9:0:360
+
+// uncorrelated: small square outline
+SYMBOL:TWR_UNCORR
+MOVETO:-4:-4
+LINETO:4:-4
+LINETO:4:4
+LINETO:-4:4
+LINETO:-4:-4
+
+SYMBOL:TWR_UNCORR_SPI
+MOVETO:-4:-4
+LINETO:4:-4
+LINETO:4:4
+LINETO:-4:4
+LINETO:-4:-4
+ARC:0:0:9:0:360
+
+SYMBOL:TWR_HISTORY
+FILLRECT:-1:-1:1:1
