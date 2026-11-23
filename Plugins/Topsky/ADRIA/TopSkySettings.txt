@@ -1,4 +1,4 @@
-Label_CFL_DefaultValue=0
+// === SETUP & DATA SOURCES ===
 Setup_COOPANS=1
 Airspace_ASSR_Type=2
 Airspace_SIGMET_Areas=LJLA,LDZO,LQSB,LYBA,LAAA,LWSS
@@ -8,103 +8,35 @@ HTTP_NOTAM_Source=0
 HTTP_NOTAM_Server=https://notams.blip-radar.org/
 HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
 HTTP_NOTAM_Page_Suffix=
-Window_NOTAM=1,500,400
 HTTP_NOTAM_Area_Sched_Debug=1
 HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/Jakub0408/ADRIA-AUPs/refs/heads/main/AUP-Activation.txt
 Areas_PreActiveTime=900
 Areas_Remote_Activation=1
+Airspace_No_DUPE_Codes=7000,2000,2200,1200
+Airspace_ASSR_AutoAssign_Type=2
+Airspace_ASSR_AutoAssign_AcceptCurrent=1
+Areas_Altitude_Filtering=1
+Areas_NOTAM_Activation=1
 
-//Route Colors
-Color_Flight_Leg=0,255,255
-Color_Information_FL=0,255,255
-Color_Potential_FL=0,0,0
-Color_Warning_FL=255,255,0 //Yellow
-Color_Urgency_FL=255,0,0 // Red
+// === WEATHER RADAR & RDF ===
+WXR_Latitude=43,5
+WXR_Latitude_Max=47
+WXR_Latitude_Min=39,5
+WXR_Longitude=16,3
+WXR_Longitude_Max=23
+WXR_Longitude_Min=13
+WXR_ImageSize=512
+RDF_Mode=-1
+RDF_Floor=0
+RDF_Accuracy=0
+RDF_MinRadius=20
+RDF_AntennaPos=0
 
-//System Colors
-Color_Selected_Group=255,255,254
-Color_Selected_Period=255,255,41
-Color_Text_Notes=0,200,0 //MSG->Text notes bright green
-
-Color_Active_Sector=209,209,209
-Color_Inactive_Sector=205,205,205
-Color_Background=195,195,185
-Color_Field_Highlight=210,210,210
-Color_Flight_Highlight=218,218,218
-Color_Foreground=0,0,0
-Color_Global_Menu_Highlight=0,125,255
-
-Color_WM_Active_Fg=0,0,0
-Color_WM_Bg=195,195,185
-Color_WM_Border=0,0,0
-Color_WM_Fg=0,0,0
-Color_WM_Frame=195,195,185
-
-Color_QDM=255,242,0
-
-Color_Proposition_Accepted=34,139,34
-Color_Proposition_In=240,20,170
-Color_Proposition_Out=240,20,170
-
-//Vertical aid window
-Color_VAW_Profile=152,202,172
-Color_VAW_Sector_Limits=145,95,30
-Color_VAW_Track_Position=219,219,219
-
-//Label colors
-Color_Unconcerned=204,127,166 //Doesn't pass through sector
-Color_Concerned=0,255,128  //Notified >15mins
-Color_Coordination=0,255,128 //Coordinated <15mins
-Color_Assumed=0,0,0
-Color_Redundant=255,204,153 //Transfered to next controller still in airspace
-Color_Trough=97,99,97
-Color_Warning=250,205,1
-Color_Information=0,255,255
-Color_Urgency=255,0,0
-Color_AIW_Intrusion=255,152,0
-Color_Freq_Indicator=113,189,70
-Color_Info_Coord=1,255,255
-Color_Unknown=239,224,42
-Color_VFR=135,128,118
-Color_Sid_Star_Allocation=15,185,15
-
-//CPDLC Colors
-Color_CPDLC_UM_Clearance=30,250,250
-Color_CPDLC_Controller_Late=212,128,44
-Color_CPDLC_Discarded=128,128,128
-Color_CPDLC_DM_Request=30,250,250
-Color_CPDLC_Failed=212,128,44
-Color_CPDLC_Pilot_Late=212,124,44
-Color_CPDLC_Standby=212,128,44
-Color_CPDLC_Unable=212,128,44
-Color_CPDLC_Urgency=225,25,25
-
-//Maps Colors
-Color_Active_Map=198,174,58
-Color_Active_Map_Type_1=87,87,164
-Color_Active_Map_Type_2=80,162,74
-Color_Active_Map_Type_3=179,180,180
-Color_Active_Map_Type_4=200,53,18
-Color_Active_Map_Type_5=198,174,58
-Color_Active_RD_Infill_Map=90,90,90
-Color_Active_Text_Map=204,204,0
-
-//Runway Colors
-Color_Runway=116,200,71
-Color_Rwy_App_Line_Inuse=81,90,90
-Color_Rwy_App_Line_Not_Inuse=90,90,16
-Color_Rwy_Locked=15,185,15
-
+// === SYSTEM ===
 Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
 Malrt_Weather=WX
-
-Airspace_No_DUPE_Codes=7000,2000,2200,1200
-Airspace_ASSR_AutoAssign_Type=2
-Airspace_ASSR_AutoAssign_AcceptCurrent=1
-
-
 System_TrueColorMode=1
 System_UseReportedGS=0
 System_ASP_IasMach=30000
@@ -113,17 +45,23 @@ System_TaxiTime=8
 System_FPASD=1
 System_ProxySounds=0
 System_RefreshInterval_AHDG/QDM=10
-
-
 Track_HistoryDots=5
 Track_PredictionLine=0
-
 RwyAppLines_Length=12
 RwyAppLines_Markers=6
 RwyAppLines_MarkerSpacing=2
 RwyAppLines_Auto=1
+Menu_MaxListItems=15
+List_OptionsInGlobalMenu=0
+List_ETWR_MaxTime=10
+List_VFR_FPL_Filter=1
+List_VFR_FPL_Area=47.805,9.430,48.081,12.196,49.210,14.029,49.170,17.463,46.184,17.308,46.028,12.623,46.858,9.236
+List_Sector_Informed = 1
+List_Sector_Redundant = 1
+List_Sector_Concerned = 1
 
-
+// === LABELS ===
+Label_CFL_DefaultValue=0
 Label_SI_ShowFreq=1
 Label_SI_FreqTime=3
 Label_DAPs=1
@@ -133,16 +71,7 @@ Label_Alt_Digits=2
 Label_WTC_Highlight_ATYP=DC10,MD11,B744,B748,B742,B743,B741,B772,B773,A388,A339,A333,A332,A310,A306
 Label_WTC_Highlight_WTC=H
 
-Areas_NOTAM_Activation=1
-Areas_Altitude_Filtering=1
-
-AIW=1
-AIW_Type=1
-AIW_Floor=3500
-AIW_Inhibit_ActiveAreas=1
-AIW_FlightRules=0
-
-
+// === VECTORS, ROUTE PROBE & DIVERGENCE ===
 Vector_AHDG_FontSize=13
 Vector_AHDG_Label_Dist=1
 Vector_QDM_FontSize=11
@@ -151,22 +80,43 @@ Vector_QDM_Airports=1
 Vector_MinSep_FontSize=10
 Vector_MinSep_Label_Time=1
 Vector_MinSep_VertSep_Separation=1100
+FlightLeg_AssumeTime=2
+FlightLeg_FontSize=11
+FlightLeg_AutoShow=1
+FlightLeg_Label_DIST=1
+FlightLeg_Label_RFL=1
+FlightLeg_LineWidth=0
+Divergence_CLAM_DelayTime=120
+Divergence_RAM_Limit=3
+Divergence_RAM_DCT_DelayTime=120
 
+// === CPDLC ===
+CPDLC_MinLevel=205
+CPDLC_Transfer=1
+CPDLC_CFL=1
+CPDLC_DCT=1
+CPDLC_AHDG=1
+CPDLC_ASP=1
+
+// === SAFETY NETS ===
+AIW=1
+AIW_Type=1
+AIW_Floor=3500
+AIW_Inhibit_ActiveAreas=1
+AIW_FlightRules=0
 MSAW=1
 MSAW_Filter=1
 MSAW_AppInhibit=2
 MSAW_VFR=0
 MSAW_PredictionTime=30
-
-SAP_Floor=3500
+SAP=1
+SAP_Floor=0
 SAP_Buffer_Lat_U=2.5
 SAP_Buffer_Lat_L_IFR=2
 SAP_Buffer_Lat_L_VFR=2
 SAP_Buffer_Vert_U=400
 SAP_Buffer_Vert_L_IFR=400
 SAP_Buffer_Vert_L_VFR=0
-
-
 APW=1
 APW_Filter=1
 APW_VFR=1
@@ -178,80 +128,146 @@ APW_Buffer_Vert_U=0
 APW_Buffer_Vert_L_IFR=0
 APW_Buffer_Vert_L_VFR=0
 
-
-MTCD_DeAcknowledge=5
+// === CONFLICT DETECTION - MTCD ===
+//MTCD (conflict risk). Lateral alert value = separation minimum + 2 NM margin (5 NM -> 7 NM)
+MTCD_DeAcknowledge=2
 MTCD_Filter_Dep=3
-MTCD_Sep_Lat=6
+MTCD_Floor=2000
+//VFR is not separated from IFR in most of our (class D) airspace, so no MTCD risks for VFR flights
+MTCD_Inhibit_VFR=1
+MTCD_Sep_Lat=7
 
-
-FlightLeg_AssumeTime=2
-FlightLeg_FontSize=11
-FlightLeg_AutoShow=1
-FlightLeg_Label_DIST=1
-FlightLeg_Label_RFL=1
-FlightLeg_LineWidth=0
-
-
-
+// === CONFLICT DETECTION - STCA ===
+//STCA (actual conflict / loss of separation)
+//Lateral minimum: 5 NM everywhere by default (SepLevel 0 = every level uses the "_U" 5 NM values).
+//3 NM within 16 NM of Belgrade (up to 7500 ft) is defined as STCA area LYBE_3NM in TopSkyAreas.txt.
+//3 NM in the LJLJ_APP airspace (up to FL195) is defined as STCA areas LJLJ_APP_3NM_1 to 4 in TopSkyAreas.txt.
 STCA=1
 STCA_VFR=0
 STCA_UseCFL=0
-STCA_Sep_Lat_SepLevel=12500
+STCA_Uncorrelated=1
+STCA_AlertSound=1
+STCA_AlertSound_Filter=2
+STCA_Sep_Lat_SepLevel=0
 STCA_Floor=2000
-STCA_Coarse_Sep_Vert_U=1000
+//Vertical: _L = 1000 ft separation (RVSM / below FL290), _U = 2000 ft (non-RVSM in RVSM airspace, above FL410)
+STCA_Coarse_Sep_Vert_U=2000
 STCA_Coarse_Sep_Vert_L=1000
-STCA_FastDiv_Sep_Vert_U=650
+STCA_FastDiv_Sep_Vert_U=1600
 STCA_FastDiv_Sep_Vert_L=650
-STCA_LinPred_Sep_Vert_U=750
+STCA_LinPred_Sep_Vert_U=1750
 STCA_LinPred_Sep_Vert_L=750
-STCA_CurrProx_Sep_Vert_U=800
+STCA_CurrProx_Sep_Vert_U=1800
 STCA_CurrProx_Sep_Vert_L=800
-STCA_LevelOff_Sep_Vert_U=700
+STCA_LevelOff_Sep_Vert_U=1600
 STCA_LevelOff_Sep_Vert_L=700
 
-Menu_MaxListItems=15
-List_OptionsInGlobalMenu=0
-List_ETWR_MaxTime=10
-List_VFR_FPL_Filter=1
-List_VFR_FPL_Area=47.805,9.430,48.081,12.196,49.210,14.029,49.170,17.463,46.184,17.308,46.028,12.623,46.858,9.236
+// === CONFLICT DETECTION - TCT ===
+//TCT (tactical conflict tool)
+TCT_Floor=2000
+TCT_Min_State_Source=3
+TCT_Min_State_Target=2
+TCT_AHDG_Reaction_Time=25
+TCT_AHDG_Max_Time=45
 
-//CDPLC Settings
-CPDLC_MinLevel=205
-CPDLC_Transfer=1
-CPDLC_CFL=1
-CPDLC_DCT=1
-CPDLC_AHDG=1
-CPDLC_ASP=1
+// === BLIND SPOT ===
+//Blind Spot (CFL menu level indicator)
+BlindSpot=1
+BlindSpot_Level_Range=50
+BlindSpot_Time_Warning=240
+BlindSpot_Time_Aged=10
+Color_BS_No_Conflict=0,140,0
+Color_BS_Warning=255,0,0
+Color_BS_Unknown=255,128,0
+Color_BS_Aged=150,150,150
+Color_BS_Crossed_Level=250,170,15
 
-Divergence_CLAM_DelayTime=120
-Divergence_RAM_Limit=3
-Divergence_RAM_DCT_DelayTime=120
+// === COLOURS - SYSTEM, WINDOWS & SECTORS ===
+Color_Selected_Group=255,255,254
+Color_Selected_Period=255,255,41
+Color_Text_Notes=0,200,0 //MSG->Text notes bright green
+Color_Active_Sector=209,209,209
+Color_Inactive_Sector=205,205,205
+Color_Background=195,195,185
+Color_Field_Highlight=210,210,210
+Color_Flight_Highlight=218,218,218
+Color_Foreground=0,0,0
+Color_Global_Menu_Highlight=0,125,255
+Color_WM_Active_Fg=0,0,0
+Color_WM_Bg=195,195,185
+Color_WM_Border=0,0,0
+Color_WM_Fg=0,0,0
+Color_WM_Frame=195,195,185
+Color_QDM=255,242,0
+Color_Proposition_Accepted=34,139,34
+Color_Proposition_In=240,20,170
+Color_Proposition_Out=240,20,170
+Color_Trough=97,99,97
+Color_Freq_Indicator=113,189,70
 
-WXR_Latitude=43,5
-WXR_Latitude_Max=47
-WXR_Latitude_Min=39,5
+// === COLOURS - TAGS & LABELS ===
+Color_Unconcerned=204,127,166 //Doesn't pass through sector
+Color_Concerned=0,255,128  //Notified >15mins
+Color_Coordination=0,255,128 //Coordinated <15mins
+Color_Assumed=0,0,0
+Color_Redundant=255,204,153 //Transfered to next controller still in airspace
+Color_Warning=250,205,1
+Color_Information=0,255,255
+Color_Urgency=255,0,0
+Color_AIW_Intrusion=255,152,0
+Color_Info_Coord=1,255,255
+Color_Unknown=239,224,42
+Color_VFR=135,128,118
+Color_Sid_Star_Allocation=15,185,15
 
-WXR_Longitude=16,3
-WXR_Longitude_Max=23
-WXR_Longitude_Min=13
+// === COLOURS - ROUTE PROBE ===
+Color_Flight_Leg=0,255,255
+Color_Information_FL=0,255,255
+Color_Potential_FL=0,0,0
+Color_Warning_FL=255,255,0 //Yellow
+Color_Urgency_FL=255,0,0 // Red
 
-WXR_ImageSize=512
+// === COLOURS - CPDLC ===
+Color_CPDLC_UM_Clearance=30,250,250
+Color_CPDLC_Controller_Late=212,128,44
+Color_CPDLC_Discarded=128,128,128
+Color_CPDLC_DM_Request=30,250,250
+Color_CPDLC_Failed=212,128,44
+Color_CPDLC_Pilot_Late=212,124,44
+Color_CPDLC_Standby=212,128,44
+Color_CPDLC_Unable=212,128,44
+Color_CPDLC_Urgency=225,25,25
 
-//RDF Settings
-RDF_Mode=-1
-RDF_Floor=0
-RDF_Accuracy=0
-RDF_MinRadius=20
-RDF_AntennaPos=0
+// === COLOURS - MAPS & AREAS ===
+Color_Active_Map=198,174,58
+Color_Active_Map_Type_1=87,87,164
+Color_Active_Map_Type_2=80,162,74
+Color_Active_Map_Type_3=179,180,180
+Color_Active_Map_Type_4=200,53,18
+Color_Active_Map_Type_5=198,174,58
+Color_Active_RD_Infill_Map=90,90,90
+Color_Active_Text_Map=204,204,0
 
-//Window_CPDLC_Current=1,600,1
+// === COLOURS - RUNWAYS ===
+Color_Runway=116,200,71
+Color_Rwy_App_Line_Inuse=81,90,90
+Color_Rwy_App_Line_Not_Inuse=90,90,16
+Color_Rwy_Locked=15,185,15
+
+// === COLOURS - VERTICAL AID WINDOW ===
+Color_VAW_Profile=152,202,172
+Color_VAW_Sector_Limits=145,95,30
+Color_VAW_Track_Position=219,219,219
+
+// === WINDOWS ===
+Window_NOTAM=1,500,400
 Window_SM_LeaveHoldTime=3
 Window_SM_LowestLevel=30
 Window_PDC_SetASSR=1
 Window_PDC_SetCFL=1
 
-Areas_NOTAM_Activation=1
-
+// === DISABLED / EXAMPLE LINES ===
+//Window_CPDLC_Current=1,600,1
 //Shortcuts
 //Shortcut_Master=1
 //Shortcut_Map_Xfr_Combo=1,0x12
@@ -268,31 +284,29 @@ Areas_NOTAM_Activation=1
 //Shortcut_Map_Target=2,MRVA\ADRW
 //Shortcut_Map_Target=3,VRP\VRP
 
-//Sector list
-List_Sector_Informed = 1
-List_Sector_Redundant = 1
-List_Sector_Concerned = 1
-
 [_APP]
-
 Window_CARD=3,1565,755
 Window_QNHTL=1
 
 [_CTR]
-
-Window_CPDLC_Setting=1,1,350
-Window_CPDLC_Current=1,1100,15
 Window_CARD=3,1565,755
+Window_CPDLC_Current=1,1100,15
+Window_CPDLC_Setting=1,1,350
 Window_QNHTL=1
 
 [LJLJ]
-
+MTCD_DeAcknowledge=1.5
+MTCD_Sep_Lat=5
+TCT_BS_Sep_Lat=3.0,3.0
+TCT_BS_Sep_Lat_Div=2.4,2.4
 Window_CPDLC_Setting=1,1,350
 
 [LYBE]
-
+MTCD_DeAcknowledge=1.5
+MTCD_Sep_Lat=5
+TCT_BS_Sep_Lat=3.0,3.0
+TCT_BS_Sep_Lat_Div=2.4,2.4
 Window_CPDLC_Setting=1,1,350
 
 [LDZA,LDPL,LDZD,LDDU]
-
 Window_CPDLC_Setting=1,1,350
