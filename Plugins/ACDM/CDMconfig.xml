@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <CDM>
+	<recalculateOnTobtUpdate mode="false" />
+	<runwayPressure minutes="-1" />
 	<rate ops="40" />
 	<rateLvo ops="10" />
 	<expiredCtot time="25" />

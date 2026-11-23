@@ -11,7 +11,7 @@ Track_Heading_Line=1
 Track_PredictionLine_TWR=1
 Track_PredictionLine_APP=1
 TextNotes_Font=EuroScope
-GroundLabel_Font=EuroScope
+GroundLabel_Font=Consolas
 AppLabel_Font=EuroScope
 ApwLabel_Font=EuroScope
 TowerLabel_Font=EuroScope
@@ -23,7 +23,7 @@ Track_HistoryDots_GND=3
 System_CMAC_HighSpeed=35
 System_CMAC_HighSpeed_Info=30
 System_CMAC_NoTakeOffClr_Speed=40
-GroundLabel_FontSize=12.5
+GroundLabel_FontSize=13
 GroundLabel_Filter_NoState=1
 TowerLabel_FontSize=12.5
 System_GUI_Scale_Screen=1
@@ -55,7 +55,7 @@ RawVideo_Brightness=100
 RawVideo_Afterglow=70
 RawVideo_MaxHistory=1
 GroundLabel=1
-GroundLabel_FontStyle=500,0,0,0
+GroundLabel_FontStyle=700,0,0,0
 GroundLabel_Filter_Parked=1
 System_State_Parked=Parked
 System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LD,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
@@ -174,6 +174,8 @@ AppPath=LYVR:VOR01R:N045.08.35.901:E021.18.30.319:012.0:R:276:3
 [LDZA]
 Airport_Runway_MaxWingspan=04:65.0
 Airport_Runway_MaxWingspan=22:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1
 Label=GND:ARR:1:CALLSIGN,0,0:GS,0,1
@@ -202,117 +204,175 @@ Airport_Runway_Closed_Arr=12R
 Airport_Runway_Closed_Dep=12R
 Airport_Runway_Closed_Arr=30L
 Airport_Runway_Closed_Dep=30L
-Color_Arrival=255,200,15
-Color_Departure=33,196,255
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [BKPR]
 Airport_Runway_MaxWingspan=17:65.0
 Airport_Runway_MaxWingspan=35:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LAKU]
 Airport_Runway_MaxWingspan=01:36.0
 Airport_Runway_MaxWingspan=19:36.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LATI]
 Airport_Runway_MaxWingspan=17:65.0
 Airport_Runway_MaxWingspan=35:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LDDU]
 Airport_Runway_MaxWingspan=11:65.0
 Airport_Runway_MaxWingspan=29:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDLO]
 Airport_Runway_MaxWingspan=02:36.0
 Airport_Runway_MaxWingspan=20:36.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDOS]
 Airport_Runway_MaxWingspan=11:65.0
 Airport_Runway_MaxWingspan=29:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDPL]
 Airport_Runway_MaxWingspan=09:65.0
 Airport_Runway_MaxWingspan=27:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDRI]
 Airport_Runway_MaxWingspan=14:65.0
 Airport_Runway_MaxWingspan=32:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDSB]
 Airport_Runway_MaxWingspan=03:36.0
 Airport_Runway_MaxWingspan=21:36.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDSP]
 Airport_Runway_MaxWingspan=05:65.0
 Airport_Runway_MaxWingspan=23:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LDZD]
 Airport_Runway_MaxWingspan=04:65.0
 Airport_Runway_MaxWingspan=22:65.0
 Airport_Runway_MaxWingspan=13:65.0
 Airport_Runway_MaxWingspan=31:65.0
+Color_Departure=115,215,255
+Color_Arrival=255,172,85
 
 [LJLJ]
 Airport_Runway_MaxWingspan=12:65.0
 Airport_Runway_MaxWingspan=30:65.0
+Color_Departure=90,205,255
+Color_Arrival=255,145,65
 
 [LJMB]
 Airport_Runway_MaxWingspan=14:65.0
 Airport_Runway_MaxWingspan=32:65.0
+Color_Departure=90,205,255
+Color_Arrival=255,145,65
 
 [LJPZ]
 Airport_Runway_MaxWingspan=15:36.0
 Airport_Runway_MaxWingspan=33:36.0
+Color_Departure=90,205,255
+Color_Arrival=255,145,65
 
 [LQBK]
 Airport_Runway_MaxWingspan=16:65.0
 Airport_Runway_MaxWingspan=34:65.0
+Color_Departure=95,200,255
+Color_Arrival=255,155,55
 
 [LQMO]
 Airport_Runway_MaxWingspan=15:65.0
 Airport_Runway_MaxWingspan=33:65.0
+Color_Departure=95,200,255
+Color_Arrival=255,155,55
 
 [LQSA]
 Airport_Runway_MaxWingspan=11:65.0
 Airport_Runway_MaxWingspan=29:65.0
+Color_Departure=95,200,255
+Color_Arrival=255,155,55
 
 [LQTZ]
 Airport_Runway_MaxWingspan=09:65.0
 Airport_Runway_MaxWingspan=27:65.0
+Color_Departure=95,200,255
+Color_Arrival=255,155,55
 
 [LWOH]
 Airport_Runway_MaxWingspan=01:65.0
 Airport_Runway_MaxWingspan=19:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LWSK]
 Airport_Runway_MaxWingspan=16:65.0
 Airport_Runway_MaxWingspan=34:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYBT]
 Airport_Runway_MaxWingspan=12L:65.0
 Airport_Runway_MaxWingspan=30R:65.0
 Airport_Runway_MaxWingspan=12R:65.0
 Airport_Runway_MaxWingspan=30L:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYKV]
 Airport_Runway_MaxWingspan=13:36.0
 Airport_Runway_MaxWingspan=31:36.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYNI]
 Airport_Runway_MaxWingspan=11:65.0
 Airport_Runway_MaxWingspan=29:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYPG]
 Airport_Runway_MaxWingspan=18:65.0
 Airport_Runway_MaxWingspan=36:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYTV]
 Airport_Runway_MaxWingspan=14:65.0
 Airport_Runway_MaxWingspan=32:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYUZ]
 Airport_Runway_MaxWingspan=10:65.0
 Airport_Runway_MaxWingspan=28:65.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
 
 [LYVR]
 Airport_Runway_MaxWingspan=01R:24.0
 Airport_Runway_MaxWingspan=19L:24.0
+Color_Departure=150,210,255
+Color_Arrival=130,235,110
+
+[LDZL]
+Color_Departure=115,215,255
+Color_Arrival=255,172,85

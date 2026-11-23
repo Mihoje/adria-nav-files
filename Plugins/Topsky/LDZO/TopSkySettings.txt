@@ -10,6 +10,9 @@ HTTP_NOTAM_Page_Prefix=api/legacy/query?loc=
 HTTP_NOTAM_Page_Suffix=
 Window_NOTAM=1,500,400
 HTTP_NOTAM_Area_Sched_Debug=1
+HTTP_Areas_Remote_URL=https://raw.githubusercontent.com/Jakub0408/ADRIA-AUPs/refs/heads/main/AUP-Activation.txt
+Areas_PreActiveTime=900
+Areas_Remote_Activation=1
 
 //Route Colors
 Color_Flight_Leg=110,210,110 //Light green
