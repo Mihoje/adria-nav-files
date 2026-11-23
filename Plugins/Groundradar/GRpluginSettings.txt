@@ -218,6 +218,8 @@ Airport_Runway_MaxWingspan=01:36.0
 Airport_Runway_MaxWingspan=19:36.0
 Color_Departure=150,210,255
 Color_Arrival=130,235,110
+Airport_Runway_Closed_Arr=01
+Airport_Runway_Closed_Dep=19
 
 [LATI]
 Airport_Runway_MaxWingspan=17:65.0
@@ -236,6 +238,7 @@ Airport_Runway_MaxWingspan=02:36.0
 Airport_Runway_MaxWingspan=20:36.0
 Color_Departure=115,215,255
 Color_Arrival=255,172,85
+Airport_Runway_MaxWeight=02:27000
 
 [LDOS]
 Airport_Runway_MaxWingspan=11:65.0
@@ -292,6 +295,8 @@ Airport_Runway_MaxWingspan=15:36.0
 Airport_Runway_MaxWingspan=33:36.0
 Color_Departure=90,205,255
 Color_Arrival=255,145,65
+Airport_Runway_MaxCode=15:C
+Airport_Runway_MaxWTC=15:M
 
 [LQBK]
 Airport_Runway_MaxWingspan=16:65.0
