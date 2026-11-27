@@ -2,7 +2,7 @@
   "name": "Adria ATIS v2.92",
   "id": "a95741a8-ef3d-499b-96c5-90b1308f155a",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026112704,
+  "updateSerial": 2026112706,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -2032,14 +2032,32 @@
           "weatherCondition": "rvr < 550m AND ceiling < 200ft"
         },
         {
-          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 2,
           "enabled": true,
-          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
-          "ordinal": 3,
+          "ordinal": 6,
           "enabled": false
         }
       ],
@@ -4124,14 +4142,32 @@
           "weatherCondition": "rvr < 550m OR ceiling < 200ft"
         },
         {
-          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 2,
           "enabled": true,
-          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
-          "ordinal": 3,
+          "ordinal": 6,
           "enabled": false
         }
       ],
@@ -6201,8 +6237,32 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
+        },
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -8256,8 +8316,32 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
+        },
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -10311,7 +10395,32 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
+          "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
+        }
+      ],
       "notamDefinitions": [
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
@@ -12394,18 +12503,42 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "RUNWAY 22 AVAILABLE FOR DEPARTURES.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
+        },
+        {
+          "text": "RUNWAY 22 AVAILABLE FOR DEPARTURES.",
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "RUNWAY 04 AVAILABLE FOR ARRIVALS.",
-          "ordinal": 2,
+          "ordinal": 6,
           "enabled": false
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
-          "ordinal": 3,
+          "ordinal": 7,
           "enabled": false
         }
       ],
@@ -14450,8 +14583,32 @@
           "weatherCondition": "rvr < 550m AND ceiling <= 200ft"
         },
         {
-          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
+        },
+        {
+          "text": "CLEARANCE VIA PDC AVAILABLE.",
+          "ordinal": 6,
           "enabled": false
         }
       ],
@@ -16520,6 +16677,30 @@
           "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         }
       ],
       "notamDefinitions": []
@@ -18550,6 +18731,30 @@
           "ordinal": 1,
           "enabled": true,
           "weatherCondition": "rvr < 550m"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         }
       ],
       "notamDefinitions": [
@@ -20586,6 +20791,30 @@
           "ordinal": 1,
           "enabled": true,
           "weatherCondition": "rvr < 550m OR ceiling < 200ft"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         }
       ],
       "notamDefinitions": []
@@ -22594,7 +22823,32 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
+          "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -24603,10 +24857,28 @@
           "weatherCondition": "rvr < 400m"
         },
         {
-          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 2,
           "enabled": true,
-          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         }
       ],
       "notamDefinitions": [
@@ -26639,10 +26911,28 @@
           "weatherCondition": "visibility < 1000m OR rvr < 650m OR ceiling <= 400ft"
         },
         {
-          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 2,
           "enabled": true,
-          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         }
       ],
       "notamDefinitions": [
@@ -28670,10 +28960,28 @@
           "weatherCondition": "rvr <= 550m OR ceiling < 200ft"
         },
         {
-          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "text": "RUNWAY CONDITION CODE 5 5 5, WET.",
           "ordinal": 2,
           "enabled": true,
-          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 3 3 3, SNOW.",
+          "ordinal": 3,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 1 1 1, ICE.",
+          "ordinal": 4,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL)"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5, FROST.",
+          "ordinal": 5,
+          "enabled": true,
+          "weatherCondition": "weather INCLUDES FZFG AND NOT (weather INCLUDES FZRA,FZDZ,PL OR recentweather INCLUDES FZRA,FZDZ,PL) AND NOT (weather INCLUDES SN,SG OR recentweather INCLUDES SN,SG) AND NOT (weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ)"
         }
       ],
       "notamDefinitions": []
