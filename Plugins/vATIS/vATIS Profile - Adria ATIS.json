@@ -1,8 +1,8 @@
 {
-  "name": "Adria ATIS v2.91",
+  "name": "Adria ATIS v2.92",
   "id": "a95741a8-ef3d-499b-96c5-90b1308f155a",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026112601,
+  "updateSerial": 2026112704,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -2028,12 +2028,14 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "rvr < 550m AND ceiling < 200ft"
         },
         {
           "text": "RUNWAY CONDITION CODE 5 5 5.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
@@ -4118,12 +4120,14 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "rvr < 550m OR ceiling < 200ft"
         },
         {
           "text": "RUNWAY CONDITION CODE 5 5 5.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
@@ -14442,7 +14446,8 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "rvr < 550m AND ceiling <= 200ft"
         },
         {
           "text": "CLEARANCE VIA PDC AVAILABLE.",
@@ -18541,9 +18546,10 @@
       "contractions": [],
       "airportConditionDefinitions": [
         {
-          "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
+          "text": "LOW VISIBILITY TAKE-OFF PROCEDURES IN OPERATION.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "rvr < 550m"
         }
       ],
       "notamDefinitions": [
@@ -20578,7 +20584,8 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "rvr < 550m OR ceiling < 200ft"
         }
       ],
       "notamDefinitions": []
@@ -24579,7 +24586,7 @@
         {
           "id": "cf68a098-02d2-4a9d-9edd-d5e74dfdb620",
           "name": "RWY 34",
-          "airportConditions": "EXPECT RADAR VECTORING FOR ILS APPROACH RUNWAY 34. RUNWAY 34 IN USE WITH BRAKING ACTION GOOD.",
+          "airportConditions": "EXPECT RADAR VECTORING FOR ILS APPROACH RUNWAY 34. RUNWAY 34 IN USE.",
           "template": "[FACILITY] INFORMATION [ATIS_CODE] [OBS_TIME]. [ARPT_COND] [TL]. [FULL_WX_STRING]. [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -24588,7 +24595,20 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "LOW VISIBILITY TAKE-OFF PROCEDURE IN OPERATION.",
+          "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "rvr < 400m"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+        }
+      ],
       "notamDefinitions": [
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
@@ -26586,7 +26606,7 @@
         {
           "id": "3ce7b863-2865-4ee5-aaff-9951b28c8891",
           "name": "RWY17",
-          "airportConditions": "EXPECT ILS APPROACH. RUNWAY 17 IN USE WITH BRAKING ACTION GOOD.",
+          "airportConditions": "EXPECT ILS APPROACH. RUNWAY 17 IN USE.",
           "notams": "",
           "template": "[FACILITY] INFORMATION [ATIS_CODE] [OBS_TIME]. [ARPT_COND] [TL]. [FULL_WX_STRING]. [NOTAMS]",
           "externalGenerator": {
@@ -26602,7 +26622,7 @@
         {
           "id": "9076b5cc-2ff5-4e92-b301-7fd5313971d5",
           "name": "RWY35",
-          "airportConditions": "EXPECT RNP APPROACH. RUNWAY 35 IN USE WITH BRAKING ACTION GOOD.",
+          "airportConditions": "EXPECT RNP APPROACH. RUNWAY 35 IN USE.",
           "notams": "",
           "template": "[FACILITY] INFORMATION [ATIS_CODE] [OBS_TIME]. [ARPT_COND] [TL]. [FULL_WX_STRING]. [NOTAMS]",
           "externalGenerator": {
@@ -26611,7 +26631,20 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "OPERATIONS IN REDUCED VISIBILITY CONDITIONS IN FORCE.",
+          "ordinal": 1,
+          "enabled": true,
+          "weatherCondition": "visibility < 1000m OR rvr < 650m OR ceiling <= 400ft"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
+        }
+      ],
       "notamDefinitions": [
         {
           "text": "SUBMIT YOUR TOBT AT HTTPS://VATS.IM/VDGS.",
@@ -28604,7 +28637,7 @@
         {
           "id": "3ab42506-34ce-436e-8a47-1360d72b39d3",
           "name": "RWY 17",
-          "airportConditions": "EXPECT ILS APPROACH. RUNWAY 17 IN USE WITH BRAKING ACTION GOOD.",
+          "airportConditions": "EXPECT ILS APPROACH. RUNWAY 17 IN USE.",
           "notams": "",
           "template": "[FACILITY] INFORMATION [ATIS_CODE] [OBS_TIME]. [ARPT_COND] [TL]. [FULL_WX_STRING]. [NOTAMS]",
           "externalGenerator": {
@@ -28614,7 +28647,7 @@
         {
           "id": "0ec34c70-6f02-4c2d-816e-b68acfbe4013",
           "name": "RWY 35",
-          "airportConditions": "EXPECT ILS APPROACH. RUNWAY 35 IN USE WITH BRAKING ACTION GOOD.",
+          "airportConditions": "EXPECT ILS APPROACH. RUNWAY 35 IN USE.",
           "notams": "",
           "template": "[FACILITY] INFORMATION [ATIS_CODE] [OBS_TIME]. [ARPT_COND] [TL]. [FULL_WX_STRING]. [NOTAMS]",
           "externalGenerator": {
@@ -28633,7 +28666,14 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN FORCE.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true,
+          "weatherCondition": "rvr <= 550m OR ceiling < 200ft"
+        },
+        {
+          "text": "RUNWAY CONDITION CODE 5 5 5.",
+          "ordinal": 2,
+          "enabled": true,
+          "weatherCondition": "(weather INCLUDES RA,DZ OR recentweather INCLUDES RA,DZ) AND weather EXCLUDES FZ,SN,PL,GS,GR"
         }
       ],
       "notamDefinitions": []
