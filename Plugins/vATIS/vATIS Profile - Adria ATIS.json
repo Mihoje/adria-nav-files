@@ -2,7 +2,7 @@
   "name": "Adria ATIS v2.92",
   "id": "a95741a8-ef3d-499b-96c5-90b1308f155a",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026112706,
+  "updateSerial": 2026112707,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -29,25 +29,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -2119,25 +2119,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
@@ -4204,25 +4204,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
@@ -6299,25 +6299,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
@@ -8378,25 +8378,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
@@ -10454,25 +10454,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE AT {wind_spd} knots, MAXIMUM {wind_gust}"
             }
           },
@@ -12569,25 +12569,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -14645,25 +14645,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -16730,25 +16730,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -18790,25 +18790,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -20844,25 +20844,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -22876,25 +22876,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -24914,25 +24914,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -26968,25 +26968,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
-              "text": "WIND VRB {wind_spd}KT",
+              "text": "WIND VRB {wind_spd} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB {wind_spd}G{wind_gust}KT",
+              "text": "WIND VRB {wind_spd} KT GUSTING {wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
