@@ -1,8 +1,8 @@
 {
-  "name": "Adria ATIS v2.9",
+  "name": "Adria ATIS v2.91",
   "id": "a95741a8-ef3d-499b-96c5-90b1308f155a",
   "updateUrl": "https://raw.githubusercontent.com/Mihoje/adria-nav-files/refs/heads/master/Plugins/vATIS/vATIS%20Profile%20-%20Adria%20ATIS.json",
-  "updateSerial": 2026112501,
+  "updateSerial": 2026112601,
   "stations": [
     {
       "id": "34bb0376-a97e-4a76-af3e-0207463ed8e4",
@@ -29,13 +29,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -75,11 +75,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -1821,7 +1821,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -1892,7 +1892,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -1900,7 +1900,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -1908,7 +1908,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -1926,7 +1926,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -2097,13 +2099,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
@@ -2143,11 +2145,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -3889,7 +3891,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -3960,7 +3962,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -3968,7 +3970,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -3976,7 +3978,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -3994,7 +3996,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -4160,13 +4164,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
@@ -4206,11 +4210,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -5952,7 +5956,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -6023,7 +6027,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -6031,7 +6035,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -6039,7 +6043,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -6057,7 +6061,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -6229,13 +6235,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
@@ -6275,11 +6281,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -8021,7 +8027,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -8092,7 +8098,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -8100,7 +8106,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -8108,7 +8114,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -8126,7 +8132,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -8282,13 +8290,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
@@ -8328,11 +8336,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -10074,7 +10082,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -10145,7 +10153,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -10153,7 +10161,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -10161,7 +10169,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -10179,7 +10187,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -10331,13 +10341,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} degrees, {wind_spd} knots, maximum {wind_gust}"
             }
           },
@@ -10377,11 +10387,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -12123,7 +12133,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -12194,7 +12204,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -12202,7 +12212,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -12210,7 +12220,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -12228,7 +12238,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -12420,13 +12432,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -12466,11 +12478,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -14212,7 +14224,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -14283,7 +14295,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -14291,7 +14303,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -14299,7 +14311,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -14317,7 +14329,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -14469,13 +14483,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -14515,11 +14529,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -16261,7 +16275,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -16332,7 +16346,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -16340,7 +16354,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -16348,7 +16362,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -16366,7 +16380,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -16528,13 +16544,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -16574,11 +16590,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -18320,7 +18336,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -18391,7 +18407,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -18399,7 +18415,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -18407,7 +18423,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -18425,7 +18441,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -18561,13 +18579,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -18607,11 +18625,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -20353,7 +20371,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -20424,7 +20442,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -20432,7 +20450,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -20440,7 +20458,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -20458,7 +20476,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -20588,13 +20608,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -20634,11 +20654,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -22380,7 +22400,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -22451,7 +22471,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -22459,7 +22479,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -22467,7 +22487,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -22485,7 +22505,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -22593,13 +22615,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -22639,11 +22661,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -24385,7 +24407,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -24456,7 +24478,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -24464,7 +24486,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -24472,7 +24494,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -24490,7 +24512,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -24598,13 +24622,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -24644,11 +24668,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -26390,7 +26414,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -26461,7 +26485,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -26469,7 +26493,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -26477,7 +26501,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -26495,7 +26519,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
@@ -26619,13 +26645,13 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} DEGREES {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
@@ -26665,11 +26691,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -28411,7 +28437,7 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "WX {weather}",
             "voice": "{weather}"
           }
         },
@@ -28482,7 +28508,7 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}",
+            "text": "CLD {clouds}",
             "voice": "{clouds}"
           }
         },
@@ -28490,7 +28516,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{temp}",
+            "text": "TEMP {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -28498,7 +28524,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "{dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -28516,7 +28542,9 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
-          "template": {}
+          "template": {},
+          "templateText": "TREND {Trend}",
+          "templateVoice": "TREND, {Trend}"
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
